@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "00Khb7Wcp9g48AX+9woUJFIgUkyJTa0F/8WgU4TVsig=",
+  "Source": "TravelPlanner.Server",
+  "BasePath": "_content/TravelPlanner.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
