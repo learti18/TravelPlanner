@@ -3,8 +3,9 @@ import './App.css'
 import Home from './pages/Home/Home.jsx';
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import Layout from './components/Layout/Layout.jsx';
-import CreateTrip from './pages/Trips/CreateTrip.jsx';
-import ListTrips from './pages/Trips/ListTrips.jsx';
+import Questionnaire from './pages/Questionnaire/Questionnaire';
+import ViewDestination from './pages/view-desintaion/ViewDestination';
+import ListDestinations from './pages/Destinations/ListDestinations.jsx';
 
 function App() {
 
@@ -13,8 +14,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />}/>
-          <Route path='trips' element={<ListTrips/>}/>
-          <Route path="/createTrip" element={<CreateTrip />}/>
+          <Route path='list-destinations' element={<ListDestinations/>}/>
+          <Route path="/questionnaire" element={<Questionnaire/>} />
+          <Route path="/view-destination/:destinationId" element={<ViewDestination />} />
         </Route>
       </Routes>
     </BrowserRouter>

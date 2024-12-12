@@ -1,32 +1,37 @@
 import {React,useState} from 'react'
 import Navbar from '../Navbar/Navbar'
-import { Outlet } from 'react-router-dom'
+import { Outlet ,useLocation} from 'react-router-dom'
 import MobileMenu from '../MobileMenu/Mobilemenu';
 
 export default function Layout() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    
+    const location = useLocation();
+    const isHomePage = location.pathname === '/';
+
     const navigation = [
-        { name: 'Home', path: '/' },
-        { name: 'About', path: '/about' },
-        { name: 'Login', path: '/login' },
-      ];
-  return (
-    <div>
-        
+      { name: 'Home', path: '/' },
+      { name: 'Destinations', path: '/list-destinations' },
+      { name: 'Login', path: '/login' },
+    ];
+  
+    return (
+      <div>
         <Navbar
-            mobileMenuOpen={mobileMenuOpen}
-            setMobileMenuOpen={setMobileMenuOpen}
-            navigation={navigation}
+          mobileMenuOpen={mobileMenuOpen}
+          setMobileMenuOpen={setMobileMenuOpen}
+          navigation={navigation}
+          className={`${isHomePage ? 'bg-transparent text-white absolute' : 'border border-b bg-white text-black sticky'}`}
         />
-        <MobileMenu
-            mobileMenuOpen={mobileMenuOpen}
-            setMobileMenuOpen={setMobileMenuOpen}
-            navigation={navigation}
+        <MobileMenu 
+          mobileMenuOpen={mobileMenuOpen}
+          setMobileMenuOpen={setMobileMenuOpen}
+          navigation={navigation}
         />
-        <main>
-            <Outlet/>
-        </main>
-    </div>
-  )
-}
+        {/* Adjust padding here */}
+        {/* <main className={`${isHomePage ? '': 'pt-16'}`}> */}
+          <Outlet />
+        {/* </main> */}
+      </div>
+    );
+  }
+  
