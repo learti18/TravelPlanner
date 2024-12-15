@@ -283,6 +283,6 @@ C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\
 C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
-C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\TravelPlanner.Server.staticwebassets.endpoints.json
-C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\obj\Debug\net8.0\staticwebassets\msbuild.TravelPlanner.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\TravelPlanner.Server.staticwebassets.runtime.json
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\AutoMapper.dll
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

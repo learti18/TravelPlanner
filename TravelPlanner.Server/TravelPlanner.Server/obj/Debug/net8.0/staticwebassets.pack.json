@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\9226bce8-003b-49e5-b6e9-069c887bbde8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9226bce8-003b-49e5-b6e9-069c887bbde8.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\979387ff-effd-4e0b-a237-66c87f2f309a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\979387ff-effd-4e0b-a237-66c87f2f309a.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\9ae480bb-3f49-46fa-8d6d-11f61c239997.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9ae480bb-3f49-46fa-8d6d-11f61c239997.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\a0d42543-715f-4d60-8f95-5ce6060ea035.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a0d42543-715f-4d60-8f95-5ce6060ea035.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\b466d259-00a0-44b7-b52e-cd7bf840e9f3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b466d259-00a0-44b7-b52e-cd7bf840e9f3.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelPlanner.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TravelPlanner.Server.props",
+      "PackagePath": "build\\TravelPlanner.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TravelPlanner.Server.props",
+      "PackagePath": "buildMultiTargeting\\TravelPlanner.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TravelPlanner.Server.props",
+      "PackagePath": "buildTransitive\\TravelPlanner.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

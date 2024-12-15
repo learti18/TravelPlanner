@@ -2,7 +2,7 @@ import React from 'react'
 import { CalendarDays, CircleDollarSign, Users,Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-export default function InfoSection({destination,noOfDays,travelType}) {
+export default function InfoSection({destination,noOfDays,travelType,submitData}) {
   return (
     <div>
         <img src="/images/placeholder.jpg" alt="" className='h-[360px] w-full object-cover rounded-xl' />
@@ -25,7 +25,7 @@ export default function InfoSection({destination,noOfDays,travelType}) {
                   </h2>
               </div>
           </div>
-          <Button>Create Trip</Button>
+          <Button onClick={submitData} >Create Trip</Button>
         </div>
     </div>
   )

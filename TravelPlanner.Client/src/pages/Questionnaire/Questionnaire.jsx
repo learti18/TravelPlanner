@@ -76,7 +76,7 @@ export default function Questionnaire() {
               <RadioGroupItem value="solo" id="solo" className="hidden peer"/>
               <label
                 htmlFor="solo"
-                className={`${formData.travelType === "solo" ? "bg-zinc-800 text-white":""}  font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white`}
+                className={`${formData.travelType === "solo" ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md":""}  font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
               >
                 Solo
               </label>
@@ -85,7 +85,7 @@ export default function Questionnaire() {
               <RadioGroupItem value="couple" id="couple" className="hidden peer"/>
               <label
                 htmlFor="couple"
-                className={`${formData.travelType === "couple" ? "bg-zinc-800 text-white":""} font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white`}
+                className={`${formData.travelType === "couple" ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md":""} font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
               >
                 Couple
               </label>
@@ -94,7 +94,7 @@ export default function Questionnaire() {
               <RadioGroupItem value="family" id="family" className="hidden peer"/>
               <label
                 htmlFor="family"
-                className={`${formData.travelType === "family" ? "bg-zinc-800 text-white":""}  font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white`}
+                className={`${formData.travelType === "family" ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md":""}  font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
               >
                 Family
               </label>
@@ -103,7 +103,7 @@ export default function Questionnaire() {
               <RadioGroupItem value="friends" id="friends" className="hidden peer"/>
               <label
                 htmlFor="friends"
-                className={`${formData.travelType === "friends" ? "bg-zinc-800 text-white":""} font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white`}
+                className={`${formData.travelType === "friends" ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md":""} font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
               >
                 Friends
               </label>

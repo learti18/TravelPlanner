@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\controllers\\tripscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\controllers\\activitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\controllers\\activitiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\models\\studenti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\models\\studenti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\dtos\\activitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\dtos\\activitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\controllers\\hotelscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\dtos\\hoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\dtos\\hoteldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\dtos\\destinationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\dtos\\destinationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\controllers\\destinationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\models\\destination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\mapper\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\models\\hotel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|c:\\web\\travelplanner\\travelplanner.server\\travelplanner.server\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2411B2D-666E-4302-869A-F4C00609E6B9}|TravelPlanner.Server\\TravelPlanner.Server.csproj|solutionrelative:travelplanner.server\\models\\trip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,94 +50,138 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Program.cs",
               "RelativeDocumentMoniker": "TravelPlanner.Server\\Program.cs",
               "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Program.cs",
               "RelativeToolTip": "TravelPlanner.Server\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-02T00:31:35.041Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TripsController.cs",
-              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Controllers\\TripsController.cs",
-              "RelativeDocumentMoniker": "TravelPlanner.Server\\Controllers\\TripsController.cs",
-              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Controllers\\TripsController.cs",
-              "RelativeToolTip": "TravelPlanner.Server\\Controllers\\TripsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:49:04.198Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Studenti.cs",
-              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Models\\Studenti.cs",
-              "RelativeDocumentMoniker": "TravelPlanner.Server\\Models\\Studenti.cs",
-              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Models\\Studenti.cs",
-              "RelativeToolTip": "TravelPlanner.Server\\Models\\Studenti.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Title": "HotelsController.cs",
+              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Controllers\\HotelsController.cs",
+              "RelativeDocumentMoniker": "TravelPlanner.Server\\Controllers\\HotelsController.cs",
+              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Controllers\\HotelsController.cs",
+              "RelativeToolTip": "TravelPlanner.Server\\Controllers\\HotelsController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAIwEEAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T17:25:39.476Z"
+              "WhenOpened": "2024-12-15T15:39:00.819Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
+              "Title": "Hotel.cs",
+              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Models\\Hotel.cs",
+              "RelativeDocumentMoniker": "TravelPlanner.Server\\Models\\Hotel.cs",
+              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Models\\Hotel.cs",
+              "RelativeToolTip": "TravelPlanner.Server\\Models\\Hotel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T15:34:37.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ActivitiesController.cs",
               "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Controllers\\ActivitiesController.cs",
               "RelativeDocumentMoniker": "TravelPlanner.Server\\Controllers\\ActivitiesController.cs",
               "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Controllers\\ActivitiesController.cs",
               "RelativeToolTip": "TravelPlanner.Server\\Controllers\\ActivitiesController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwB8AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:51:52.566Z",
+              "WhenOpened": "2024-12-15T00:22:43.325Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ActivityDto.cs",
+              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Dtos\\ActivityDto.cs",
+              "RelativeDocumentMoniker": "TravelPlanner.Server\\Dtos\\ActivityDto.cs",
+              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Dtos\\ActivityDto.cs",
+              "RelativeToolTip": "TravelPlanner.Server\\Dtos\\ActivityDto.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswCcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T23:43:45.726Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HotelDto.cs",
+              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Dtos\\HotelDto.cs",
+              "RelativeDocumentMoniker": "TravelPlanner.Server\\Dtos\\HotelDto.cs",
+              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Dtos\\HotelDto.cs",
+              "RelativeToolTip": "TravelPlanner.Server\\Dtos\\HotelDto.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwCoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T23:43:36.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Mapper\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "TravelPlanner.Server\\Mapper\\MappingProfile.cs",
+              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Mapper\\MappingProfile.cs",
+              "RelativeToolTip": "TravelPlanner.Server\\Mapper\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T23:42:13.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Activity.cs",
-              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Models\\Activity.cs",
-              "RelativeDocumentMoniker": "TravelPlanner.Server\\Models\\Activity.cs",
-              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Models\\Activity.cs",
-              "RelativeToolTip": "TravelPlanner.Server\\Models\\Activity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Title": "DestinationDto.cs",
+              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Dtos\\DestinationDto.cs",
+              "RelativeDocumentMoniker": "TravelPlanner.Server\\Dtos\\DestinationDto.cs",
+              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Dtos\\DestinationDto.cs",
+              "RelativeToolTip": "TravelPlanner.Server\\Dtos\\DestinationDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:18:40.992Z"
+              "WhenOpened": "2024-12-14T23:04:53.206Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Trip.cs",
-              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Models\\Trip.cs",
-              "RelativeDocumentMoniker": "TravelPlanner.Server\\Models\\Trip.cs",
-              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Models\\Trip.cs",
-              "RelativeToolTip": "TravelPlanner.Server\\Models\\Trip.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Destination.cs",
+              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Models\\Destination.cs",
+              "RelativeDocumentMoniker": "TravelPlanner.Server\\Models\\Destination.cs",
+              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Models\\Destination.cs",
+              "RelativeToolTip": "TravelPlanner.Server\\Models\\Destination.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T15:17:20.733Z"
+              "WhenOpened": "2024-12-14T21:36:20.662Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "TravelPlanner.Server\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "TravelPlanner.Server\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Title": "DestinationsController.cs",
+              "DocumentMoniker": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Controllers\\DestinationsController.cs",
+              "RelativeDocumentMoniker": "TravelPlanner.Server\\Controllers\\DestinationsController.cs",
+              "ToolTip": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\Controllers\\DestinationsController.cs",
+              "RelativeToolTip": "TravelPlanner.Server\\Controllers\\DestinationsController.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwFEAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T00:34:20.416Z"
+              "WhenOpened": "2024-12-13T16:24:20.173Z",
+              "EditorCaption": ""
             }
           ]
         }

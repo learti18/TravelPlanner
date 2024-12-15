@@ -10,6 +10,5 @@ namespace TravelPlanner.Server.Models
         public DateOnly StartDate { get; set; }
         public DateOnly EndDate { get; set; }
         public double Cost { get; set; }
-        public ICollection<Activity>? Activities { get; set; }
     }
 }

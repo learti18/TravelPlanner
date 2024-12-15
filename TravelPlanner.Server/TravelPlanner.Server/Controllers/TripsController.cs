@@ -14,104 +14,104 @@ namespace TravelPlanner.Server.Controllers
     [ApiController]
     public class TripsController : ControllerBase
     {
-        private readonly ApplicationDbContext _context;
+        //private readonly ApplicationDbContext _context;
 
-        public TripsController(ApplicationDbContext context)
-        {
-            _context = context;
-        }
+        //public TripsController(ApplicationDbContext context)
+        //{
+        //    _context = context;
+        //}
 
-        // GET: api/Trips
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<Trip>>> GetTrips()
-        {
-            var trips = await _context.Trips
-                    .Include(t => t.Activities)
-                    .ToListAsync();
+        //// GET: api/Trips
+        //[HttpGet]
+        //public async Task<ActionResult<IEnumerable<Trip>>> GetTrips()
+        //{
+        //    var trips = await _context.Trips
+        //            .Include(t => t.Activities)
+        //            .ToListAsync();
 
-            return Ok(trips);
-        }
+        //    return Ok(trips);
+        //}
 
-        // GET: api/Trips/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Trip>> GetTrip(int id)
-        {
-            var trip = await _context.Trips
-                    .Include(t => t.Activities)
-                    .FirstOrDefaultAsync();
+        //// GET: api/Trips/5
+        //[HttpGet("{id}")]
+        //public async Task<ActionResult<Trip>> GetTrip(int id)
+        //{
+        //    var trip = await _context.Trips
+        //            .Include(t => t.Activities)
+        //            .FirstOrDefaultAsync();
 
 
-            if (trip == null)
-            {
-                return NotFound();
-            }
+        //    if (trip == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            return Ok(trip);
-        }
+        //    return Ok(trip);
+        //}
 
-        // PUT: api/Trips/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutTrip(int id, Trip trip)
-        {
-            if (id != trip.Id)
-            {
-                return BadRequest();
-            }
+        //// PUT: api/Trips/5
+        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        //[HttpPut("{id}")]
+        //public async Task<IActionResult> PutTrip(int id, Trip trip)
+        //{
+        //    if (id != trip.Id)
+        //    {
+        //        return BadRequest();
+        //    }
 
-            _context.Entry(trip).State = EntityState.Modified;
+        //    _context.Entry(trip).State = EntityState.Modified;
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!TripExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+        //    try
+        //    {
+        //        await _context.SaveChangesAsync();
+        //    }
+        //    catch (DbUpdateConcurrencyException)
+        //    {
+        //        if (!TripExists(id))
+        //        {
+        //            return NotFound();
+        //        }
+        //        else
+        //        {
+        //            throw;
+        //        }
+        //    }
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
 
-        // POST: api/Trips
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        [HttpPost]
-        public async Task<ActionResult<Trip>> PostTrip(Trip trip)
-        {   
-            if(trip== null)return BadRequest("Trip cannot be null!");
+        //// POST: api/Trips
+        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        //[HttpPost]
+        //public async Task<ActionResult<Trip>> PostTrip(Trip trip)
+        //{   
+        //    if(trip== null)return BadRequest("Trip cannot be null!");
 
-            _context.Trips.Add(trip);
-            await _context.SaveChangesAsync();
+        //    _context.Trips.Add(trip);
+        //    await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetTrip", new { id = trip.Id }, trip);
-        }
+        //    return CreatedAtAction("GetTrip", new { id = trip.Id }, trip);
+        //}
 
-        // DELETE: api/Trips/5
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteTrip(int id)
-        {
-            var trip = await _context.Trips.FindAsync(id);
-            if (trip == null)
-            {
-                return NotFound();
-            }
+        //// DELETE: api/Trips/5
+        //[HttpDelete("{id}")]
+        //public async Task<IActionResult> DeleteTrip(int id)
+        //{
+        //    var trip = await _context.Trips.FindAsync(id);
+        //    if (trip == null)
+        //    {
+        //        return NotFound();
+        //    }
 
-            _context.Trips.Remove(trip);
-            await _context.SaveChangesAsync();
+        //    _context.Trips.Remove(trip);
+        //    await _context.SaveChangesAsync();
 
-            return NoContent();
-        }
+        //    return NoContent();
+        //}
 
-        private bool TripExists(int id)
-        {
-            return _context.Trips.Any(e => e.Id == id);
-        }
+        //private bool TripExists(int id)
+        //{
+        //    return _context.Trips.Any(e => e.Id == id);
+        //}
     }
 }
