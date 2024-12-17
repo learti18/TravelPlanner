@@ -13,12 +13,12 @@ export default function ActivityCardItem({ activity, isSelected, isDisabled }) {
       }`}
     >
       <img
-        src={activity?.image}
+        src={`http://localhost:5120${activity.imageUrl}`}
         className="w-[130px] h-[130px] rounded-xl"
         alt={activity.place}
       />
       <div className="flex-1">
-        <h2 className="font-bold text-lg">{activity.place}</h2>
+        <h2 className="font-bold text-lg">{activity.name}</h2>
         <p className="text-sm text-gray-400">{activity.description}</p>
       </div>
       {isSelected && (

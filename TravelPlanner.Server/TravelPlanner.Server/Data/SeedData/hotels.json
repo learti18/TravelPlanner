@@ -1,0 +1,40 @@
+{
+    "hotels": [
+      {
+        "destinationId": 14,
+        "name": "Ritz Paris",
+        "description": "Luxury 5-star hotel located at Place Vendôme, offering world-class amenities and impeccable service.",
+        "location": "Place Vendôme, Paris",
+        "price": 1000.00,
+        "rating": 5,
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/e6/49/a2/room-view.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "destinationId": 14,
+        "name": "Hôtel de Crillon",
+        "description": "Historic luxury hotel near the Champs-Élysées, blending classic French elegance with modern comforts.",
+        "location": "10 Place de la Concorde, Paris",
+        "price": 950.00,
+        "rating": 5,
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1b/3f/73/cour-d-honneur.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "destinationId": 14,
+        "name": "Le Meurice",
+        "description": "Palatial 5-star hotel offering Michelin-starred dining and a prime location near the Louvre Museum.",
+        "location": "228 Rue de Rivoli, Paris",
+        "price": 850.00,
+        "rating": 5,
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/d8/bc/12/le-meurice-paris.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "destinationId": 14,
+        "name": "Hotel Lutetia",
+        "description": "Luxury Art Deco hotel with a rich history, located in the heart of Saint-Germain-des-Prés.",
+        "location": "45 Boulevard Raspail, Paris",
+        "price": 750.00,
+        "rating": 4,
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/02/1f/66/hotel-lutetia-facade.jpg?w=1200&h=-1&s=1"
+      }
+    ]
+  }

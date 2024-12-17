@@ -1,0 +1,84 @@
+{
+    "activities": [
+      {
+        "destinationId": 14,
+        "name": "Eiffel Tower Visit",
+        "description": "Visit the iconic symbol of Paris and enjoy breathtaking views from its summit.",
+        "location": "Champ de Mars, Paris",
+        "time": "09:00",
+        "imageUrl": "https://images.unsplash.com/photo-1471874708433-acd480424946?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "destinationId": 14,
+        "name": "Louvre Museum Tour",
+        "description": "Explore the world-famous art museum and admire masterpieces like the Mona Lisa.",
+        "location": "Rue de Rivoli, Paris",
+        "time": "10:00",
+        "imageUrl": "https://example.com/louvre.jpg"
+      },
+      {
+        "destinationId": 14,
+        "name": "Seine River Cruise",
+        "description": "Relax on a scenic cruise along the Seine River and see Paris from the water.",
+        "location": "Port de la Bourdonnais, Paris",
+        "time": "14:00",
+        "imageUrl": "https://example.com/seine-cruise.jpg"
+      },
+      {
+        "destinationId": 14,
+        "name": "Notre-Dame Cathedral Tour",
+        "description": "Visit the historic cathedral and marvel at its stunning Gothic architecture.",
+        "location": "6 Parvis Notre-Dame - Pl. Jean-Paul II, Paris",
+        "time": "11:00",
+        "imageUrl": "https://example.com/notre-dame.jpg"
+      },
+      {
+        "destinationId": 14,
+        "name": "Montmartre Walking Tour",
+        "description": "Discover the bohemian charm of Montmartre, including the famous Sacré-Cœur Basilica.",
+        "location": "Place du Tertre, Paris",
+        "time": "16:00",
+        "imageUrl": "https://example.com/montmartre.jpg"
+      },
+      {
+        "destinationId": 14,
+        "name": "Palace of Versailles Tour",
+        "description": "Take a day trip to explore the opulent Palace of Versailles and its beautiful gardens.",
+        "location": "Place d'Armes, Versailles",
+        "time": "08:00",
+        "imageUrl": "https://example.com/versailles.jpg"
+      },
+      {
+        "destinationId": 14,
+        "name": "Opera Garnier Backstage Tour",
+        "description": "Go behind the scenes at the grand Opera Garnier and learn about its history.",
+        "location": "8 Rue Scribe, Paris",
+        "time": "15:00",
+        "imageUrl": "https://example.com/opera-garnier.jpg"
+      },
+      {
+        "destinationId": 14,
+        "name": "Luxembourg Gardens Stroll",
+        "description": "Enjoy a peaceful walk through the beautiful Luxembourg Gardens.",
+        "location": "Rue de Médicis, Paris",
+        "time": "13:00",
+        "imageUrl": "https://example.com/luxembourg.jpg"
+      },
+      {
+        "destinationId": 14,
+        "name": "Champs-Élysées Shopping",
+        "description": "Shop along the famous Champs-Élysées boulevard, lined with luxury boutiques and cafes.",
+        "location": "Avenue des Champs-Élysées, Paris",
+        "time": "12:00",
+        "imageUrl": "https://example.com/champs-elysees.jpg"
+      },
+      {
+        "destinationId": 14,
+        "name": "Musée d'Orsay Visit",
+        "description": "Admire an extensive collection of Impressionist masterpieces at the Musée d'Orsay.",
+        "location": "1 Rue de la Légion d'Honneur, Paris",
+        "time": "17:00",
+        "imageUrl": "https://example.com/orsay.jpg"
+      }
+    ]
+  }

@@ -1,22 +1,26 @@
 // Navbar.jsx
-import React from 'react';
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import { Link, NavLink } from 'react-router-dom';
-import { Plane } from 'lucide-react';
+import React from "react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { Link, NavLink } from "react-router-dom";
+import { Plane } from "lucide-react";
 
-const Navbar = ({ mobileMenuOpen, setMobileMenuOpen, navigation,className }) => {
-
+const Navbar = ({
+  mobileMenuOpen,
+  setMobileMenuOpen,
+  navigation,
+  className,
+}) => {
   return (
-    <header
-      className={`inset-x-0 top-0 z-50 ${className}`}
-    >
-      <nav aria-label="Global" className="flex items-center justify-between p-5 lg:px-8">
+    <header className={`inset-x-0 top-0 z-50 ${className}`}>
+      <nav
+        aria-label="Global"
+        className="flex items-center justify-between p-5 lg:px-8"
+      >
         <div className="flex items-center gap-1 lg:flex-1">
           <Plane />
           <Link to="/" className="font-bold text-2xl">
             TripPlanner
           </Link>
-          
         </div>
         <div className="flex lg:hidden">
           <button

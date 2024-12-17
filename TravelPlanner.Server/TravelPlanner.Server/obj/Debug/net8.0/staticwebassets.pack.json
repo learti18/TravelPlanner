@@ -1,6 +1,46 @@
 {
   "Files": [
     {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\0e689827-cdaa-4bb9-9a58-11de83b668b6.jpg",
+      "PackagePath": "staticwebassets\\uploads\\0e689827-cdaa-4bb9-9a58-11de83b668b6.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\19750945-7ff5-4366-9bcf-cd19a003ff9a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\19750945-7ff5-4366-9bcf-cd19a003ff9a.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\25a3ad0f-46d3-4e37-9af2-006f0e5da7c2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\25a3ad0f-46d3-4e37-9af2-006f0e5da7c2.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\2aa4fd0e-e8ee-4c31-859a-1164ee8e8002.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2aa4fd0e-e8ee-4c31-859a-1164ee8e8002.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\2d302e97-fe94-4049-a457-62a8b74a7466.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2d302e97-fe94-4049-a457-62a8b74a7466.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\312ef6db-db0e-4fdc-9d95-c81165531918.jpg",
+      "PackagePath": "staticwebassets\\uploads\\312ef6db-db0e-4fdc-9d95-c81165531918.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\64a3fbb9-3b30-4851-b085-95e81ceb6359.jpg",
+      "PackagePath": "staticwebassets\\uploads\\64a3fbb9-3b30-4851-b085-95e81ceb6359.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\70bb6649-ec49-4bfa-8001-fc76f5ffd234.jpg",
+      "PackagePath": "staticwebassets\\uploads\\70bb6649-ec49-4bfa-8001-fc76f5ffd234.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\7fe76d15-5c16-4a1b-94f0-4d452cfc2a0a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7fe76d15-5c16-4a1b-94f0-4d452cfc2a0a.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\902465d3-3145-4c6c-83d3-cf0bf27df716.jpg",
+      "PackagePath": "staticwebassets\\uploads\\902465d3-3145-4c6c-83d3-cf0bf27df716.jpg"
+    },
+    {
       "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\9226bce8-003b-49e5-b6e9-069c887bbde8.jpg",
       "PackagePath": "staticwebassets\\uploads\\9226bce8-003b-49e5-b6e9-069c887bbde8.jpg"
     },
@@ -19,6 +59,22 @@
     {
       "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\b466d259-00a0-44b7-b52e-cd7bf840e9f3.jpg",
       "PackagePath": "staticwebassets\\uploads\\b466d259-00a0-44b7-b52e-cd7bf840e9f3.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\c1fbcf0a-0850-4ef7-bbf3-62527761f3f2.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c1fbcf0a-0850-4ef7-bbf3-62527761f3f2.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\ee280fa9-f948-4b3c-bcc2-ff41afcf0bbf.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ee280fa9-f948-4b3c-bcc2-ff41afcf0bbf.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\f1c61ec7-745a-4fa3-a888-9683d4f36d14.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f1c61ec7-745a-4fa3-a888-9683d4f36d14.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelPlanner.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelPlanner.Server.Microsoft.AspNetCore.StaticWebAssets.props",

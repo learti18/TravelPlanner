@@ -13,7 +13,8 @@ export default function Questionnaire() {
   });
 
   const [searchParams] = useSearchParams();
-  const destinationId = searchParams.get("destination") || "Unknown Destination";
+  const destinationId =
+    searchParams.get("destination") || "Unknown Destination";
 
   const navigate = useNavigate();
 
@@ -52,12 +53,11 @@ export default function Questionnaire() {
             onDateChange={handleDateChange}
           />
           <Button
-                onClick={handleNext}
-                disabled={step === 1 && (!formData.startDate || !formData.endDate)}
-              >
-              Next
+            onClick={handleNext}
+            disabled={step === 1 && (!formData.startDate || !formData.endDate)}
+          >
+            Next
           </Button>
-          
         </div>
       )}
       {step === 2 && (
@@ -73,48 +73,76 @@ export default function Questionnaire() {
             className="space-y-4"
           >
             <div className="flex items-center space-x-3">
-              <RadioGroupItem value="solo" id="solo" className="hidden peer"/>
+              <RadioGroupItem value="solo" id="solo" className="hidden peer" />
               <label
                 htmlFor="solo"
-                className={`${formData.travelType === "solo" ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md":""}  font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
+                className={`${
+                  formData.travelType === "solo"
+                    ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md"
+                    : ""
+                }  font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
               >
                 Solo
               </label>
             </div>
             <div className="flex items-center space-x-3">
-              <RadioGroupItem value="couple" id="couple" className="hidden peer"/>
+              <RadioGroupItem
+                value="couple"
+                id="couple"
+                className="hidden peer"
+              />
               <label
                 htmlFor="couple"
-                className={`${formData.travelType === "couple" ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md":""} font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
+                className={`${
+                  formData.travelType === "couple"
+                    ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md"
+                    : ""
+                } font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
               >
                 Couple
               </label>
             </div>
             <div className="flex items-center space-x-3">
-              <RadioGroupItem value="family" id="family" className="hidden peer"/>
+              <RadioGroupItem
+                value="family"
+                id="family"
+                className="hidden peer"
+              />
               <label
                 htmlFor="family"
-                className={`${formData.travelType === "family" ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md":""}  font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
+                className={`${
+                  formData.travelType === "family"
+                    ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md"
+                    : ""
+                }  font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
               >
                 Family
               </label>
             </div>
             <div className="flex items-center space-x-3">
-              <RadioGroupItem value="friends" id="friends" className="hidden peer"/>
+              <RadioGroupItem
+                value="friends"
+                id="friends"
+                className="hidden peer"
+              />
               <label
                 htmlFor="friends"
-                className={`${formData.travelType === "friends" ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md":""} font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
+                className={`${
+                  formData.travelType === "friends"
+                    ? "bg-zinc-800 text-white border-2 border-indigo-500 shadow-md"
+                    : ""
+                } font-semibold w-full p-2 rounded-md cursor-pointer hover:bg-zinc-600 hover:text-white transition-all duration-300`}
               >
                 Friends
               </label>
             </div>
           </RadioGroup>
           <Button
-                onClick={handleNext}
-                disabled={step === 1 && (!formData.startDate || !formData.endDate)}
-                className="mt-6"
-              >
-              Finish
+            onClick={handleNext}
+            disabled={step === 1 && (!formData.startDate || !formData.endDate)}
+            className="mt-6"
+          >
+            Finish
           </Button>
         </div>
       )}

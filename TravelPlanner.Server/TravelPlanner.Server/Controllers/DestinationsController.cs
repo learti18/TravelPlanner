@@ -56,7 +56,7 @@ namespace TravelPlanner.Server.Controllers
             }
             var destinationDto = _mapper.Map<DestinationDto>(destination);
 
-            return Ok(destination);
+            return Ok(destinationDto);
         }
 
         // PUT: api/Destinations/5

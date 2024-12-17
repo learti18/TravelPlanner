@@ -25,7 +25,7 @@ export default function Hotels({ destination, selectedHotel, onHotelSelect }) {
               pointerEvents: selectedHotel && selectedHotel !== hotel.name ? 'none' : 'auto',
             }}
           >
-            <img src={hotel?.image} className="rounded-xl" alt={hotel.name} />
+            <img src={`http://localhost:5120${hotel.imageUrl}`} className="rounded-xl" alt={hotel.name} />
             <div className="my-2 flex flex-col gap-2">
               <h2 className="font-medium flex items-center justify-between">
                 {hotel.name}

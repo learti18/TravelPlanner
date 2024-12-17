@@ -3,7 +3,7 @@ import ActivityCardItem from './ActivityCardItem';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@radix-ui/react-accordion';
 import { ChevronDown } from 'lucide-react';
 
-export default function PlacesToVisit({ destination, selectedActivities, onActivitySelect }) {
+export default function PlacesToVisit({ destination, selectedActivities, onActivitySelect, noOfDays }) {
   const MAX_ACTIVITIES_PER_DAY = 3;
 
   const handleActivitySelect = (day, activity) => {
@@ -11,10 +11,8 @@ export default function PlacesToVisit({ destination, selectedActivities, onActiv
     let updatedActivities;
 
     if (currentDayActivities.find((a) => a.place === activity.place)) {
-        
       updatedActivities = currentDayActivities.filter((a) => a.place !== activity.place);
     } else if (currentDayActivities.length < MAX_ACTIVITIES_PER_DAY) {
-
       updatedActivities = [...currentDayActivities, activity];
     } else {
       updatedActivities = currentDayActivities;
@@ -23,17 +21,20 @@ export default function PlacesToVisit({ destination, selectedActivities, onActiv
     onActivitySelect(day, updatedActivities);
   };
 
+  // Generate a list of days based on `noOfDays`
+  const days = Array.from({ length: noOfDays }, (_, index) => index + 1);
+
   return (
     <div className="mt-5">
       <h2 className="font-bold text-lg">Places to Visit</h2>
       <div>
-        {destination?.itinerary?.map((item, index) => (
-          <div key={index}>
+        {days.map((day) => (
+          <div key={day}>
             <Accordion type="single" collapsible>
-              <AccordionItem value={`day-${item.day}`}>
+              <AccordionItem value={`day-${day}`}>
                 <AccordionTrigger className="flex flex-row justify-between w-full shadow-md p-2 px-5 rounded-lg">
-                  <h2 className="font-bold text-lg">Day {item.day}</h2>
-                  {selectedActivities[item.day]?.length === MAX_ACTIVITIES_PER_DAY && (
+                  <h2 className="font-bold text-lg">Day {day}</h2>
+                  {selectedActivities[day]?.length === MAX_ACTIVITIES_PER_DAY && (
                     <div className="text-sm text-gray-500 mt-2">
                       You have selected the maximum of {MAX_ACTIVITIES_PER_DAY} activities for this day.
                     </div>
@@ -42,19 +43,19 @@ export default function PlacesToVisit({ destination, selectedActivities, onActiv
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="grid md:grid-cols-2 gap-5 my-4">
-                    {item?.activities?.map((activity, index) => {
-                      const isSelected = selectedActivities[item.day]?.find(
+                    {destination?.activities?.map((activity, index) => {
+                      const isSelected = selectedActivities[day]?.find(
                         (a) => a.place === activity.place
                       );
                       const isDisabled =
                         !isSelected &&
-                        selectedActivities[item.day]?.length === MAX_ACTIVITIES_PER_DAY;
+                        selectedActivities[day]?.length === MAX_ACTIVITIES_PER_DAY;
 
                       return (
                         <div
                           key={index}
                           onClick={
-                            isDisabled ? undefined : () => handleActivitySelect(item.day, activity)
+                            isDisabled ? undefined : () => handleActivitySelect(day, activity)
                           }
                         >
                           <ActivityCardItem
