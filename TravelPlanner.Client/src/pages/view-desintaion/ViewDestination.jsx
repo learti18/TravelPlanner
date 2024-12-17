@@ -4,29 +4,15 @@ import Hotels from './Hotels';
 import { useLocation, useParams } from 'react-router-dom';
 import { DateTime } from 'luxon';
 import InfoSection from './InfoSection';
-import apiClient from '@/services/Api';
+import useDestinations from '@/hooks/useDestinations';
 
 export default function ViewDestination() {
   const [selectedActivities, setSelectedActivities] = useState({});
   const [selectedHotel, setSelectedHotel] = useState(null);
   const {destinationId} = useParams()
-  const [destination,setDestination] = useState({})
   const location = useLocation()
-
   
-  
-    useEffect(()=>{
-        const getDestinationData = async () => {
-            try{
-                const response = await apiClient.get(`destinations/${destinationId}`)
-                setDestination(response.data)
-            }catch(error){
-                console.log(error)
-            }
-        }
-
-        getDestinationData()
-    },[])
+  const { destination } = useDestinations(destinationId)
 
   const {startDate,endDate,travelType} = location.state
   const start = DateTime.fromISO(startDate)
@@ -48,16 +34,6 @@ export default function ViewDestination() {
       hotel: selectedHotel,
     };
     console.log('Submitting Data:', payload);
-
-    // Replace with your API call
-    // fetch('/api/saveTrip', {
-    //   method: 'POST',
-    //   headers: { 'Content-Type': 'application/json' },
-    //   body: JSON.stringify(payload),
-    // })
-    //   .then((response) => response.json())
-    //   .then((data) => console.log('Successfully saved:', data))
-    //   .catch((error) => console.error('Error:', error));
   };
 
   return (

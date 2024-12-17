@@ -1,16 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Star } from "lucide-react";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
 import { ImageUpload } from "./ImageUpload";
 
 const RatingStars = ({ rating, onHover, onSelect, interactive = false }) => {
@@ -35,19 +28,18 @@ const RatingStars = ({ rating, onHover, onSelect, interactive = false }) => {
   );
 };
 
-export default function HotelForm({ hotel, onSubmit, isEditing = false }) {
-  const [formData, setFormData] = React.useState(
+export default function HotelForm({ hotel, onSubmit, isEditing = false ,destinationId}) {
+  const [formData, setFormData] = useState(
     hotel || {
       name: "",
       description: "",
       address: "",
-      pricePerNight: "",
+      price: "",
       rating: "",
-      imageUrl: "",
-      amenities: [],
+      imageFile: null,
     }
   );
-  const [hoverRating, setHoverRating] = React.useState(0);
+  const [hoverRating, setHoverRating] = useState(0);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -133,7 +125,7 @@ export default function HotelForm({ hotel, onSubmit, isEditing = false }) {
             onChange={(e) =>
               setFormData((prev) => ({
                 ...prev,
-                pricePerNight: e.target.value,
+                price: e.target.value,
               }))
             }
           />
@@ -142,11 +134,11 @@ export default function HotelForm({ hotel, onSubmit, isEditing = false }) {
         <div className="space-y-2">
           <Label>Hotel Image</Label>
           <ImageUpload
-            value={formData.imageUrl}
-            onChange={(url) =>
-              setFormData((prev) => ({ ...prev, imageUrl: url }))
+            value={formData.imageFile ? URL.createObjectURL(formData.imageFile) : null}
+            onChange={(file) =>
+              setFormData((prev) => ({ ...prev, imageFile: file}))
             }
-            onRemove={() => setFormData((prev) => ({ ...prev, imageUrl: "" }))}
+            onRemove={() => setFormData((prev) => ({ ...prev, imageFile: null }))}
           />
         </div>
       </div>

@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { Plus } from "lucide-react";
+import React, { useState, useEffect } from "react";
+import { Plus, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -17,55 +17,44 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import ActivityForm from "./components/forms/ActivityForm";
+import useActivities from "@/hooks/useActivities";
 
 export default function ActivityManager({ destination }) {
-  const [activities, setActivities] = useState(destination.activities || []);
   const [editingActivity, setEditingActivity] = useState(null);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const {
+    activities,  
+    isLoading, 
+    addActivity, 
+    updateActivity, 
+    deleteActivity 
+  } = useActivities(destination.id);
 
-  const handleAddActivity = async (formData) => {
-    const newActivity = {
-      id: activities.length + 1,
-      destinationId: destination.id,
-      ...formData,
-    };
-
-    try{
-      const response = await apiClient.post("activities", newActivity)
-      console.log(response.data)
-      setActivities((prev) => [...prev, response.data]);
-    }catch(error){
-      console.log(error)
+  const handleSubmit = async (formData) => {
+    try {
+      if (editingActivity) {
+        await updateActivity(destination.id, editingActivity.id, formData);
+      } else {
+        await addActivity(destination.id, formData);
+      }
+      setIsDialogOpen(false);
+      setEditingActivity(null);
+    } catch (error) {
+      console.error('Failed to save activity:', error);
     }
-
-    setActivities((prev) => [...prev, newActivity]);
-    destination.activities = [...activities, newActivity];
   };
-
-  const handleEditActivity = (formData) => {
-    setActivities((prev) =>
-      prev.map((activity) =>
-        activity.id === editingActivity.id
-          ? { ...activity, ...formData }
-          : activity
-      )
-    );
-    setEditingActivity(null);
-  };
-
-  const handleDeleteActivity = (activityId) => {
-    setActivities((prev) =>
-      prev.filter((activity) => activity.id !== activityId)
-    );
-    destination.activities = activities.filter(
-      (activity) => activity.id !== activityId
-    );
-  };
-
+  
   return (
     <div className="space-y-6">
-      <Dialog onOpenChange={(open) => !open && setEditingActivity(null)}>
+      <Dialog 
+        open={isDialogOpen} 
+        onOpenChange={(open) => {
+          setIsDialogOpen(open);
+          if (!open) setEditingActivity(null);
+        }}
+      >
         <DialogTrigger asChild>
-          <Button>
+          <Button onClick={() => setEditingActivity(null)}>
             <Plus className="mr-2 h-4 w-4" /> Add Activity
           </Button>
         </DialogTrigger>
@@ -82,8 +71,9 @@ export default function ActivityManager({ destination }) {
           </DialogHeader>
           <ActivityForm
             activity={editingActivity}
-            onSubmit={editingActivity ? handleEditActivity : handleAddActivity}
+            onSubmit={handleSubmit}
             isEditing={!!editingActivity}
+            destinationId={destination.id}
           />
         </DialogContent>
       </Dialog>
@@ -120,8 +110,9 @@ export default function ActivityManager({ destination }) {
                   className="flex-1"
                   onClick={() => {
                     setEditingActivity(activity);
-                    document.querySelector('[role="dialog"] button').click();
+                    setIsDialogOpen(true);
                   }}
+                  disabled={isLoading}
                 >
                   Edit
                 </Button>
@@ -129,7 +120,8 @@ export default function ActivityManager({ destination }) {
                   variant="destructive"
                   size="sm"
                   className="flex-1"
-                  onClick={() => handleDeleteActivity(activity.id)}
+                  onClick={() => deleteActivity(destination.id,activity.id)}
+                  disabled={isLoading}
                 >
                   Delete
                 </Button>
@@ -137,6 +129,11 @@ export default function ActivityManager({ destination }) {
             </CardContent>
           </Card>
         ))}
+        {activities.length === 0 && !isLoading && (
+          <div className="col-span-full text-center text-muted-foreground">
+            No activities found. Add your first activity!
+          </div>
+        )}
       </div>
     </div>
   );

@@ -35,7 +35,7 @@ namespace TravelPlanner.Server.Controllers
                 .Where(h => h.DestinationId == destinationId)
                 .ToListAsync();
 
-            if (hotels.Count == 0) 
+            if (hotels.Count == 0)
             {
                 return NotFound("No hotels found for this destination");
             }
@@ -46,7 +46,7 @@ namespace TravelPlanner.Server.Controllers
 
         // GET: api/Destination/{destinationId}/Hotels/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Hotel>> GetHotel(int id,int destinationId)
+        public async Task<ActionResult<Hotel>> GetHotel(int id, int destinationId)
         {
             var hotel = await _context.Hotels
                 .SingleOrDefaultAsync(h => h.DestinationId == destinationId && h.Id == id);
@@ -63,7 +63,7 @@ namespace TravelPlanner.Server.Controllers
         // PUT: api/Destination/{destinationId}/Hotels/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutHotel(int id,int destinationId,[FromForm] UpdateActivityDto hotelDto)
+        public async Task<IActionResult> PutHotel(int id, int destinationId, [FromForm] UpdateActivityDto hotelDto)
         {
 
             if (id != hotelDto.Id)
@@ -73,22 +73,26 @@ namespace TravelPlanner.Server.Controllers
 
             var existingHotel = await _context.Hotels
                     .FirstOrDefaultAsync(h => h.DestinationId == destinationId && id == h.Id);
-            if (existingHotel == null) 
+            if (existingHotel == null)
             {
                 return NotFound("Hotel not found for this destination");
             }
 
             _mapper.Map(hotelDto, existingHotel);
 
-            if (hotelDto.ImageFile != null) 
+            if (hotelDto.ImageFile != null)
             {
                 var imagePath = await SaveImage(hotelDto.ImageFile);
                 existingHotel.ImageUrl = imagePath;
             }
 
+            _context.Entry(existingHotel).State = EntityState.Modified;
             try
             {
                 await _context.SaveChangesAsync();
+                var updatedHotelDto = _mapper.Map<HotelDto>(existingHotel);
+
+                return Ok(updatedHotelDto);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -101,24 +105,23 @@ namespace TravelPlanner.Server.Controllers
                     throw;
                 }
             }
-
-            return NoContent();
         }
 
         // POST: api/Destination/{destinationId}/Hotels
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Hotel>> PostHotel(int destinationId,[FromForm] CreateHotelDto hotelDto)
+        public async Task<ActionResult<Hotel>> PostHotel(int destinationId, [FromForm] CreateHotelDto hotelDto)
         {
             var destination = await _context.Destinations.FindAsync(destinationId);
-            
-            if(destination == null) { 
-                return NotFound("Destination notFound"); 
+
+            if (destination == null)
+            {
+                return NotFound("Destination notFound");
             }
 
             var hotel = _mapper.Map<Hotel>(hotelDto);
 
-            if(hotelDto.ImageFile != null)
+            if (hotelDto.ImageFile != null)
             {
                 var imagePath = await SaveImage(hotelDto.ImageFile);
                 hotel.ImageUrl = imagePath;
@@ -135,7 +138,7 @@ namespace TravelPlanner.Server.Controllers
 
         // DELETE: api/Destination/{destinationId}/Hotels/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteHotel(int id,int destinationId)
+        public async Task<IActionResult> DeleteHotel(int id, int destinationId)
         {
             var hotel = await _context.Hotels
                 .FirstOrDefaultAsync(h => destinationId == h.DestinationId && h.Id == id);

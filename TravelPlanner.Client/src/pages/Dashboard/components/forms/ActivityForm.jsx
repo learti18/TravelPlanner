@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -9,15 +9,15 @@ export default function ActivityForm({
   activity,
   onSubmit,
   isEditing = false,
+  destinationId
 }) {
-  const [formData, setFormData] = React.useState(
+  const [formData, setFormData] = useState(
     activity || {
       name: "",
       description: "",
-      duration: "",
-      price: "",
+      location: "",
       time: "",
-      imageUrl: "",
+      imageFile: null,
     }
   );
 
@@ -57,6 +57,18 @@ export default function ActivityForm({
         </div>
 
         <div className="space-y-2">
+        <Label htmlFor="location">Location</Label>
+            <Input
+              id="location"
+              type="location"
+              required
+              value={formData.location}
+              onChange={(e) =>
+                setFormData((prev) => ({ ...prev, location: e.target.value }))
+              }
+            />
+        </div>
+        <div className="space-y-2">
           <Label htmlFor="description">Description</Label>
           <Textarea
             id="description"
@@ -70,43 +82,14 @@ export default function ActivityForm({
           />
         </div>
 
-        <div className="grid gap-4 md:grid-cols-2">
-          <div className="space-y-2">
-            <Label htmlFor="duration">Duration (hours)</Label>
-            <Input
-              id="duration"
-              type="number"
-              required
-              placeholder="e.g., 2"
-              value={formData.duration}
-              onChange={(e) =>
-                setFormData((prev) => ({ ...prev, duration: e.target.value }))
-              }
-            />
-          </div>
-          <div className="space-y-2">
-            <Label htmlFor="price">Price ($)</Label>
-            <Input
-              id="price"
-              type="number"
-              required
-              placeholder="e.g., 50"
-              value={formData.price}
-              onChange={(e) =>
-                setFormData((prev) => ({ ...prev, price: e.target.value }))
-              }
-            />
-          </div>
-        </div>
-
         <div className="space-y-2">
           <Label>Activity Image</Label>
           <ImageUpload
-            value={formData.imageUrl}
-            onChange={(url) =>
-              setFormData((prev) => ({ ...prev, imageUrl: url }))
+            value={formData.imageFile ? URL.createObjectURL(formData.imageFile) : null}
+            onChange={(file) =>
+              setFormData((prev) => ({ ...prev, imageFile: file}))
             }
-            onRemove={() => setFormData((prev) => ({ ...prev, imageUrl: "" }))}
+            onRemove={() => setFormData((prev) => ({ ...prev, imageFile: null }))}
           />
         </div>
       </div>

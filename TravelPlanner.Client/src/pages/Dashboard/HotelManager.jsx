@@ -17,40 +17,37 @@ import {
   DialogTrigger,
 } from "@/components/ui/dialog";
 import HotelForm from "./components/forms/HotelForm";
+import useHotels from "@/hooks/useHotels";
 
 export default function HotelManager({ destination }) {
-  const [hotels, setHotels] = useState(destination.hotels || []);
   const [editingHotel, setEditingHotel] = useState(null);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const {hotels, isLoading, addHotel, updateHotel, deleteHotel} = useHotels(destination.id);
 
-  const handleAddHotel = (formData) => {
-    const newHotel = {
-      id: hotels.length + 1,
-      destinationId: destination.id,
-      ...formData,
-    };
-
-    setHotels((prev) => [...prev, newHotel]);
-  };
-
-  const handleEditHotel = (formData) => {
-    setHotels((prev) =>
-      prev.map((hotel) =>
-        hotel.id === editingHotel.id ? { ...hotel, ...formData } : hotel
-      )
-    );
-    setEditingHotel(null);
-  };
-
-  const handleDeleteHotel = (hotelId) => {
-    setHotels((prev) => prev.filter((hotel) => hotel.id !== hotelId));
-    destination.hotels = hotels.filter((hotel) => hotel.id !== hotelId);
-  };
+  const handleSubmit = async (formData) => {  
+    try{
+      if(editingHotel){
+        await updateHotel(destination.id,editingHotel.id,formData)
+      }else{
+        await addHotel(destination.id,formData)
+      }
+    }catch(error){
+      console.error('Failed to save hotel:',error)
+    } finally {
+      setIsDialogOpen(false);
+      setEditingHotel(null);
+    }
+  }
 
   return (
     <div className="space-y-6">
-      <Dialog onOpenChange={(open) => !open && setEditingHotel(null)}>
+      <Dialog open={isDialogOpen} 
+        onOpenChange={(open) => {
+          setIsDialogOpen(open);
+          if (!open) setEditingHotel(null);
+        }}>
         <DialogTrigger asChild>
-          <Button>
+          <Button onClick={() => setEditingHotel(null)}>
             <Plus className="mr-2 h-4 w-4" /> Add Hotel
           </Button>
         </DialogTrigger>
@@ -67,7 +64,7 @@ export default function HotelManager({ destination }) {
           </DialogHeader>
           <HotelForm
             hotel={editingHotel}
-            onSubmit={editingHotel ? handleEditHotel : handleAddHotel}
+            onSubmit={handleSubmit}
             isEditing={!!editingHotel}
           />
         </DialogContent>
@@ -109,8 +106,9 @@ export default function HotelManager({ destination }) {
                   className="flex-1"
                   onClick={() => {
                     setEditingHotel(hotel);
-                    document.querySelector('[role="dialog"] button').click();
+                    setIsDialogOpen(true);
                   }}
+                  
                 >
                   Edit
                 </Button>
@@ -118,7 +116,7 @@ export default function HotelManager({ destination }) {
                   variant="destructive"
                   size="sm"
                   className="flex-1"
-                  onClick={() => handleDeleteHotel(hotel.id)}
+                  onClick={() => deleteHotel(destination.id, hotel.id)}
                 >
                   Delete
                 </Button>

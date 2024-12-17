@@ -20,7 +20,7 @@ namespace TravelPlanner.Server.Controllers
         private readonly ApplicationDbContext _context;
         private readonly IWebHostEnvironment _environment;
         private readonly IMapper _mapper;
-        public ActivitiesController(ApplicationDbContext context, IWebHostEnvironment environment,IMapper mapper)
+        public ActivitiesController(ApplicationDbContext context, IWebHostEnvironment environment, IMapper mapper)
         {
             _context = context;
             _environment = environment;
@@ -86,7 +86,7 @@ namespace TravelPlanner.Server.Controllers
 
         // PUT: api/Trips/{tripId}/Activities/{id}
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutActivity(int destinationId, int id, [FromForm] UpdateActivityDto activityDto)
+        public async Task<ActionResult<ActivityDto>> PutActivity(int destinationId, int id, [FromForm] UpdateActivityDto activityDto)
         {
             if (id != activityDto.Id)
             {
@@ -109,9 +109,12 @@ namespace TravelPlanner.Server.Controllers
                 existingActivity.ImageUrl = imagePath;
             }
 
+            _context.Entry(existingActivity).State = EntityState.Modified;
             try
             {
                 await _context.SaveChangesAsync();
+                var updatedActivityDto = _mapper.Map<ActivityDto>(existingActivity);
+                return Ok(updatedActivityDto);
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -124,8 +127,6 @@ namespace TravelPlanner.Server.Controllers
                     throw;
                 }
             }
-
-            return NoContent();
         }
 
         // DELETE: api/Trips/{tripId}/Activities/{id}

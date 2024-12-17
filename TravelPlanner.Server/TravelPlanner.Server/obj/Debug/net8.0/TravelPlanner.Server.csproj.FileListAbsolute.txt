@@ -289,3 +289,5 @@ C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\
 C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\TravelPlanner.Server.staticwebassets.endpoints.json
 C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\obj\Debug\net8.0\staticwebassets\msbuild.TravelPlanner.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\Data\SeedData\activities.json
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\Data\SeedData\hotels.json

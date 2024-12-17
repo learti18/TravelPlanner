@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -11,7 +11,7 @@ export default function DestinationForm({
   isEditing = false,
 }) {
 
-  const [formData, setFormData] = React.useState(
+  const [formData, setFormData] = useState(
     destination || {
       name: "",
       description: "",

@@ -1,4 +1,6 @@
+import useDestinations from '@/hooks/useDestinations';
 import apiClient from '@/services/Api';
+import { Loader2 } from 'lucide-react';
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate, NavLink } from 'react-router-dom';
 
@@ -14,19 +16,15 @@ import { Link, useNavigate, NavLink } from 'react-router-dom';
 // ];
 
 const ListDestinations = () => {
-  const [destinations,setDestinations] = useState([])
+  const { destinations,isLoading } = useDestinations()
   
-  useEffect(()=> {
-    const getDestinations = async () => {
-      try{
-        const response = await apiClient.get("destinations")
-        setDestinations(response.data)
-      }catch(error){
-        console.log(error)
-      }
-    }
-    getDestinations()
-  },[])
+  if (isLoading) {
+    return (
+      <div className="flex items-center justify-center h-[200px]">
+        <Loader2 className="h-8 w-8 animate-spin text-primary" />
+      </div>
+    );
+  }
 
   return (
     <div className="p-8 min-h-screen md:px-16 lg:px-36 xl:px-44">
@@ -40,12 +38,12 @@ const ListDestinations = () => {
             <img src={`http://localhost:5120${destination.imageUrl}`} alt={destination.name} className="w-full h-60 object-cover" />
             <div className="p-4">
               <h2 className="text-xl font-bold">{destination.name}</h2>
-              <p className="text-gray-600 mb-4">{destination.description}</p>
+              <p className="text-gray-600 mb-4 overflow-hidden h-12">{destination.description}</p>
               <NavLink
                 to={`/questionnaire?destination=${destination.id}`}
                 className="flex justify-center mt-4 px-4 py-2 bg-black text-white rounded hover:bg-zinc-800"
               >
-                Choose {destination.name}
+                Choose
               </NavLink>
             </div>
           </div>
