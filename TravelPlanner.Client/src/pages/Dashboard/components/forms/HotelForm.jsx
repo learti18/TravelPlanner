@@ -32,26 +32,24 @@ export default function HotelForm({ hotel, onSubmit, isEditing = false ,destinat
   const [formData, setFormData] = useState(
     hotel || {
       name: "",
-      description: "",
       address: "",
       price: "",
-      rating: "",
+      rating: 0,
       imageFile: null,
     }
   );
   const [hoverRating, setHoverRating] = useState(0);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    onSubmit(formData);
-  };
-
   const handleRatingSelect = (rating) => {
     setFormData((prev) => ({
       ...prev,
-      rating: rating.toString(),
+      rating: rating,
     }));
     setHoverRating(0);
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    onSubmit(formData);
   };
 
   return (
@@ -101,27 +99,13 @@ export default function HotelForm({ hotel, onSubmit, isEditing = false ,destinat
         </div>
 
         <div className="space-y-2">
-          <Label htmlFor="description">Description</Label>
-          <Textarea
-            id="description"
-            required
-            placeholder="Describe the hotel..."
-            value={formData.description}
-            onChange={(e) =>
-              setFormData((prev) => ({ ...prev, description: e.target.value }))
-            }
-            className="min-h-[100px]"
-          />
-        </div>
-
-        <div className="space-y-2">
-          <Label htmlFor="pricePerNight">Price per Night ($)</Label>
+          <Label htmlFor="price">Price per Night ($)</Label>
           <Input
-            id="pricePerNight"
+            id="price"
             type="number"
             required
             placeholder="e.g., 200"
-            value={formData.pricePerNight}
+            value={formData.price}
             onChange={(e) =>
               setFormData((prev) => ({
                 ...prev,

@@ -14,7 +14,7 @@ const Navbar = ({
     <header className={`inset-x-0 top-0 z-50 ${className}`}>
       <nav
         aria-label="Global"
-        className="flex items-center justify-between p-5 lg:px-8"
+        className="flex items-center justify-between p-5 lg:px-8 "
       >
         <div className="flex items-center gap-1 lg:flex-1">
           <Plane />
@@ -37,7 +37,7 @@ const Navbar = ({
             <NavLink
               key={item.name}
               to={item.path}
-              className="text-sm font-semibold hover:bg-white hover:text-black py-2 px-4 rounded-lg"
+              className="text-sm font-semibold hover:bg-white hover:text-black duration-150 ease-linear py-2 px-4 rounded-lg"
             >
               {item.name}
             </NavLink>

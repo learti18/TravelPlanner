@@ -7,9 +7,15 @@ import {
   Compass,
   Settings,
   LogOut,
+  HomeIcon,
 } from "lucide-react";
 
 const sidebarItems = [
+  {
+    title: "Home",
+    icon: <HomeIcon className="w-6 h-6"/>,
+    path: "/",
+  },
   {
     title: "Overview",
     icon: <LayoutDashboard className="w-6 h-6" />,
@@ -68,7 +74,7 @@ export default function DashboardLayout({ children }) {
       </div>
 
       {/* Main Content */}
-      <div className="flex flex-col flex-1 overflow-y-auto">
+      <div className="flex flex-col flex-1 overflow-y-auto my-5">
         <main className="flex-1 p-6">{children}</main>
       </div>
     </div>

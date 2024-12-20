@@ -1,40 +1,43 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import ActivityCardItem from './ActivityCardItem';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@radix-ui/react-accordion';
 import { ChevronDown } from 'lucide-react';
+import useActivities from '@/hooks/useActivities';
+import { useItinerary } from '@/hooks/useItinerary';
+import { DateTime } from 'luxon';
 
-export default function PlacesToVisit({ destination, selectedActivities, onActivitySelect, noOfDays }) {
+export default function PlacesToVisit({ destination, noOfDays, selectedActivities, onActivitySelect }) {
   const MAX_ACTIVITIES_PER_DAY = 3;
+  const { activities } = useActivities(destination.id);
+  const {itineraries} = useItinerary(activities, noOfDays);
 
   const handleActivitySelect = (day, activity) => {
-    const currentDayActivities = selectedActivities[day] || [];
-    let updatedActivities;
+    const currentDaySelections = selectedActivities[day] || [];
+    const isAlreadySelected = currentDaySelections.some((a) => a.name === activity.name);
 
-    if (currentDayActivities.find((a) => a.place === activity.place)) {
-      updatedActivities = currentDayActivities.filter((a) => a.place !== activity.place);
-    } else if (currentDayActivities.length < MAX_ACTIVITIES_PER_DAY) {
-      updatedActivities = [...currentDayActivities, activity];
+    let updatedDaySelections;
+    if (isAlreadySelected) {
+      updatedDaySelections = currentDaySelections.filter((a) => a.name !== activity.name);
+    } else if (currentDaySelections.length < MAX_ACTIVITIES_PER_DAY) {
+      updatedDaySelections = [...currentDaySelections, activity];
     } else {
-      updatedActivities = currentDayActivities;
+      return;
     }
 
-    onActivitySelect(day, updatedActivities);
+    onActivitySelect(day, updatedDaySelections); 
   };
-
-  // Generate a list of days based on `noOfDays`
-  const days = Array.from({ length: noOfDays }, (_, index) => index + 1);
 
   return (
     <div className="mt-5">
-      <h2 className="font-bold text-lg">Places to Visit</h2>
+      <h2 className="font-bold text-lg">Choose up to 3 activities per day for each day of your trip!</h2>
       <div>
-        {days.map((day) => (
-          <div key={day}>
+        {itineraries.map((dayPlan) => (
+          <div key={dayPlan.day}>
             <Accordion type="single" collapsible>
-              <AccordionItem value={`day-${day}`}>
+              <AccordionItem value={`day-${dayPlan.day}`}>
                 <AccordionTrigger className="flex flex-row justify-between w-full shadow-md p-2 px-5 rounded-lg">
-                  <h2 className="font-bold text-lg">Day {day}</h2>
-                  {selectedActivities[day]?.length === MAX_ACTIVITIES_PER_DAY && (
+                  <h2 className="font-bold text-lg">Day {dayPlan.day}</h2>
+                  {selectedActivities[dayPlan.day]?.length === MAX_ACTIVITIES_PER_DAY && (
                     <div className="text-sm text-gray-500 mt-2">
                       You have selected the maximum of {MAX_ACTIVITIES_PER_DAY} activities for this day.
                     </div>
@@ -43,21 +46,27 @@ export default function PlacesToVisit({ destination, selectedActivities, onActiv
                 </AccordionTrigger>
                 <AccordionContent>
                   <div className="grid md:grid-cols-2 gap-5 my-4">
-                    {destination?.activities?.map((activity, index) => {
-                      const isSelected = selectedActivities[day]?.find(
-                        (a) => a.place === activity.place
+                    {dayPlan.activities.map((activity, index) => {
+                      const isSelected = selectedActivities[dayPlan.day]?.some(
+                        (a) => a.name === activity.name
                       );
+
                       const isDisabled =
                         !isSelected &&
-                        selectedActivities[day]?.length === MAX_ACTIVITIES_PER_DAY;
+                        selectedActivities[dayPlan.day]?.length === MAX_ACTIVITIES_PER_DAY;
 
                       return (
                         <div
                           key={index}
-                          onClick={
-                            isDisabled ? undefined : () => handleActivitySelect(day, activity)
-                          }
+                          onClick={() => {
+                            if (!isDisabled) {
+                              handleActivitySelect(dayPlan.day, activity);
+                            }
+                          }}
                         >
+                          <p className='text-orange-400 font-semibold'>  
+                            {DateTime.fromISO(activity.time).toFormat('HH:mm')}
+                          </p>
                           <ActivityCardItem
                             activity={activity}
                             isSelected={isSelected}

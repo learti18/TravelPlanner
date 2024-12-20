@@ -27,7 +27,7 @@ const ListDestinations = () => {
   }
 
   return (
-    <div className="p-8 min-h-screen md:px-16 lg:px-36 xl:px-44">
+    <div className="p-8 min-h-screen md:px-16 lg:px-36 xl:px-44 mb-12">
       <h1 className="text-3xl font-bold mb-8 text-center">Popular Destinations</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {destinations.map((destination) => (

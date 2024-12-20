@@ -10,7 +10,7 @@ export default function useActivities(destinationId,activityId) {
     
     useEffect(() => { 
         fetchActivities(destinationId)
-    }, [])
+    }, [destinationId])
 
     useEffect(() => {
         if(activityId){

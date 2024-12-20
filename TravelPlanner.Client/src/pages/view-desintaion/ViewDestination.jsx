@@ -28,14 +28,15 @@ export default function ViewDestination() {
   };
 
   const submitData = () => {
+   
     const payload = {
-      destination: destination.destinationName,
-      activities: selectedActivities,
-      hotel: selectedHotel,
+      destination: destination.name,
+      activities: selectedActivities, // Use the transformed array
+      hotelId: selectedHotel,
     };
+  
     console.log('Submitting Data:', payload);
   };
-
   return (
     <div className='p-10 md:px-20 lg:px-44 xl:px-56'>
       <InfoSection destination={destination} noOfDays={noOfDays} travelType={travelType} submitData={submitData}/>

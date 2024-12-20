@@ -56,7 +56,8 @@ export default function useHotels(destinationId,hotelId) {
             const response = await apiClient.put(`destinations/${destinationId}/hotels/${hotelId}`,formData, {
                 headers: { "Content-Type": "multipart/form-data" },
             })
-            setHotels(hotels.map(hotel => hotel.id === hotelId ? response.data : hotel))
+            const data = response.data
+            setHotels(prev => prev.map(hotel => hotel.id === hotelId ? data : hotel))
             toast.success('Hotel updated successfully')
         }catch(error){
             toast.error('Failed to update hotel')

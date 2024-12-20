@@ -63,7 +63,7 @@ namespace TravelPlanner.Server.Controllers
         // PUT: api/Destination/{destinationId}/Hotels/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutHotel(int id, int destinationId, [FromForm] UpdateActivityDto hotelDto)
+        public async Task<IActionResult> PutHotel(int id, int destinationId, [FromForm] UpdateeHotelDto hotelDto)
         {
 
             if (id != hotelDto.Id)

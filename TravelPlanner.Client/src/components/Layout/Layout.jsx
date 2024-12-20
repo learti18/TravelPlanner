@@ -2,11 +2,13 @@ import { React, useState } from "react";
 import Navbar from "../Navbar/Navbar";
 import { Outlet, useLocation } from "react-router-dom";
 import MobileMenu from "../MobileMenu/Mobilemenu";
+import Footer from "../footer/Footer";
 
 export default function Layout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
   const isHomePage = location.pathname === "/";
+  const isDashboard = location.pathname.includes("/dashboard");
 
   const navigation = [
     { name: "Home", path: "/" },
@@ -17,6 +19,7 @@ export default function Layout() {
 
   return (
     <div>
+      { isDashboard ? null :
       <Navbar
         mobileMenuOpen={mobileMenuOpen}
         setMobileMenuOpen={setMobileMenuOpen}
@@ -27,6 +30,7 @@ export default function Layout() {
             : "border border-b bg-white text-black sticky"
         }`}
       />
+    }
       <MobileMenu
         mobileMenuOpen={mobileMenuOpen}
         setMobileMenuOpen={setMobileMenuOpen}
@@ -34,8 +38,9 @@ export default function Layout() {
       />
       {/* Adjust padding here */}
       {/* <main className={`${isHomePage ? '': 'pt-16'}`}> */}
-      <Outlet />
+      <Outlet/>
       {/* </main> */}
+      <Footer/>
     </div>
   );
 }

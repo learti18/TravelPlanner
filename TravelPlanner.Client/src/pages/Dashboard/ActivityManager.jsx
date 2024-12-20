@@ -94,11 +94,6 @@ export default function ActivityManager({ destination }) {
                   alt={activity.name}
                   className="rounded-lg object-cover w-full h-full"
                 />
-                <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent">
-                  <div className="text-white font-semibold">
-                    ${activity.price}
-                  </div>
-                </div>
               </div>
               <p className="text-sm text-muted-foreground mb-4">
                 {activity.description}

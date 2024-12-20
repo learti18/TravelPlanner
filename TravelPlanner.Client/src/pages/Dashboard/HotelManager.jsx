@@ -31,12 +31,11 @@ export default function HotelManager({ destination }) {
       }else{
         await addHotel(destination.id,formData)
       }
+      setIsDialogOpen(false)
+      setEditingHotel(null)
     }catch(error){
       console.error('Failed to save hotel:',error)
-    } finally {
-      setIsDialogOpen(false);
-      setEditingHotel(null);
-    }
+    } 
   }
 
   return (

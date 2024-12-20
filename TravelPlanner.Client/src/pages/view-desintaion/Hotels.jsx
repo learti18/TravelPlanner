@@ -10,27 +10,27 @@ export default function Hotels({ destination, selectedHotel, onHotelSelect }) {
 
   return (
     <div>
-      <h2 className="font-bold text-xl mt-5">Hotel Recommendation</h2>
-      <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 mt-3">
+      <h2 className="font-bold text-xl mt-5">Select the hotel you will be staying at</h2>
+      <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5 mt-3 relative">
         {destination?.hotels?.map((hotel, index) => (
           <div
             key={index}
             className={`hover:scale-105 transition-all cursor-pointer p-2 rounded-lg relative ${
-              selectedHotel && selectedHotel !== hotel.name
+              selectedHotel && selectedHotel !== hotel.id
                 ? 'opacity-50 cursor-not-allowed'
-                : 'opacity-100 cursor-pointer'
+                : 'opacity-100 cursor-pointer '
             }`}
-            onClick={() => handleHotelClick(hotel.name)}
+            onClick={() => handleHotelClick(hotel.id)}
             style={{
-              pointerEvents: selectedHotel && selectedHotel !== hotel.name ? 'none' : 'auto',
+              pointerEvents: selectedHotel && selectedHotel !== hotel.id ? 'none' : 'auto',
             }}
           >
             <img src={`http://localhost:5120${hotel.imageUrl}`} className="rounded-xl" alt={hotel.name} />
             <div className="my-2 flex flex-col gap-2">
               <h2 className="font-medium flex items-center justify-between">
                 {hotel.name}
-                {selectedHotel === hotel.name && (
-                  <CheckCircle2 size={26} className="bg-green-600 rounded-full text-white absolute top-5 right-5" />
+                {selectedHotel === hotel.id && (
+                  <CheckCircle2 size={26} className="text-green-500 absolute bottom-21 right-3" />
                 )}
               </h2>
               <h2 className="text-xs text-gray-500 flex items-center gap-1">
@@ -38,7 +38,7 @@ export default function Hotels({ destination, selectedHotel, onHotelSelect }) {
                 {hotel.address}
               </h2>
               <div className="flex flex-row items-center justify-between">
-                <h2 className="text-sm">{hotel.price}</h2>
+                <h2 className="text-md font-semibold">{hotel.price}$<span className='text-gray-400'>/Night</span></h2>
                 <h2 className="text-sm flex items-center gap-1">
                   {hotel.rating}
                   <Star size={16} />
