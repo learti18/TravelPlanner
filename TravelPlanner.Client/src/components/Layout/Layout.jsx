@@ -14,7 +14,6 @@ export default function Layout() {
     { name: "Home", path: "/" },
     { name: "Destinations", path: "/list-destinations" },
     { name: "Dashboard", path: "/dashboard" },
-    { name: "Login", path: "/login" },
   ];
 
   return (

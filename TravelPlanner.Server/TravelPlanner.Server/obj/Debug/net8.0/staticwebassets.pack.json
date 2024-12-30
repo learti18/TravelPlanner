@@ -1,236 +1,376 @@
 {
   "Files": [
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\001c4c44-e8ab-49a8-9e64-75b3dd51ed2d.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\001c4c44-e8ab-49a8-9e64-75b3dd51ed2d.jpg",
       "PackagePath": "staticwebassets\\uploads\\001c4c44-e8ab-49a8-9e64-75b3dd51ed2d.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\0e689827-cdaa-4bb9-9a58-11de83b668b6.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\0e689827-cdaa-4bb9-9a58-11de83b668b6.jpg",
       "PackagePath": "staticwebassets\\uploads\\0e689827-cdaa-4bb9-9a58-11de83b668b6.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\16764b6c-65db-4dca-8483-c853cb23c34b.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\1550317b-c8d0-4bb9-9753-8156a6144f40.jpg",
+      "PackagePath": "staticwebassets\\uploads\\1550317b-c8d0-4bb9-9753-8156a6144f40.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\16764b6c-65db-4dca-8483-c853cb23c34b.jpg",
       "PackagePath": "staticwebassets\\uploads\\16764b6c-65db-4dca-8483-c853cb23c34b.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\19750945-7ff5-4366-9bcf-cd19a003ff9a.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\19750945-7ff5-4366-9bcf-cd19a003ff9a.jpg",
       "PackagePath": "staticwebassets\\uploads\\19750945-7ff5-4366-9bcf-cd19a003ff9a.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\1a8db361-3c21-4f73-a6da-a275beeb0252.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\1a8db361-3c21-4f73-a6da-a275beeb0252.jpg",
       "PackagePath": "staticwebassets\\uploads\\1a8db361-3c21-4f73-a6da-a275beeb0252.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\1c559b58-0200-4ae2-93f2-600ba11292b8.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\1c559b58-0200-4ae2-93f2-600ba11292b8.jpg",
       "PackagePath": "staticwebassets\\uploads\\1c559b58-0200-4ae2-93f2-600ba11292b8.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\1dec03d0-9d1e-4e13-ade1-3e3ac84c61c1.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\1dec03d0-9d1e-4e13-ade1-3e3ac84c61c1.jpg",
       "PackagePath": "staticwebassets\\uploads\\1dec03d0-9d1e-4e13-ade1-3e3ac84c61c1.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\22c8ce10-2f6f-40c3-85cc-a98065b7efef.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\22c8ce10-2f6f-40c3-85cc-a98065b7efef.jpg",
       "PackagePath": "staticwebassets\\uploads\\22c8ce10-2f6f-40c3-85cc-a98065b7efef.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\25a3ad0f-46d3-4e37-9af2-006f0e5da7c2.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\25a3ad0f-46d3-4e37-9af2-006f0e5da7c2.jpg",
       "PackagePath": "staticwebassets\\uploads\\25a3ad0f-46d3-4e37-9af2-006f0e5da7c2.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\298aac98-1f2d-4b73-a355-4a66bacf9552.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\298aac98-1f2d-4b73-a355-4a66bacf9552.jpg",
       "PackagePath": "staticwebassets\\uploads\\298aac98-1f2d-4b73-a355-4a66bacf9552.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\2aa4fd0e-e8ee-4c31-859a-1164ee8e8002.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\2993c2a2-5208-4588-a3cc-df0efad43a6e.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2993c2a2-5208-4588-a3cc-df0efad43a6e.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\2aa4fd0e-e8ee-4c31-859a-1164ee8e8002.jpg",
       "PackagePath": "staticwebassets\\uploads\\2aa4fd0e-e8ee-4c31-859a-1164ee8e8002.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\2d302e97-fe94-4049-a457-62a8b74a7466.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\2d302e97-fe94-4049-a457-62a8b74a7466.jpg",
       "PackagePath": "staticwebassets\\uploads\\2d302e97-fe94-4049-a457-62a8b74a7466.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\2fef9462-df82-4945-8f5d-dd003fc57fef.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\2e626204-d353-418f-b121-d3af07baff88.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2e626204-d353-418f-b121-d3af07baff88.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\2fef9462-df82-4945-8f5d-dd003fc57fef.jpg",
       "PackagePath": "staticwebassets\\uploads\\2fef9462-df82-4945-8f5d-dd003fc57fef.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\312ef6db-db0e-4fdc-9d95-c81165531918.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\312ef6db-db0e-4fdc-9d95-c81165531918.jpg",
       "PackagePath": "staticwebassets\\uploads\\312ef6db-db0e-4fdc-9d95-c81165531918.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\3220b255-90b4-4b89-b1b9-36f82b070e23.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\3220b255-90b4-4b89-b1b9-36f82b070e23.jpg",
       "PackagePath": "staticwebassets\\uploads\\3220b255-90b4-4b89-b1b9-36f82b070e23.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\4233f26d-02a7-4e48-8a70-f62b6afd602e.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\3544e436-890f-4b26-9113-458596a698bf.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3544e436-890f-4b26-9113-458596a698bf.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\3712f9ce-e816-45a5-b86a-8379f39826b3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3712f9ce-e816-45a5-b86a-8379f39826b3.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\3d6bed24-ec92-4250-901b-a0f293795249.jpg",
+      "PackagePath": "staticwebassets\\uploads\\3d6bed24-ec92-4250-901b-a0f293795249.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\4233f26d-02a7-4e48-8a70-f62b6afd602e.jpg",
       "PackagePath": "staticwebassets\\uploads\\4233f26d-02a7-4e48-8a70-f62b6afd602e.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\4421af3c-b15d-4358-b34f-cedeeeba1dd7.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\4421af3c-b15d-4358-b34f-cedeeeba1dd7.jpg",
       "PackagePath": "staticwebassets\\uploads\\4421af3c-b15d-4358-b34f-cedeeeba1dd7.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\4547b1d6-dfeb-4897-a493-6843d2c4163a.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\4547b1d6-dfeb-4897-a493-6843d2c4163a.jpg",
       "PackagePath": "staticwebassets\\uploads\\4547b1d6-dfeb-4897-a493-6843d2c4163a.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\46f53130-6cef-4c25-a4fd-3a4a9be20a40.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\46f53130-6cef-4c25-a4fd-3a4a9be20a40.jpg",
       "PackagePath": "staticwebassets\\uploads\\46f53130-6cef-4c25-a4fd-3a4a9be20a40.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\49cffce0-9dff-4445-a8f5-88a79612a28b.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\49cffce0-9dff-4445-a8f5-88a79612a28b.jpg",
       "PackagePath": "staticwebassets\\uploads\\49cffce0-9dff-4445-a8f5-88a79612a28b.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\4dfb2c32-a0ce-4952-aa0c-7070b59f0723.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\4dfb2c32-a0ce-4952-aa0c-7070b59f0723.jpg",
       "PackagePath": "staticwebassets\\uploads\\4dfb2c32-a0ce-4952-aa0c-7070b59f0723.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\5293bafd-ecb6-4a42-89e0-b69c1e63045e.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\5293bafd-ecb6-4a42-89e0-b69c1e63045e.jpg",
       "PackagePath": "staticwebassets\\uploads\\5293bafd-ecb6-4a42-89e0-b69c1e63045e.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\5737a684-0b0d-406d-8fe3-51e06e43c0c4.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\5737a684-0b0d-406d-8fe3-51e06e43c0c4.jpg",
       "PackagePath": "staticwebassets\\uploads\\5737a684-0b0d-406d-8fe3-51e06e43c0c4.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\5cf5f1d1-3296-4c04-8b59-651a9155c5b5.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\57682da3-3e33-4844-af59-0eb8eafb975d.jpg",
+      "PackagePath": "staticwebassets\\uploads\\57682da3-3e33-4844-af59-0eb8eafb975d.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\588ba98a-b4cb-44f7-85df-965f32711257.jpg",
+      "PackagePath": "staticwebassets\\uploads\\588ba98a-b4cb-44f7-85df-965f32711257.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\5a3262bf-0256-4b3a-90af-355494565975.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5a3262bf-0256-4b3a-90af-355494565975.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\5cf5f1d1-3296-4c04-8b59-651a9155c5b5.jpg",
       "PackagePath": "staticwebassets\\uploads\\5cf5f1d1-3296-4c04-8b59-651a9155c5b5.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\5e055f25-eac5-4877-97b7-e738fad81f07.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\5e055f25-eac5-4877-97b7-e738fad81f07.jpg",
       "PackagePath": "staticwebassets\\uploads\\5e055f25-eac5-4877-97b7-e738fad81f07.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\60573d96-49a0-46c0-a87a-045a2bba040a.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\5ebceca2-9680-42f5-948a-c0a28a6c2a33.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5ebceca2-9680-42f5-948a-c0a28a6c2a33.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\60573d96-49a0-46c0-a87a-045a2bba040a.jpg",
       "PackagePath": "staticwebassets\\uploads\\60573d96-49a0-46c0-a87a-045a2bba040a.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\64a3fbb9-3b30-4851-b085-95e81ceb6359.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\64a3fbb9-3b30-4851-b085-95e81ceb6359.jpg",
       "PackagePath": "staticwebassets\\uploads\\64a3fbb9-3b30-4851-b085-95e81ceb6359.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\6ace7888-968b-4f3a-a066-d49e63d77ad9.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\6ace7888-968b-4f3a-a066-d49e63d77ad9.jpg",
       "PackagePath": "staticwebassets\\uploads\\6ace7888-968b-4f3a-a066-d49e63d77ad9.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\70bb6649-ec49-4bfa-8001-fc76f5ffd234.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\70bb6649-ec49-4bfa-8001-fc76f5ffd234.jpg",
       "PackagePath": "staticwebassets\\uploads\\70bb6649-ec49-4bfa-8001-fc76f5ffd234.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\73e63482-4f7d-4c28-aeb2-92049c09b865.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\71e2b205-b5d9-4351-910a-3a8d65f90fda.jpg",
+      "PackagePath": "staticwebassets\\uploads\\71e2b205-b5d9-4351-910a-3a8d65f90fda.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\7293e4c4-0bf7-45cd-a5e0-43aca82a2519.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7293e4c4-0bf7-45cd-a5e0-43aca82a2519.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\73e63482-4f7d-4c28-aeb2-92049c09b865.jpg",
       "PackagePath": "staticwebassets\\uploads\\73e63482-4f7d-4c28-aeb2-92049c09b865.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\7c73e81e-adca-444a-9f4c-651575875fbf.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\78037cb7-2c5c-48b0-ae02-6db68ca897f8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\78037cb7-2c5c-48b0-ae02-6db68ca897f8.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\7c73e81e-adca-444a-9f4c-651575875fbf.jpg",
       "PackagePath": "staticwebassets\\uploads\\7c73e81e-adca-444a-9f4c-651575875fbf.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\7fe76d15-5c16-4a1b-94f0-4d452cfc2a0a.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\7cdcf815-7b28-45b1-9693-dea57cfeeb41.jpg",
+      "PackagePath": "staticwebassets\\uploads\\7cdcf815-7b28-45b1-9693-dea57cfeeb41.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\7fe76d15-5c16-4a1b-94f0-4d452cfc2a0a.jpg",
       "PackagePath": "staticwebassets\\uploads\\7fe76d15-5c16-4a1b-94f0-4d452cfc2a0a.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\84b6dfe3-4b20-46a0-8219-d85c68073ebe.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\81ef3837-e916-429b-b2d8-2720869c45ed.jpg",
+      "PackagePath": "staticwebassets\\uploads\\81ef3837-e916-429b-b2d8-2720869c45ed.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\84b6dfe3-4b20-46a0-8219-d85c68073ebe.jpg",
       "PackagePath": "staticwebassets\\uploads\\84b6dfe3-4b20-46a0-8219-d85c68073ebe.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\87747837-7b1f-4e25-9577-2383e712993c.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\87747837-7b1f-4e25-9577-2383e712993c.jpg",
       "PackagePath": "staticwebassets\\uploads\\87747837-7b1f-4e25-9577-2383e712993c.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\902465d3-3145-4c6c-83d3-cf0bf27df716.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\902465d3-3145-4c6c-83d3-cf0bf27df716.jpg",
       "PackagePath": "staticwebassets\\uploads\\902465d3-3145-4c6c-83d3-cf0bf27df716.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\915d49f8-f406-44b6-b997-46ea831aa5fa.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\915d49f8-f406-44b6-b997-46ea831aa5fa.jpg",
       "PackagePath": "staticwebassets\\uploads\\915d49f8-f406-44b6-b997-46ea831aa5fa.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\9226bce8-003b-49e5-b6e9-069c887bbde8.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\9226bce8-003b-49e5-b6e9-069c887bbde8.jpg",
       "PackagePath": "staticwebassets\\uploads\\9226bce8-003b-49e5-b6e9-069c887bbde8.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\96f8b141-9a7e-403b-ac26-b08644ec87bd.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\95f8853d-1b0f-4c0c-8a40-365d8b8938cf.jpg",
+      "PackagePath": "staticwebassets\\uploads\\95f8853d-1b0f-4c0c-8a40-365d8b8938cf.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\96f8b141-9a7e-403b-ac26-b08644ec87bd.jpg",
       "PackagePath": "staticwebassets\\uploads\\96f8b141-9a7e-403b-ac26-b08644ec87bd.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\979387ff-effd-4e0b-a237-66c87f2f309a.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\979387ff-effd-4e0b-a237-66c87f2f309a.jpg",
       "PackagePath": "staticwebassets\\uploads\\979387ff-effd-4e0b-a237-66c87f2f309a.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\9a88f305-7068-4845-8635-8f33aceccb75.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\9a88f305-7068-4845-8635-8f33aceccb75.jpg",
       "PackagePath": "staticwebassets\\uploads\\9a88f305-7068-4845-8635-8f33aceccb75.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\9ae480bb-3f49-46fa-8d6d-11f61c239997.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\9ae480bb-3f49-46fa-8d6d-11f61c239997.jpg",
       "PackagePath": "staticwebassets\\uploads\\9ae480bb-3f49-46fa-8d6d-11f61c239997.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\a0d42543-715f-4d60-8f95-5ce6060ea035.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\9bef614c-7f25-4d77-9f8a-3d07bf156867.jpg",
+      "PackagePath": "staticwebassets\\uploads\\9bef614c-7f25-4d77-9f8a-3d07bf156867.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\a0350c5a-90c9-47f2-990a-47a9aab8aaa5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\a0350c5a-90c9-47f2-990a-47a9aab8aaa5.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\a0d42543-715f-4d60-8f95-5ce6060ea035.jpg",
       "PackagePath": "staticwebassets\\uploads\\a0d42543-715f-4d60-8f95-5ce6060ea035.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\a7574171-5b5a-4f32-95ee-67ae43881b3a.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\a7574171-5b5a-4f32-95ee-67ae43881b3a.jpg",
       "PackagePath": "staticwebassets\\uploads\\a7574171-5b5a-4f32-95ee-67ae43881b3a.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\aa50fb33-d497-4de7-9416-17d46b3b477f.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\aa50fb33-d497-4de7-9416-17d46b3b477f.jpg",
       "PackagePath": "staticwebassets\\uploads\\aa50fb33-d497-4de7-9416-17d46b3b477f.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\b0ad271a-2fc1-4f30-8830-f097bcac6b98.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\ad08b6b6-deb4-4b44-a649-f694e3ec3294.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ad08b6b6-deb4-4b44-a649-f694e3ec3294.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\af683924-f409-4b65-bb8a-5301c5c9fe25.jpg",
+      "PackagePath": "staticwebassets\\uploads\\af683924-f409-4b65-bb8a-5301c5c9fe25.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\b0ad271a-2fc1-4f30-8830-f097bcac6b98.jpg",
       "PackagePath": "staticwebassets\\uploads\\b0ad271a-2fc1-4f30-8830-f097bcac6b98.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\b0c641ce-dea2-40f1-8bb3-1f97e6585113.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\b0c641ce-dea2-40f1-8bb3-1f97e6585113.jpg",
       "PackagePath": "staticwebassets\\uploads\\b0c641ce-dea2-40f1-8bb3-1f97e6585113.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\b1f4b0d1-2e87-47f1-9dbf-9be4a8fafaa9.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\b1f4b0d1-2e87-47f1-9dbf-9be4a8fafaa9.jpg",
       "PackagePath": "staticwebassets\\uploads\\b1f4b0d1-2e87-47f1-9dbf-9be4a8fafaa9.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\b466d259-00a0-44b7-b52e-cd7bf840e9f3.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\b466d259-00a0-44b7-b52e-cd7bf840e9f3.jpg",
       "PackagePath": "staticwebassets\\uploads\\b466d259-00a0-44b7-b52e-cd7bf840e9f3.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\c1fbcf0a-0850-4ef7-bbf3-62527761f3f2.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\b63e6f44-b3b3-4cc5-a517-1eaeb07d89dc.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b63e6f44-b3b3-4cc5-a517-1eaeb07d89dc.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\c1fbcf0a-0850-4ef7-bbf3-62527761f3f2.jpg",
       "PackagePath": "staticwebassets\\uploads\\c1fbcf0a-0850-4ef7-bbf3-62527761f3f2.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\c622fb9e-16c8-4d69-a59a-2500b1d4a9cc.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\c40dc9b5-047c-407c-b204-27a9182b5471.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c40dc9b5-047c-407c-b204-27a9182b5471.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\c622fb9e-16c8-4d69-a59a-2500b1d4a9cc.jpg",
       "PackagePath": "staticwebassets\\uploads\\c622fb9e-16c8-4d69-a59a-2500b1d4a9cc.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\d11e654d-60af-4af2-a1b3-6c9a3d403d34.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\c7092b05-16f7-4fb9-9780-7b69ae660d50.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c7092b05-16f7-4fb9-9780-7b69ae660d50.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\c99dbc72-367d-4013-8846-4142722d9d50.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c99dbc72-367d-4013-8846-4142722d9d50.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\cafe44ea-c3a9-4f69-810a-b4cd045e7bcc.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cafe44ea-c3a9-4f69-810a-b4cd045e7bcc.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\d11e654d-60af-4af2-a1b3-6c9a3d403d34.jpg",
       "PackagePath": "staticwebassets\\uploads\\d11e654d-60af-4af2-a1b3-6c9a3d403d34.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\da3c9c5a-c614-4094-9129-a8565b177680.png",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\d2b107ab-4453-4a39-98a6-aa509ad8b2df.jpg",
+      "PackagePath": "staticwebassets\\uploads\\d2b107ab-4453-4a39-98a6-aa509ad8b2df.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\da3c9c5a-c614-4094-9129-a8565b177680.png",
       "PackagePath": "staticwebassets\\uploads\\da3c9c5a-c614-4094-9129-a8565b177680.png"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\e8d56a80-141c-43f6-883d-c819ad460360.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\e502dc52-a7f2-427f-bbbf-407a8a6453a5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e502dc52-a7f2-427f-bbbf-407a8a6453a5.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\e64f0663-f31e-4029-bf33-2a19d0ee3f80.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e64f0663-f31e-4029-bf33-2a19d0ee3f80.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\e7f844d7-1be2-4dbb-b97c-747c3ccad843.jpg",
+      "PackagePath": "staticwebassets\\uploads\\e7f844d7-1be2-4dbb-b97c-747c3ccad843.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\e8d56a80-141c-43f6-883d-c819ad460360.jpg",
       "PackagePath": "staticwebassets\\uploads\\e8d56a80-141c-43f6-883d-c819ad460360.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\ee280fa9-f948-4b3c-bcc2-ff41afcf0bbf.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\ec58671d-433a-412b-91d5-7b9a30e05fb8.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ec58671d-433a-412b-91d5-7b9a30e05fb8.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\ee280fa9-f948-4b3c-bcc2-ff41afcf0bbf.jpg",
       "PackagePath": "staticwebassets\\uploads\\ee280fa9-f948-4b3c-bcc2-ff41afcf0bbf.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\ef42263a-72b9-4f00-982d-8f4209252b7f.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\ef42263a-72b9-4f00-982d-8f4209252b7f.jpg",
       "PackagePath": "staticwebassets\\uploads\\ef42263a-72b9-4f00-982d-8f4209252b7f.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\f1c61ec7-745a-4fa3-a888-9683d4f36d14.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\ef8ba93e-251c-4b61-857f-6aaf6b236b98.jpg",
+      "PackagePath": "staticwebassets\\uploads\\ef8ba93e-251c-4b61-857f-6aaf6b236b98.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\f0830c09-81d9-4d2a-94da-09ee9f73d383.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f0830c09-81d9-4d2a-94da-09ee9f73d383.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\f15fbcf9-afcc-404b-82e5-f684cfac519a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f15fbcf9-afcc-404b-82e5-f684cfac519a.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\f1c61ec7-745a-4fa3-a888-9683d4f36d14.jpg",
       "PackagePath": "staticwebassets\\uploads\\f1c61ec7-745a-4fa3-a888-9683d4f36d14.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\f3a70d6a-b69b-4c25-b04f-02078c5b9a0d.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\f3a70d6a-b69b-4c25-b04f-02078c5b9a0d.jpg",
       "PackagePath": "staticwebassets\\uploads\\f3a70d6a-b69b-4c25-b04f-02078c5b9a0d.jpg"
     },
     {
-      "Id": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\f41f3ff8-73ed-47ba-bc20-cafea13dc86e.jpg",
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\f41f3ff8-73ed-47ba-bc20-cafea13dc86e.jpg",
       "PackagePath": "staticwebassets\\uploads\\f41f3ff8-73ed-47ba-bc20-cafea13dc86e.jpg"
+    },
+    {
+      "Id": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\fb4bff91-4136-48a7-93ee-9e0227f08d6a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fb4bff91-4136-48a7-93ee-9e0227f08d6a.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelPlanner.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TravelPlanner.Server.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -90,7 +90,7 @@ export default function ActivityManager({ destination }) {
             <CardContent>
               <div className="relative aspect-video mb-4">
                 <img
-                  src={`http://localhost:5120${activity.imageUrl}`}
+                  src={`http://localhost:5000${activity.imageUrl}`}
                   alt={activity.name}
                   className="rounded-lg object-cover w-full h-full"
                 />

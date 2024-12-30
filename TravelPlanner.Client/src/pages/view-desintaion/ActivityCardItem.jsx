@@ -9,7 +9,7 @@ export default function ActivityCardItem({ activity, isSelected, isDisabled }) {
         ${isSelected ? 'bg-green-50 ' : 'border-gray-300'}`}
     >
       <img
-        src={`http://localhost:5120${activity.imageUrl}`}
+        src={`http://localhost:5000${activity.imageUrl}`}
         className="w-[130px] h-[130px] rounded-xl"
         alt={activity.place}
       />

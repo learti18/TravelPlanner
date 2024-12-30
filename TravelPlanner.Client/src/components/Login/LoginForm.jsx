@@ -30,7 +30,10 @@ const LoginForm = () => {
       const { token } = await response.json();
       // Store the JWT token in localStorage or sessionStorage
       localStorage.setItem("token", token);
-
+      
+      // Dispatch custom event for login
+      window.dispatchEvent(new Event('auth-change'));
+      
       // Redirect to the home page (or wherever you want)
       navigate("/"); // this will redirect to the home page
     } catch (err) {

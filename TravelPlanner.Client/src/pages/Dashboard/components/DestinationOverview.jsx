@@ -45,14 +45,14 @@ export default function DestinationOverview({ destination }) {
               {destination.hotels.slice(0, 3).map((hotel) => (
                 <div key={hotel.id} className="flex items-center gap-4">
                   <img
-                    src={`http://localhost:5120${hotel.imageUrl}`}
+                    src={`http://localhost:5000${hotel.imageUrl}`}
                     alt={hotel.name}
                     className="w-16 h-16 rounded-lg object-cover"
                   />
                   <div>
                     <h4 className="font-semibold">{hotel.name}</h4>
                     <p className="text-sm text-muted-foreground">
-                      ${hotel.pricePerNight}/night
+                      ${hotel.price}/night
                     </p>
                   </div>
                 </div>
@@ -70,14 +70,14 @@ export default function DestinationOverview({ destination }) {
               {destination.activities.slice(0, 3).map((activity) => (
                 <div key={activity.id} className="flex items-center gap-4">
                   <img
-                    src={`http://localhost:5120${activity.imageUrl}`}
+                    src={`http://localhost:5000${activity.imageUrl}`}
                     alt={activity.name}
                     className="w-16 h-16 rounded-lg object-cover"
                   />
                   <div>
                     <h4 className="font-semibold">{activity.name}</h4>
                     <p className="text-sm text-muted-foreground">
-                      ${activity.price}
+                      Activity time: {activity.time}
                     </p>
                   </div>
                 </div>

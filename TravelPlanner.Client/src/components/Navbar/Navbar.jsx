@@ -21,16 +21,27 @@ const Navbar = ({
     navigate("/login"); // Redirect to login page
   };
 
-  // Recheck login status when the component mounts
+  // Update useEffect to listen for storage changes
   useEffect(() => {
-    const token = localStorage.getItem("token");
-    setIsLoggedIn(!!token);
+    const checkLoginStatus = () => {
+      const token = localStorage.getItem("token");
+      setIsLoggedIn(!!token);
+    };
+
+    // Check initial status
+    checkLoginStatus();
+
+    // Listen for our custom auth-change event
+    window.addEventListener('auth-change', checkLoginStatus);
+    
+    // Cleanup listener
+    return () => {
+      window.removeEventListener('auth-change', checkLoginStatus);
+    };
   }, []); // Empty dependency array ensures it runs only once on mount
 
-  // Conditionally add login/logout to the navigation links
-  const navLinks = isLoggedIn
-    ? navigation // Do not add "Log in" link if logged in
-    : [...navigation];
+  // Use navigation directly without filtering
+  const navLinks = navigation;
 
   return (
     <header className={`inset-x-0 top-0 z-50 ${className}`}>

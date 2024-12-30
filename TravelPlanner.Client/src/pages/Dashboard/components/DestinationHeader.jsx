@@ -17,7 +17,7 @@ export default function DestinationHeader({ destination, onBack }) {
 
       <div className="relative h-[300px] rounded-xl overflow-hidden">
         <img
-          src={`http://localhost:5120${destination.imageUrl}`}
+          src={`http://localhost:5000${destination.imageUrl}`}
           alt={destination.name}
           className="w-full h-full object-cover"
         />

@@ -35,7 +35,7 @@ const ListDestinations = () => {
             key={destination.id}
             className="bg-white shadow-md rounded-lg overflow-hidden"
           >
-            <img src={`http://localhost:5120${destination.imageUrl}`} alt={destination.name} className="w-full h-60 object-cover" />
+            <img src={`http://localhost:5000${destination.imageUrl}`} alt={destination.name} className="w-full h-60 object-cover" />
             <div className="p-4">
               <h2 className="text-xl font-bold">{destination.name}</h2>
               <p className="text-gray-600 mb-4 overflow-hidden h-12">{destination.description}</p>

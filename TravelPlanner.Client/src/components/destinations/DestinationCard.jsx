@@ -20,7 +20,7 @@ export default function DestinationCard({ destination, onEdit, onDelete, onClick
     >
       <div className="relative h-48">
         <img
-          src={`http://localhost:5120${destination.imageUrl}`}
+          src={`http://localhost:5000${destination.imageUrl}`}
           alt={destination.name}
           className="w-full h-full object-cover"
         />

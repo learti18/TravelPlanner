@@ -79,14 +79,14 @@ export default function HotelManager({ destination }) {
             <CardContent>
               <div className="relative aspect-video mb-4">
                 <img
-                  src={`http://localhost:5120${hotel.imageUrl}`}
+                  src={`http://localhost:5000${hotel.imageUrl}`}
                   alt={hotel.name}
                   className="rounded-lg object-cover w-full h-full"
                 />
                 <div className="absolute bottom-0 left-0 right-0 p-4 bg-gradient-to-t from-black/60 to-transparent">
                   <div className="flex justify-between items-center text-white">
                     <span className="font-semibold">
-                      ${hotel.pricePerNight}/night
+                      ${hotel.price}/night
                     </span>
                     <div className="flex items-center gap-1">
                       <span>★</span>

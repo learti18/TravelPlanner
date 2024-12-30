@@ -586,3 +586,8 @@ E:\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\obj\Debug\net8.0\Trav
 E:\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\obj\Debug\net8.0\ref\TravelPlanner.Server.dll
 E:\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 E:\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\BCrypt.Net-Next.dll
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\System.Web.Http.dll
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
