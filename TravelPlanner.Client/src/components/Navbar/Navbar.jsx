@@ -1,7 +1,6 @@
-// Navbar.jsx
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { Plane } from "lucide-react";
 
 const Navbar = ({
@@ -10,11 +9,34 @@ const Navbar = ({
   navigation,
   className,
 }) => {
+  const navigate = useNavigate(); // React Router hook for navigation
+
+  // State to manage login status
+  const [isLoggedIn, setIsLoggedIn] = useState(!!localStorage.getItem("token"));
+
+  // Logout function
+  const handleLogout = () => {
+    localStorage.removeItem("token"); // Remove token
+    setIsLoggedIn(false); // Update state
+    navigate("/login"); // Redirect to login page
+  };
+
+  // Recheck login status when the component mounts
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    setIsLoggedIn(!!token);
+  }, []); // Empty dependency array ensures it runs only once on mount
+
+  // Conditionally add login/logout to the navigation links
+  const navLinks = isLoggedIn
+    ? navigation // Do not add "Log in" link if logged in
+    : [...navigation];
+
   return (
     <header className={`inset-x-0 top-0 z-50 ${className}`}>
       <nav
         aria-label="Global"
-        className="flex items-center justify-between p-5 lg:px-8 "
+        className="flex items-center justify-between p-5 lg:px-8"
       >
         <div className="flex items-center gap-1 lg:flex-1">
           <Plane />
@@ -22,6 +44,8 @@ const Navbar = ({
             TripPlanner
           </Link>
         </div>
+
+        {/* Mobile Menu */}
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -32,8 +56,10 @@ const Navbar = ({
             <Bars3Icon aria-hidden="true" className="h-6 w-6" />
           </button>
         </div>
+
+        {/* Navigation Links */}
         <div className="hidden lg:flex lg:gap-x-12">
-          {navigation.map((item) => (
+          {navLinks.map((item) => (
             <NavLink
               key={item.name}
               to={item.path}
@@ -43,10 +69,24 @@ const Navbar = ({
             </NavLink>
           ))}
         </div>
+
+        {/* Conditional Login/Logout Button */}
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <NavLink className="text-sm/6 font-semibold">
-            Log in <span aria-hidden="true">&rarr;</span>
-          </NavLink>
+          {isLoggedIn ? (
+            <button
+              onClick={handleLogout}
+              className="text-sm font-semibold hover:text-red-500 duration-150 ease-linear"
+            >
+              Log out <span aria-hidden="true">&rarr;</span>
+            </button>
+          ) : (
+            <NavLink
+              to="/login"
+              className="text-sm font-semibold hover:text-blue-500 duration-150 ease-linear"
+            >
+              Log in <span aria-hidden="true">&rarr;</span>
+            </NavLink>
+          )}
         </div>
       </nav>
     </header>

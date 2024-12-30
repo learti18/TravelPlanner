@@ -7,6 +7,10 @@ import Questionnaire from "./pages/Questionnaire/Questionnaire";
 import ViewDestination from "./pages/view-desintaion/ViewDestination";
 import ListDestinations from "./pages/Destinations/ListDestinations";
 import { Toaster } from 'sonner';
+import Register from "./pages/Register/Register";
+import Login from "./pages/Login/Login";
+import ProtectedRoute from "./components/protected routes/ProtectedRoute";
+import MyTrips from "./components/MyTrips/MyTrips";
 
 export default function App() {
   return (
@@ -16,12 +20,27 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="dashboard/*" element={<Dashboard />} />
-            <Route path="list-destinations" element={<ListDestinations />} />
-            <Route path="questionnaire" element={<Questionnaire />} />
+            <Route path="register" element={<Register />} />
+            <Route path="login" element={<Login />} />
+            <Route path="mytrips" element={<MyTrips />} />
+
+
+            {/* Protected Routes */}
+            <Route
+              path="dashboard/*"
+              element={<ProtectedRoute component={Dashboard} />}
+            />
+            <Route
+              path="questionnaire"
+              element={<ProtectedRoute component={Questionnaire} />}
+            />
+            <Route
+              path="list-destinations"
+              element={<ProtectedRoute component={ListDestinations} />}
+            />
             <Route
               path="view-destination/:destinationId"
-              element={<ViewDestination />}
+              element={<ProtectedRoute component={ViewDestination} />}
             />
           </Route>
         </Routes>

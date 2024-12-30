@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\TravelPlanner.Server.csproj": {}
+    "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\TravelPlanner.Server.csproj": {}
   },
   "projects": {
-    "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\TravelPlanner.Server.csproj": {
+    "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\TravelPlanner.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\TravelPlanner.Server.csproj",
+        "projectUniqueName": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\TravelPlanner.Server.csproj",
         "projectName": "TravelPlanner.Server",
-        "projectPath": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\TravelPlanner.Server.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\obj\\",
+        "projectPath": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\TravelPlanner.Server.csproj",
+        "packagesPath": "C:\\Users\\IsoCom\\.nuget\\packages\\",
+        "outputPath": "E:\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\IsoCom\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,9 +38,8 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+          "auditMode": "direct"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -50,6 +48,18 @@
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[12.0.1, )"
+            },
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
             },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
@@ -64,8 +74,6 @@
               "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
             },
@@ -74,10 +82,8 @@
               "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.11, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -107,7 +113,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
