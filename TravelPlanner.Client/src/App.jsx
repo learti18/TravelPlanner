@@ -4,13 +4,13 @@ import Layout from "./components/Layout/Layout";
 import Home from "./pages/Home/Home";
 import Dashboard from "./pages/Dashboard/Dashboard";
 import Questionnaire from "./pages/Questionnaire/Questionnaire";
-import ViewDestination from "./pages/view-desintaion/ViewDestination";
+import ViewDestination from "./pages/view-destination/ViewDestination";
 import ListDestinations from "./pages/Destinations/ListDestinations";
 import { Toaster } from 'sonner';
 import Register from "./pages/Register/Register";
 import Login from "./pages/Login/Login";
 import ProtectedRoute from "./components/protected routes/ProtectedRoute";
-import MyTrips from "./components/MyTrips/MyTrips";
+import MyTrips from "./components/MyTrips/TripPage";
 
 export default function App() {
   return (

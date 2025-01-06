@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import ActivityCardItem from './ActivityCardItem';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@radix-ui/react-accordion';
 import { ChevronDown } from 'lucide-react';
@@ -9,7 +9,7 @@ import { DateTime } from 'luxon';
 export default function PlacesToVisit({ destination, noOfDays, selectedActivities, onActivitySelect }) {
   const MAX_ACTIVITIES_PER_DAY = 3;
   const { activities } = useActivities(destination.id);
-  const {itineraries} = useItinerary(activities, noOfDays);
+  const { itineraries } = useItinerary(activities, noOfDays);
 
   const handleActivitySelect = (day, activity) => {
     const currentDaySelections = selectedActivities[day] || [];
@@ -21,10 +21,10 @@ export default function PlacesToVisit({ destination, noOfDays, selectedActivitie
     } else if (currentDaySelections.length < MAX_ACTIVITIES_PER_DAY) {
       updatedDaySelections = [...currentDaySelections, activity];
     } else {
-      return;
+      return; // Do not allow more than MAX_ACTIVITIES_PER_DAY
     }
 
-    onActivitySelect(day, updatedDaySelections); 
+    onActivitySelect(day, updatedDaySelections);
   };
 
   return (
@@ -64,7 +64,7 @@ export default function PlacesToVisit({ destination, noOfDays, selectedActivitie
                             }
                           }}
                         >
-                          <p className='text-orange-400 font-semibold'>  
+                          <p className="text-orange-400 font-semibold">
                             {DateTime.fromISO(activity.time).toFormat('HH:mm')}
                           </p>
                           <ActivityCardItem

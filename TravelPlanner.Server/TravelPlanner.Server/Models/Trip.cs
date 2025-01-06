@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+using System;
+using System.Collections.Generic;
 
 namespace TravelPlanner.Server.Models
 {
@@ -10,5 +11,7 @@ namespace TravelPlanner.Server.Models
         public DateOnly StartDate { get; set; }
         public DateOnly EndDate { get; set; }
         public double Cost { get; set; }
+        public List<Activity>? Activities { get; set; }
+        public List<Hotel>? Hotels { get; set; }
     }
 }

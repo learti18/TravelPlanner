@@ -1,117 +1,85 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using TravelPlanner.Server.Models;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using TravelPlanner.Server.Data;
-using TravelPlanner.Server.Models;
 
 namespace TravelPlanner.Server.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
     public class TripsController : ControllerBase
     {
-        //private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
 
-        //public TripsController(ApplicationDbContext context)
-        //{
-        //    _context = context;
-        //}
+        public TripsController(ApplicationDbContext context)
+        {
+            _context = context;
+        }
 
-        //// GET: api/Trips
-        //[HttpGet]
-        //public async Task<ActionResult<IEnumerable<Trip>>> GetTrips()
-        //{
-        //    var trips = await _context.Trips
-        //            .Include(t => t.Activities)
-        //            .ToListAsync();
+        // POST: api/trips
+        [HttpPost]
+        public async Task<ActionResult<Trip>> CreateTrip([FromBody] TripRequestDto tripRequest)
+        {
+            if (tripRequest == null)
+            {
+                return BadRequest("Trip data is required.");
+            }
 
-        //    return Ok(trips);
-        //}
+            // Fetch the selected hotel by its ID
+            var selectedHotel = await _context.Hotels
+                .Where(h => h.Id == tripRequest.HotelId)
+                .FirstOrDefaultAsync();
 
-        //// GET: api/Trips/5
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<Trip>> GetTrip(int id)
-        //{
-        //    var trip = await _context.Trips
-        //            .Include(t => t.Activities)
-        //            .FirstOrDefaultAsync();
+            if (selectedHotel == null)
+            {
+                return NotFound("Hotel not found.");
+            }
 
+            // Fetch the selected activities by their IDs
+            var selectedActivities = await _context.Activities
+                .Where(a => tripRequest.ActivityIds.Contains(a.Id))
+                .ToListAsync();
 
-        //    if (trip == null)
-        //    {
-        //        return NotFound();
-        //    }
+            if (selectedActivities.Count == 0)
+            {
+                return NotFound("No activities found.");
+            }
 
-        //    return Ok(trip);
-        //}
+            // Create a new Trip based on the data from the DTO
+            var trip = new Trip
+            {
+                StartDate = DateOnly.FromDateTime(tripRequest.StartDate),  // Convert DateTime to DateOnly
+                EndDate = DateOnly.FromDateTime(tripRequest.EndDate),      // Convert DateTime to DateOnly
+                Cost = selectedHotel.Price, // You can calculate the cost based on hotel and activities if needed
+                Hotels = new List<Hotel> { selectedHotel },
+                Activities = selectedActivities,
+            };
 
-        //// PUT: api/Trips/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutTrip(int id, Trip trip)
-        //{
-        //    if (id != trip.Id)
-        //    {
-        //        return BadRequest();
-        //    }
+            // Save the new trip to the database
+            _context.Trips.Add(trip);
+            await _context.SaveChangesAsync();
 
-        //    _context.Entry(trip).State = EntityState.Modified;
+            // Return the newly created trip
+            return CreatedAtAction(nameof(GetTrip), new { id = trip.Id }, trip);
+        }
 
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!TripExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
+        // GET: api/trips/{id}
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Trip>> GetTrip(int id)
+        {
+            var trip = await _context.Trips
+                .Include(t => t.Activities)
+                .Include(t => t.Hotels)
+                .FirstOrDefaultAsync(t => t.Id == id);
 
-        //    return NoContent();
-        //}
+            if (trip == null)
+            {
+                return NotFound("Trip not found.");
+            }
 
-        //// POST: api/Trips
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPost]
-        //public async Task<ActionResult<Trip>> PostTrip(Trip trip)
-        //{   
-        //    if(trip== null)return BadRequest("Trip cannot be null!");
-
-        //    _context.Trips.Add(trip);
-        //    await _context.SaveChangesAsync();
-
-        //    return CreatedAtAction("GetTrip", new { id = trip.Id }, trip);
-        //}
-
-        //// DELETE: api/Trips/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteTrip(int id)
-        //{
-        //    var trip = await _context.Trips.FindAsync(id);
-        //    if (trip == null)
-        //    {
-        //        return NotFound();
-        //    }
-
-        //    _context.Trips.Remove(trip);
-        //    await _context.SaveChangesAsync();
-
-        //    return NoContent();
-        //}
-
-        //private bool TripExists(int id)
-        //{
-        //    return _context.Trips.Any(e => e.Id == id);
-        //}
+            return trip;
+        }
     }
 }
