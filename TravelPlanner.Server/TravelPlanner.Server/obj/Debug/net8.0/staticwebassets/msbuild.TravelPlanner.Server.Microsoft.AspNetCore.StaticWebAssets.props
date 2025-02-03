@@ -1,6 +1,6 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\001c4c44-e8ab-49a8-9e64-75b3dd51ed2d.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\001c4c44-e8ab-49a8-9e64-75b3dd51ed2d.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -12,11 +12,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bwi6nohaex</Fingerprint>
-      <Integrity>KwyyfJX1pxUIdno28jmGXvNKFZSmIMexsAQkaBDxNtY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\001c4c44-e8ab-49a8-9e64-75b3dd51ed2d.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\001c4c44-e8ab-49a8-9e64-75b3dd51ed2d.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\04d24376-896c-4be3-9e51-f781a5373b0f.jpg'))">
       <SourceType>Package</SourceType>
@@ -48,11 +46,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>72b4c74a2t</Fingerprint>
-      <Integrity>/9jR1mpf6q5tS9kL/MVvJi6iD446tegxcNIdm40EpY4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0e689827-cdaa-4bb9-9a58-11de83b668b6.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\0e689827-cdaa-4bb9-9a58-11de83b668b6.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\0e910d17-bfb6-4e79-8a8d-01a8fa48d049.jpg'))">
       <SourceType>Package</SourceType>
@@ -84,13 +80,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>haz8ile61c</Fingerprint>
-      <Integrity>V3XjMT3x3nGvG4H+GnDdjI3vEDOUCYPCuMZ+bRgsliA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1550317b-c8d0-4bb9-9753-8156a6144f40.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\1550317b-c8d0-4bb9-9753-8156a6144f40.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\16764b6c-65db-4dca-8483-c853cb23c34b.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\16764b6c-65db-4dca-8483-c853cb23c34b.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -102,13 +96,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ky3brauaqn</Fingerprint>
-      <Integrity>zKv+G4Vfxi4UCSHyMtw/ghlCTxoC2hdXIznqRgOXh6Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\16764b6c-65db-4dca-8483-c853cb23c34b.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\16764b6c-65db-4dca-8483-c853cb23c34b.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\19750945-7ff5-4366-9bcf-cd19a003ff9a.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\19750945-7ff5-4366-9bcf-cd19a003ff9a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -120,13 +112,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>06b7bci7w0</Fingerprint>
-      <Integrity>SK/BdWTdXPskVsTbywWgrX7KF77z8yEvhkXMkYMsabU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\19750945-7ff5-4366-9bcf-cd19a003ff9a.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\19750945-7ff5-4366-9bcf-cd19a003ff9a.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1a8db361-3c21-4f73-a6da-a275beeb0252.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\1a8db361-3c21-4f73-a6da-a275beeb0252.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -138,13 +128,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w23r8qwg5b</Fingerprint>
-      <Integrity>qAcUnFS8hqvxiAc/vU0Un5cJvpqYabPKSIMRYpmvndU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1a8db361-3c21-4f73-a6da-a275beeb0252.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\1a8db361-3c21-4f73-a6da-a275beeb0252.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1c559b58-0200-4ae2-93f2-600ba11292b8.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\1c559b58-0200-4ae2-93f2-600ba11292b8.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -156,13 +144,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ky3brauaqn</Fingerprint>
-      <Integrity>zKv+G4Vfxi4UCSHyMtw/ghlCTxoC2hdXIznqRgOXh6Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1c559b58-0200-4ae2-93f2-600ba11292b8.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\1c559b58-0200-4ae2-93f2-600ba11292b8.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1dec03d0-9d1e-4e13-ade1-3e3ac84c61c1.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\1dec03d0-9d1e-4e13-ade1-3e3ac84c61c1.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -174,13 +160,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ky3brauaqn</Fingerprint>
-      <Integrity>zKv+G4Vfxi4UCSHyMtw/ghlCTxoC2hdXIznqRgOXh6Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\1dec03d0-9d1e-4e13-ade1-3e3ac84c61c1.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\1dec03d0-9d1e-4e13-ade1-3e3ac84c61c1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\22c8ce10-2f6f-40c3-85cc-a98065b7efef.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\22c8ce10-2f6f-40c3-85cc-a98065b7efef.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -192,13 +176,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ky3brauaqn</Fingerprint>
-      <Integrity>zKv+G4Vfxi4UCSHyMtw/ghlCTxoC2hdXIznqRgOXh6Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\22c8ce10-2f6f-40c3-85cc-a98065b7efef.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\22c8ce10-2f6f-40c3-85cc-a98065b7efef.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\25a3ad0f-46d3-4e37-9af2-006f0e5da7c2.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\25a3ad0f-46d3-4e37-9af2-006f0e5da7c2.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -210,13 +192,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2hyk1xyuds</Fingerprint>
-      <Integrity>eq/PAbyhfxfkiOlTD/ZkioIMkz6E0GdQZ9pcbPVOe5M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\25a3ad0f-46d3-4e37-9af2-006f0e5da7c2.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\25a3ad0f-46d3-4e37-9af2-006f0e5da7c2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\298aac98-1f2d-4b73-a355-4a66bacf9552.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\298aac98-1f2d-4b73-a355-4a66bacf9552.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -228,13 +208,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1d8tzlu0b8</Fingerprint>
-      <Integrity>a9lLSDck/3HAYxswUoXi95qRV6zAFt9NZbKVswl9QKg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\298aac98-1f2d-4b73-a355-4a66bacf9552.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\298aac98-1f2d-4b73-a355-4a66bacf9552.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2993c2a2-5208-4588-a3cc-df0efad43a6e.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2993c2a2-5208-4588-a3cc-df0efad43a6e.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -246,13 +224,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ly34z97u08</Fingerprint>
-      <Integrity>81uXUHTgmprM7DFOsxy4cy/WTwqHLe7+KBYPa2alr8A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2993c2a2-5208-4588-a3cc-df0efad43a6e.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2993c2a2-5208-4588-a3cc-df0efad43a6e.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2aa4fd0e-e8ee-4c31-859a-1164ee8e8002.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2aa4fd0e-e8ee-4c31-859a-1164ee8e8002.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -264,13 +240,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>hq02y09zxp</Fingerprint>
-      <Integrity>x90XAVf5y8/PWuYFa9Kl6A4AMmu/ms37MYHfDkA8Mpw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2aa4fd0e-e8ee-4c31-859a-1164ee8e8002.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2aa4fd0e-e8ee-4c31-859a-1164ee8e8002.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2d302e97-fe94-4049-a457-62a8b74a7466.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2d302e97-fe94-4049-a457-62a8b74a7466.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -282,13 +256,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8kc0cai556</Fingerprint>
-      <Integrity>aGze4Ge5Zm6h2sl13MN3wvmohkB0TJ7PCFg+biSJI9g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2d302e97-fe94-4049-a457-62a8b74a7466.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2d302e97-fe94-4049-a457-62a8b74a7466.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2e626204-d353-418f-b121-d3af07baff88.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2e626204-d353-418f-b121-d3af07baff88.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -300,13 +272,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t4mij8ebdt</Fingerprint>
-      <Integrity>jfMZIIEQBDMqLmfoEe7zIqqCFariF9A93JZCcyadfzg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2e626204-d353-418f-b121-d3af07baff88.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2e626204-d353-418f-b121-d3af07baff88.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2fef9462-df82-4945-8f5d-dd003fc57fef.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2fef9462-df82-4945-8f5d-dd003fc57fef.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -318,13 +288,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xmo06pptkq</Fingerprint>
-      <Integrity>R+k5AGiFJLPEJncId5agefEv2iprxeILaGkm5dSu/ng=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2fef9462-df82-4945-8f5d-dd003fc57fef.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\2fef9462-df82-4945-8f5d-dd003fc57fef.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\312ef6db-db0e-4fdc-9d95-c81165531918.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\312ef6db-db0e-4fdc-9d95-c81165531918.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -336,13 +304,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>30x9yl4iob</Fingerprint>
-      <Integrity>rVohqg6/+emQY1hMAK3XJpMKQfoO6ci7Aq4mTFx5Yek=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\312ef6db-db0e-4fdc-9d95-c81165531918.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\312ef6db-db0e-4fdc-9d95-c81165531918.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3220b255-90b4-4b89-b1b9-36f82b070e23.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3220b255-90b4-4b89-b1b9-36f82b070e23.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -354,13 +320,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w23r8qwg5b</Fingerprint>
-      <Integrity>qAcUnFS8hqvxiAc/vU0Un5cJvpqYabPKSIMRYpmvndU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3220b255-90b4-4b89-b1b9-36f82b070e23.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3220b255-90b4-4b89-b1b9-36f82b070e23.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3544e436-890f-4b26-9113-458596a698bf.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3544e436-890f-4b26-9113-458596a698bf.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -372,13 +336,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gngq7kjm0f</Fingerprint>
-      <Integrity>zL1+kspdFUgrUcIvXXZzvAamfj+AuGi/ksM3lYednrw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3544e436-890f-4b26-9113-458596a698bf.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3544e436-890f-4b26-9113-458596a698bf.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3712f9ce-e816-45a5-b86a-8379f39826b3.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3712f9ce-e816-45a5-b86a-8379f39826b3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -390,13 +352,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>p3116cw2e1</Fingerprint>
-      <Integrity>K071IXxXu2nfpnhChvrHGJueirfTIBVWxZJP+Hiee+k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3712f9ce-e816-45a5-b86a-8379f39826b3.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3712f9ce-e816-45a5-b86a-8379f39826b3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3d6bed24-ec92-4250-901b-a0f293795249.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3d6bed24-ec92-4250-901b-a0f293795249.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -408,13 +368,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r59qqsgnh1</Fingerprint>
-      <Integrity>37pkGqMEA3wFFC9KwyCI2HgucSR6vF2ND3RQlV27KQM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3d6bed24-ec92-4250-901b-a0f293795249.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\3d6bed24-ec92-4250-901b-a0f293795249.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4233f26d-02a7-4e48-8a70-f62b6afd602e.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\4233f26d-02a7-4e48-8a70-f62b6afd602e.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -426,13 +384,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>de1f5aeyco</Fingerprint>
-      <Integrity>K153yFD3cbLqDyr5JzYn4qroXYdkpL9+Ju4pW7bSF3c=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4233f26d-02a7-4e48-8a70-f62b6afd602e.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\4233f26d-02a7-4e48-8a70-f62b6afd602e.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4421af3c-b15d-4358-b34f-cedeeeba1dd7.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\4421af3c-b15d-4358-b34f-cedeeeba1dd7.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -444,13 +400,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xmo06pptkq</Fingerprint>
-      <Integrity>R+k5AGiFJLPEJncId5agefEv2iprxeILaGkm5dSu/ng=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4421af3c-b15d-4358-b34f-cedeeeba1dd7.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\4421af3c-b15d-4358-b34f-cedeeeba1dd7.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4547b1d6-dfeb-4897-a493-6843d2c4163a.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\4547b1d6-dfeb-4897-a493-6843d2c4163a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -462,13 +416,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t7eniwx4i8</Fingerprint>
-      <Integrity>uYkOmg0YPvZ5+XsuNpE906Sf4pT1nQ5P7F7FoZcLh+0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4547b1d6-dfeb-4897-a493-6843d2c4163a.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\4547b1d6-dfeb-4897-a493-6843d2c4163a.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\46f53130-6cef-4c25-a4fd-3a4a9be20a40.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\46f53130-6cef-4c25-a4fd-3a4a9be20a40.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -480,13 +432,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>aectbni15f</Fingerprint>
-      <Integrity>AuuhKMlSJDQCaWuxO2LvXPKk/a1nMlPVW3JgLN0cjAw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\46f53130-6cef-4c25-a4fd-3a4a9be20a40.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\46f53130-6cef-4c25-a4fd-3a4a9be20a40.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\49cffce0-9dff-4445-a8f5-88a79612a28b.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\49cffce0-9dff-4445-a8f5-88a79612a28b.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -498,13 +448,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bwi6nohaex</Fingerprint>
-      <Integrity>KwyyfJX1pxUIdno28jmGXvNKFZSmIMexsAQkaBDxNtY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\49cffce0-9dff-4445-a8f5-88a79612a28b.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\49cffce0-9dff-4445-a8f5-88a79612a28b.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4dfb2c32-a0ce-4952-aa0c-7070b59f0723.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\4dfb2c32-a0ce-4952-aa0c-7070b59f0723.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -516,11 +464,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>06b7bci7w0</Fingerprint>
-      <Integrity>SK/BdWTdXPskVsTbywWgrX7KF77z8yEvhkXMkYMsabU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4dfb2c32-a0ce-4952-aa0c-7070b59f0723.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\4dfb2c32-a0ce-4952-aa0c-7070b59f0723.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\50d90bcc-022d-48e2-af04-b39992d028dc.jpg'))">
       <SourceType>Package</SourceType>
@@ -570,13 +516,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t7eniwx4i8</Fingerprint>
-      <Integrity>uYkOmg0YPvZ5+XsuNpE906Sf4pT1nQ5P7F7FoZcLh+0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5293bafd-ecb6-4a42-89e0-b69c1e63045e.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5293bafd-ecb6-4a42-89e0-b69c1e63045e.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5737a684-0b0d-406d-8fe3-51e06e43c0c4.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5737a684-0b0d-406d-8fe3-51e06e43c0c4.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -588,13 +532,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>qriyod69hm</Fingerprint>
-      <Integrity>hp/dKBKmTpYLa8vX4uYS0P7nPurOv1fLvPHKKHANiBg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5737a684-0b0d-406d-8fe3-51e06e43c0c4.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5737a684-0b0d-406d-8fe3-51e06e43c0c4.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\57682da3-3e33-4844-af59-0eb8eafb975d.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\57682da3-3e33-4844-af59-0eb8eafb975d.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -606,13 +548,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>javwnb9pbf</Fingerprint>
-      <Integrity>lUYD7EzrwVGarVrn0z7GWV5nsO41TiP/lCjUQE9bP/0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\57682da3-3e33-4844-af59-0eb8eafb975d.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\57682da3-3e33-4844-af59-0eb8eafb975d.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\588ba98a-b4cb-44f7-85df-965f32711257.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\588ba98a-b4cb-44f7-85df-965f32711257.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -624,13 +564,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4bprygxn98</Fingerprint>
-      <Integrity>4CoXN7bPLa1VwWYL3lYposR1F8eNZ85en2ocyW7Ugio=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\588ba98a-b4cb-44f7-85df-965f32711257.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\588ba98a-b4cb-44f7-85df-965f32711257.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5a3262bf-0256-4b3a-90af-355494565975.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5a3262bf-0256-4b3a-90af-355494565975.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -642,13 +580,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>3mqeewidwz</Fingerprint>
-      <Integrity>xdNlkufq0FqkBHMvQsVYz/s42J85AIfzlpc901fY0Ho=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5a3262bf-0256-4b3a-90af-355494565975.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5a3262bf-0256-4b3a-90af-355494565975.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5cf5f1d1-3296-4c04-8b59-651a9155c5b5.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5cf5f1d1-3296-4c04-8b59-651a9155c5b5.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -660,13 +596,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>nd0l4eon2g</Fingerprint>
-      <Integrity>1U5i0OgyG2fldERYZiipmnjd83g5HV1DK0crQcyNNd0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5cf5f1d1-3296-4c04-8b59-651a9155c5b5.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5cf5f1d1-3296-4c04-8b59-651a9155c5b5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5e055f25-eac5-4877-97b7-e738fad81f07.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5e055f25-eac5-4877-97b7-e738fad81f07.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -678,13 +612,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ky3brauaqn</Fingerprint>
-      <Integrity>zKv+G4Vfxi4UCSHyMtw/ghlCTxoC2hdXIznqRgOXh6Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5e055f25-eac5-4877-97b7-e738fad81f07.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5e055f25-eac5-4877-97b7-e738fad81f07.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5ebceca2-9680-42f5-948a-c0a28a6c2a33.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5ebceca2-9680-42f5-948a-c0a28a6c2a33.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -696,13 +628,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>knvvafrsmj</Fingerprint>
-      <Integrity>AEj+8I8Bawgj5mWR/c7B6+O/kaywBLbaoGwbQ3qstQk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5ebceca2-9680-42f5-948a-c0a28a6c2a33.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\5ebceca2-9680-42f5-948a-c0a28a6c2a33.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\60573d96-49a0-46c0-a87a-045a2bba040a.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\60573d96-49a0-46c0-a87a-045a2bba040a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -714,13 +644,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ky3brauaqn</Fingerprint>
-      <Integrity>zKv+G4Vfxi4UCSHyMtw/ghlCTxoC2hdXIznqRgOXh6Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\60573d96-49a0-46c0-a87a-045a2bba040a.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\60573d96-49a0-46c0-a87a-045a2bba040a.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\64a3fbb9-3b30-4851-b085-95e81ceb6359.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\64a3fbb9-3b30-4851-b085-95e81ceb6359.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -732,11 +660,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0k1dbyu31u</Fingerprint>
-      <Integrity>IJxEHCUOtkxkBL5DEeXoZ9zGz3tPGLk6hTi5ZEmqFKw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\64a3fbb9-3b30-4851-b085-95e81ceb6359.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\64a3fbb9-3b30-4851-b085-95e81ceb6359.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\65fc2484-79c9-4019-966d-6a6a66f1a0f8.jpg'))">
       <SourceType>Package</SourceType>
@@ -768,13 +694,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>n1yv9s8h2w</Fingerprint>
-      <Integrity>5eirj+jsOTeEpEA6QKr+4tJEPemqWM3Tw9TlTpUsdJs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6ace7888-968b-4f3a-a066-d49e63d77ad9.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\6ace7888-968b-4f3a-a066-d49e63d77ad9.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\70bb6649-ec49-4bfa-8001-fc76f5ffd234.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\70bb6649-ec49-4bfa-8001-fc76f5ffd234.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -786,13 +710,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w7e5yylmpb</Fingerprint>
-      <Integrity>PNH/0uxmPpoTzusuQTmJi3IB4Qls7AOgiLAW6nA4GCc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\70bb6649-ec49-4bfa-8001-fc76f5ffd234.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\70bb6649-ec49-4bfa-8001-fc76f5ffd234.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\71e2b205-b5d9-4351-910a-3a8d65f90fda.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\71e2b205-b5d9-4351-910a-3a8d65f90fda.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -804,13 +726,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jyssbn7yp8</Fingerprint>
-      <Integrity>ZeeVsI4qOfCVh7XQVkyQ9Ry5n0S37S9y6ULjPjlQi6g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\71e2b205-b5d9-4351-910a-3a8d65f90fda.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\71e2b205-b5d9-4351-910a-3a8d65f90fda.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7293e4c4-0bf7-45cd-a5e0-43aca82a2519.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\7293e4c4-0bf7-45cd-a5e0-43aca82a2519.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -822,13 +742,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>35b4ts8jds</Fingerprint>
-      <Integrity>Z344XKeEoh5ftPRRH2Lrb9tSyiEVpOn/WrMedH1ZgZs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7293e4c4-0bf7-45cd-a5e0-43aca82a2519.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\7293e4c4-0bf7-45cd-a5e0-43aca82a2519.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\73e63482-4f7d-4c28-aeb2-92049c09b865.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\73e63482-4f7d-4c28-aeb2-92049c09b865.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -840,11 +758,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sx50ehp5zq</Fingerprint>
-      <Integrity>EKD2h+GRwW8nSd6crHZsR9AQAefKTt3lf5W/Fbr5HhI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\73e63482-4f7d-4c28-aeb2-92049c09b865.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\73e63482-4f7d-4c28-aeb2-92049c09b865.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7529180e-7350-4d0f-8422-a43bd043c4ed.jpg'))">
       <SourceType>Package</SourceType>
@@ -876,11 +792,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>41ahiic9k2</Fingerprint>
-      <Integrity>CCdajAU6AFdgfjCH+g/Iu3yGNcKJApLI2aGzvrV2dTE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\78037cb7-2c5c-48b0-ae02-6db68ca897f8.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\78037cb7-2c5c-48b0-ae02-6db68ca897f8.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\797a0d01-53c1-454e-a3a3-72c2467bbee8.jpg'))">
       <SourceType>Package</SourceType>
@@ -912,13 +826,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i8rypseeld</Fingerprint>
-      <Integrity>YsfWEd23vS8gtQiAg5yjYHybK30/FHMYG/lKUAjsGKQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7c73e81e-adca-444a-9f4c-651575875fbf.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\7c73e81e-adca-444a-9f4c-651575875fbf.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7cdcf815-7b28-45b1-9693-dea57cfeeb41.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\7cdcf815-7b28-45b1-9693-dea57cfeeb41.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -930,13 +842,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9d67e93a75</Fingerprint>
-      <Integrity>/V1StA/hsxozN61dWKv5RsT8uDuB9KqCZsMI4peI4ug=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7cdcf815-7b28-45b1-9693-dea57cfeeb41.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\7cdcf815-7b28-45b1-9693-dea57cfeeb41.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7fe76d15-5c16-4a1b-94f0-4d452cfc2a0a.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\7fe76d15-5c16-4a1b-94f0-4d452cfc2a0a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -948,11 +858,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xage92k50p</Fingerprint>
-      <Integrity>90RhiRNbZab4BNo6aUzN49GMRR3X6azjpQNmxNiaMD4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\7fe76d15-5c16-4a1b-94f0-4d452cfc2a0a.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\7fe76d15-5c16-4a1b-94f0-4d452cfc2a0a.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\81b48ebf-ee6d-4375-93b4-20e2fb08b5a5.jpg'))">
       <SourceType>Package</SourceType>
@@ -984,11 +892,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rhh3h5cref</Fingerprint>
-      <Integrity>sR8F62euqTrYoGPQ3t53a9oGVv+5snstFY0qoXNVgfA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\81ef3837-e916-429b-b2d8-2720869c45ed.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\81ef3837-e916-429b-b2d8-2720869c45ed.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\83835e9d-3f3c-4897-b658-7188bd2dd869.jpg'))">
       <SourceType>Package</SourceType>
@@ -1020,13 +926,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xmo06pptkq</Fingerprint>
-      <Integrity>R+k5AGiFJLPEJncId5agefEv2iprxeILaGkm5dSu/ng=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\84b6dfe3-4b20-46a0-8219-d85c68073ebe.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\84b6dfe3-4b20-46a0-8219-d85c68073ebe.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\87747837-7b1f-4e25-9577-2383e712993c.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\87747837-7b1f-4e25-9577-2383e712993c.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1038,13 +942,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sx50ehp5zq</Fingerprint>
-      <Integrity>EKD2h+GRwW8nSd6crHZsR9AQAefKTt3lf5W/Fbr5HhI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\87747837-7b1f-4e25-9577-2383e712993c.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\87747837-7b1f-4e25-9577-2383e712993c.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\902465d3-3145-4c6c-83d3-cf0bf27df716.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\902465d3-3145-4c6c-83d3-cf0bf27df716.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1056,13 +958,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>f1lcdal070</Fingerprint>
-      <Integrity>fSXMXo29gdO8GvqJN83NVXN2rE3WCCWC77E3rPnLXvE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\902465d3-3145-4c6c-83d3-cf0bf27df716.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\902465d3-3145-4c6c-83d3-cf0bf27df716.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\915d49f8-f406-44b6-b997-46ea831aa5fa.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\915d49f8-f406-44b6-b997-46ea831aa5fa.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1074,11 +974,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j2v6pesjww</Fingerprint>
-      <Integrity>yxPfIWmlmCJaGRrtUvnMcZj+9e0FXEk8CofWvm0NjlE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\915d49f8-f406-44b6-b997-46ea831aa5fa.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\915d49f8-f406-44b6-b997-46ea831aa5fa.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\91e01fc5-4ede-4426-b50c-06072d36b7e4.jpg'))">
       <SourceType>Package</SourceType>
@@ -1110,13 +1008,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>06b7bci7w0</Fingerprint>
-      <Integrity>SK/BdWTdXPskVsTbywWgrX7KF77z8yEvhkXMkYMsabU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9226bce8-003b-49e5-b6e9-069c887bbde8.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\9226bce8-003b-49e5-b6e9-069c887bbde8.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\95f8853d-1b0f-4c0c-8a40-365d8b8938cf.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\95f8853d-1b0f-4c0c-8a40-365d8b8938cf.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1128,13 +1024,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vlcw0d5rmw</Fingerprint>
-      <Integrity>02uTF7OH6Op09qK00NrLAsX40BSqN4suC8ObBt/QU6g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\95f8853d-1b0f-4c0c-8a40-365d8b8938cf.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\95f8853d-1b0f-4c0c-8a40-365d8b8938cf.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\96f8b141-9a7e-403b-ac26-b08644ec87bd.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\96f8b141-9a7e-403b-ac26-b08644ec87bd.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1146,13 +1040,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sx50ehp5zq</Fingerprint>
-      <Integrity>EKD2h+GRwW8nSd6crHZsR9AQAefKTt3lf5W/Fbr5HhI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\96f8b141-9a7e-403b-ac26-b08644ec87bd.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\96f8b141-9a7e-403b-ac26-b08644ec87bd.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\979387ff-effd-4e0b-a237-66c87f2f309a.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\979387ff-effd-4e0b-a237-66c87f2f309a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1164,11 +1056,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oymz24acd1</Fingerprint>
-      <Integrity>ANHZRwK+8kc2ZekKynuu/DoyuiAftGFaAKyxCqhEGC0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\979387ff-effd-4e0b-a237-66c87f2f309a.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\979387ff-effd-4e0b-a237-66c87f2f309a.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\97b4c7e9-6be0-4fb2-b091-fc45517f24ea.jpg'))">
       <SourceType>Package</SourceType>
@@ -1218,13 +1108,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>aectbni15f</Fingerprint>
-      <Integrity>AuuhKMlSJDQCaWuxO2LvXPKk/a1nMlPVW3JgLN0cjAw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9a88f305-7068-4845-8635-8f33aceccb75.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\9a88f305-7068-4845-8635-8f33aceccb75.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9ae480bb-3f49-46fa-8d6d-11f61c239997.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\9ae480bb-3f49-46fa-8d6d-11f61c239997.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1236,11 +1124,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>06b7bci7w0</Fingerprint>
-      <Integrity>SK/BdWTdXPskVsTbywWgrX7KF77z8yEvhkXMkYMsabU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9ae480bb-3f49-46fa-8d6d-11f61c239997.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\9ae480bb-3f49-46fa-8d6d-11f61c239997.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9b41bf9f-1a52-4be9-9d07-43630bf0bae8.jpg'))">
       <SourceType>Package</SourceType>
@@ -1272,13 +1158,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ly34z97u08</Fingerprint>
-      <Integrity>81uXUHTgmprM7DFOsxy4cy/WTwqHLe7+KBYPa2alr8A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\9bef614c-7f25-4d77-9f8a-3d07bf156867.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\9bef614c-7f25-4d77-9f8a-3d07bf156867.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a0350c5a-90c9-47f2-990a-47a9aab8aaa5.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\a0350c5a-90c9-47f2-990a-47a9aab8aaa5.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1290,13 +1174,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0jr5efkxuo</Fingerprint>
-      <Integrity>ZPtTbjDoKPyyPiA9+tKYS61xa7xqxgfJGl4AQJAkWL8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a0350c5a-90c9-47f2-990a-47a9aab8aaa5.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\a0350c5a-90c9-47f2-990a-47a9aab8aaa5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a0d42543-715f-4d60-8f95-5ce6060ea035.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\a0d42543-715f-4d60-8f95-5ce6060ea035.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1308,11 +1190,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t7eniwx4i8</Fingerprint>
-      <Integrity>uYkOmg0YPvZ5+XsuNpE906Sf4pT1nQ5P7F7FoZcLh+0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a0d42543-715f-4d60-8f95-5ce6060ea035.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\a0d42543-715f-4d60-8f95-5ce6060ea035.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a37e10e4-946e-4d0f-8b58-8b7462dbc0c8.jpg'))">
       <SourceType>Package</SourceType>
@@ -1344,13 +1224,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ky3brauaqn</Fingerprint>
-      <Integrity>zKv+G4Vfxi4UCSHyMtw/ghlCTxoC2hdXIznqRgOXh6Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a7574171-5b5a-4f32-95ee-67ae43881b3a.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\a7574171-5b5a-4f32-95ee-67ae43881b3a.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aa50fb33-d497-4de7-9416-17d46b3b477f.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\aa50fb33-d497-4de7-9416-17d46b3b477f.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1362,13 +1240,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xmo06pptkq</Fingerprint>
-      <Integrity>R+k5AGiFJLPEJncId5agefEv2iprxeILaGkm5dSu/ng=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\aa50fb33-d497-4de7-9416-17d46b3b477f.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\aa50fb33-d497-4de7-9416-17d46b3b477f.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ad08b6b6-deb4-4b44-a649-f694e3ec3294.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ad08b6b6-deb4-4b44-a649-f694e3ec3294.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1380,13 +1256,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6x9hbm1qsl</Fingerprint>
-      <Integrity>hiBunRKBH8W0TKoHSCuwKoCgEoIhUDbGnSW5uiev5QE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ad08b6b6-deb4-4b44-a649-f694e3ec3294.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ad08b6b6-deb4-4b44-a649-f694e3ec3294.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\af683924-f409-4b65-bb8a-5301c5c9fe25.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\af683924-f409-4b65-bb8a-5301c5c9fe25.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1398,13 +1272,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>javwnb9pbf</Fingerprint>
-      <Integrity>lUYD7EzrwVGarVrn0z7GWV5nsO41TiP/lCjUQE9bP/0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\af683924-f409-4b65-bb8a-5301c5c9fe25.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\af683924-f409-4b65-bb8a-5301c5c9fe25.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b0ad271a-2fc1-4f30-8830-f097bcac6b98.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b0ad271a-2fc1-4f30-8830-f097bcac6b98.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1416,13 +1288,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j2v6pesjww</Fingerprint>
-      <Integrity>yxPfIWmlmCJaGRrtUvnMcZj+9e0FXEk8CofWvm0NjlE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b0ad271a-2fc1-4f30-8830-f097bcac6b98.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b0ad271a-2fc1-4f30-8830-f097bcac6b98.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b0c641ce-dea2-40f1-8bb3-1f97e6585113.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b0c641ce-dea2-40f1-8bb3-1f97e6585113.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1434,13 +1304,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bl99sln6bl</Fingerprint>
-      <Integrity>z5gyTGi/L85SvWH+o9IoGEOvLCfuK3VB5ifAgSp2QiE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b0c641ce-dea2-40f1-8bb3-1f97e6585113.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b0c641ce-dea2-40f1-8bb3-1f97e6585113.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b1f4b0d1-2e87-47f1-9dbf-9be4a8fafaa9.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b1f4b0d1-2e87-47f1-9dbf-9be4a8fafaa9.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1452,13 +1320,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t7eniwx4i8</Fingerprint>
-      <Integrity>uYkOmg0YPvZ5+XsuNpE906Sf4pT1nQ5P7F7FoZcLh+0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b1f4b0d1-2e87-47f1-9dbf-9be4a8fafaa9.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b1f4b0d1-2e87-47f1-9dbf-9be4a8fafaa9.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b466d259-00a0-44b7-b52e-cd7bf840e9f3.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b466d259-00a0-44b7-b52e-cd7bf840e9f3.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1470,13 +1336,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>06b7bci7w0</Fingerprint>
-      <Integrity>SK/BdWTdXPskVsTbywWgrX7KF77z8yEvhkXMkYMsabU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b466d259-00a0-44b7-b52e-cd7bf840e9f3.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b466d259-00a0-44b7-b52e-cd7bf840e9f3.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b63e6f44-b3b3-4cc5-a517-1eaeb07d89dc.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b63e6f44-b3b3-4cc5-a517-1eaeb07d89dc.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1488,11 +1352,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sysaskltir</Fingerprint>
-      <Integrity>JK0RXIFvuD1TCOkUd5unhZtQLjSPioks6glIafIJs/w=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b63e6f44-b3b3-4cc5-a517-1eaeb07d89dc.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\b63e6f44-b3b3-4cc5-a517-1eaeb07d89dc.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\bdc97395-2b00-4ba0-abc4-3d4ce5d8c9d4.jpg'))">
       <SourceType>Package</SourceType>
@@ -1542,13 +1404,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>06b7bci7w0</Fingerprint>
-      <Integrity>SK/BdWTdXPskVsTbywWgrX7KF77z8yEvhkXMkYMsabU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c1fbcf0a-0850-4ef7-bbf3-62527761f3f2.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c1fbcf0a-0850-4ef7-bbf3-62527761f3f2.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c40dc9b5-047c-407c-b204-27a9182b5471.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c40dc9b5-047c-407c-b204-27a9182b5471.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1560,13 +1420,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kbfhmsdfep</Fingerprint>
-      <Integrity>MEIKrIjdKb3xGjsGIATBG8PaJZ3/A8xLdmw3STATcd0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c40dc9b5-047c-407c-b204-27a9182b5471.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c40dc9b5-047c-407c-b204-27a9182b5471.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c622fb9e-16c8-4d69-a59a-2500b1d4a9cc.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c622fb9e-16c8-4d69-a59a-2500b1d4a9cc.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1578,13 +1436,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xmo06pptkq</Fingerprint>
-      <Integrity>R+k5AGiFJLPEJncId5agefEv2iprxeILaGkm5dSu/ng=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c622fb9e-16c8-4d69-a59a-2500b1d4a9cc.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c622fb9e-16c8-4d69-a59a-2500b1d4a9cc.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c7092b05-16f7-4fb9-9780-7b69ae660d50.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c7092b05-16f7-4fb9-9780-7b69ae660d50.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1596,13 +1452,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>95hdd3310z</Fingerprint>
-      <Integrity>DSH+CCZr9nJL/Z4TuPLP8yLlOyo/3fxrp26Bib0uSfc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c7092b05-16f7-4fb9-9780-7b69ae660d50.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c7092b05-16f7-4fb9-9780-7b69ae660d50.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c99dbc72-367d-4013-8846-4142722d9d50.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c99dbc72-367d-4013-8846-4142722d9d50.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1614,13 +1468,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rtvb4uzwhs</Fingerprint>
-      <Integrity>32E2DSd4Ct1O0ptbYq99BN7+5vO21tCkAAPMF591t9M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c99dbc72-367d-4013-8846-4142722d9d50.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\c99dbc72-367d-4013-8846-4142722d9d50.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cafe44ea-c3a9-4f69-810a-b4cd045e7bcc.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cafe44ea-c3a9-4f69-810a-b4cd045e7bcc.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1632,13 +1484,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ihjyi5mrp5</Fingerprint>
-      <Integrity>2sIb/Ex6lcmUYK/XdLw8UALwITxVrmGrxKeGikT2LwY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\cafe44ea-c3a9-4f69-810a-b4cd045e7bcc.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\cafe44ea-c3a9-4f69-810a-b4cd045e7bcc.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d11e654d-60af-4af2-a1b3-6c9a3d403d34.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\d11e654d-60af-4af2-a1b3-6c9a3d403d34.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1650,13 +1500,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xmo06pptkq</Fingerprint>
-      <Integrity>R+k5AGiFJLPEJncId5agefEv2iprxeILaGkm5dSu/ng=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d11e654d-60af-4af2-a1b3-6c9a3d403d34.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\d11e654d-60af-4af2-a1b3-6c9a3d403d34.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d2b107ab-4453-4a39-98a6-aa509ad8b2df.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\d2b107ab-4453-4a39-98a6-aa509ad8b2df.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1668,13 +1516,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ks24gbxgk2</Fingerprint>
-      <Integrity>3OwMDDcZlsXHilAWFhUyKGLmiHfP9RXXo3J7Sx2e+Hc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\d2b107ab-4453-4a39-98a6-aa509ad8b2df.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\d2b107ab-4453-4a39-98a6-aa509ad8b2df.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\da3c9c5a-c614-4094-9129-a8565b177680.png'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\da3c9c5a-c614-4094-9129-a8565b177680.png))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1686,11 +1532,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>sctpqhiq4z</Fingerprint>
-      <Integrity>3D7jz3kCxNM8BZpGs5iYsRppVzBa/uy4qLTZUt8U28U=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\da3c9c5a-c614-4094-9129-a8565b177680.png'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\da3c9c5a-c614-4094-9129-a8565b177680.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e30744fd-66ef-4383-b737-97a64cd63b2d.jpg'))">
       <SourceType>Package</SourceType>
@@ -1740,11 +1584,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4k4n9tki1y</Fingerprint>
-      <Integrity>1HNy50q6qYFt3jtI1fL2KK07goARUDXUokQ9itURnNk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e502dc52-a7f2-427f-bbbf-407a8a6453a5.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e502dc52-a7f2-427f-bbbf-407a8a6453a5.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e512c912-e0f3-45e1-8ce7-3d081c050e9c.jpg'))">
       <SourceType>Package</SourceType>
@@ -1776,13 +1618,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>8q0ib3nv79</Fingerprint>
-      <Integrity>0CR6JrBK2Gruv/PqaiYrPNmbpwfWwlZCRvO/dYWuxIA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e64f0663-f31e-4029-bf33-2a19d0ee3f80.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e64f0663-f31e-4029-bf33-2a19d0ee3f80.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e7f844d7-1be2-4dbb-b97c-747c3ccad843.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e7f844d7-1be2-4dbb-b97c-747c3ccad843.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1794,13 +1634,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dg4l91tyr0</Fingerprint>
-      <Integrity>M1krSyOIsrXu1Jr3HQqOHgvcl4ann/C0hUvxSxB8Wd0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e7f844d7-1be2-4dbb-b97c-747c3ccad843.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e7f844d7-1be2-4dbb-b97c-747c3ccad843.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e8d56a80-141c-43f6-883d-c819ad460360.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e8d56a80-141c-43f6-883d-c819ad460360.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1812,13 +1650,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>06b7bci7w0</Fingerprint>
-      <Integrity>SK/BdWTdXPskVsTbywWgrX7KF77z8yEvhkXMkYMsabU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e8d56a80-141c-43f6-883d-c819ad460360.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\e8d56a80-141c-43f6-883d-c819ad460360.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ec58671d-433a-412b-91d5-7b9a30e05fb8.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ec58671d-433a-412b-91d5-7b9a30e05fb8.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1830,13 +1666,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9gql9bfsgb</Fingerprint>
-      <Integrity>1+GngQIZejLU6SZ1ZabO3TMIhgrWRRPECmZnyEEVxvg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ec58671d-433a-412b-91d5-7b9a30e05fb8.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ec58671d-433a-412b-91d5-7b9a30e05fb8.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ee280fa9-f948-4b3c-bcc2-ff41afcf0bbf.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ee280fa9-f948-4b3c-bcc2-ff41afcf0bbf.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1848,13 +1682,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>7sw9paq6c7</Fingerprint>
-      <Integrity>N0+3W0EQiZwIW5BSRnc2T+54U+a/Nl2ZP0Hxz+hLV5k=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ee280fa9-f948-4b3c-bcc2-ff41afcf0bbf.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ee280fa9-f948-4b3c-bcc2-ff41afcf0bbf.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ef42263a-72b9-4f00-982d-8f4209252b7f.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ef42263a-72b9-4f00-982d-8f4209252b7f.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1866,13 +1698,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xmo06pptkq</Fingerprint>
-      <Integrity>R+k5AGiFJLPEJncId5agefEv2iprxeILaGkm5dSu/ng=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ef42263a-72b9-4f00-982d-8f4209252b7f.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ef42263a-72b9-4f00-982d-8f4209252b7f.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ef8ba93e-251c-4b61-857f-6aaf6b236b98.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ef8ba93e-251c-4b61-857f-6aaf6b236b98.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1884,13 +1714,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4k4n9tki1y</Fingerprint>
-      <Integrity>1HNy50q6qYFt3jtI1fL2KK07goARUDXUokQ9itURnNk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ef8ba93e-251c-4b61-857f-6aaf6b236b98.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\ef8ba93e-251c-4b61-857f-6aaf6b236b98.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f0830c09-81d9-4d2a-94da-09ee9f73d383.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f0830c09-81d9-4d2a-94da-09ee9f73d383.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1902,13 +1730,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dfcgmz0zrw</Fingerprint>
-      <Integrity>6aQxOtI1UFMusGZHC7encV0eod/9qqAH0DFqvBVtLuU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f0830c09-81d9-4d2a-94da-09ee9f73d383.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f0830c09-81d9-4d2a-94da-09ee9f73d383.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f15fbcf9-afcc-404b-82e5-f684cfac519a.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f15fbcf9-afcc-404b-82e5-f684cfac519a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1920,13 +1746,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>488ns9ol8a</Fingerprint>
-      <Integrity>nFZ9GD6lEcrDTWLVuGzzS6WDviprTZAqeVj0tH4d4Gk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f15fbcf9-afcc-404b-82e5-f684cfac519a.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f15fbcf9-afcc-404b-82e5-f684cfac519a.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f1c61ec7-745a-4fa3-a888-9683d4f36d14.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f1c61ec7-745a-4fa3-a888-9683d4f36d14.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1938,13 +1762,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2hyk1xyuds</Fingerprint>
-      <Integrity>eq/PAbyhfxfkiOlTD/ZkioIMkz6E0GdQZ9pcbPVOe5M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f1c61ec7-745a-4fa3-a888-9683d4f36d14.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f1c61ec7-745a-4fa3-a888-9683d4f36d14.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f3a70d6a-b69b-4c25-b04f-02078c5b9a0d.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f3a70d6a-b69b-4c25-b04f-02078c5b9a0d.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -1956,11 +1778,9 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ky3brauaqn</Fingerprint>
-      <Integrity>zKv+G4Vfxi4UCSHyMtw/ghlCTxoC2hdXIznqRgOXh6Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f3a70d6a-b69b-4c25-b04f-02078c5b9a0d.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f3a70d6a-b69b-4c25-b04f-02078c5b9a0d.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f40ef760-317f-4ed5-a808-89e80c2a4b2c.jpg'))">
       <SourceType>Package</SourceType>
@@ -1992,13 +1812,11 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cs151p1xi0</Fingerprint>
-      <Integrity>TI0uhuRmqAUJJRwghGKSbsi2jsEZ8dDnWtYgMkUBOJw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\f41f3ff8-73ed-47ba-bc20-cafea13dc86e.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\f41f3ff8-73ed-47ba-bc20-cafea13dc86e.jpg))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\fb4bff91-4136-48a7-93ee-9e0227f08d6a.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\fb4bff91-4136-48a7-93ee-9e0227f08d6a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>TravelPlanner.Server</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
@@ -2010,8 +1828,6 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vnob9f20yw</Fingerprint>
-      <Integrity>m7YeABoSkbVEixCG4hVDIjYiQZGwAlb/qTWM2/ciJIk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\fb4bff91-4136-48a7-93ee-9e0227f08d6a.jpg'))</OriginalItemSpec>

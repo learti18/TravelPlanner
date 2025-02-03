@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 namespace TravelPlanner.Server.Controllers
 {
     [ApiController]
+    [ApiController]
     [Route("api/[controller]")]
     [Authorize]
     public class TripsController : ControllerBase
