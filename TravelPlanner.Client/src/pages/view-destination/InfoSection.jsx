@@ -1,15 +1,8 @@
 import React from 'react';
 import { CalendarDays, CircleDollarSign, Users } from 'lucide-react';
 import { Button } from '@/components/ui/button'; // Tailwind Button component
-import { useNavigate } from 'react-router-dom'; // Import useNavigate
 
 export default function InfoSection({ destination, noOfDays, travelType, submitData }) {
-  const navigate = useNavigate(); // Initialize navigate
-
-  const handleCreateTrip = () => {
-    submitData(); // Execute the submitData function
-    navigate('/mytrips'); // Navigate to the "MyTrips" page
-  };
 
   return (
     <div>
@@ -33,7 +26,7 @@ export default function InfoSection({ destination, noOfDays, travelType, submitD
             </h2>
           </div>
         </div>
-        <Button onClick={handleCreateTrip}>Create Trip</Button> {/* Trigger navigation on click */}
+        <Button onClick={submitData}>Create Trip</Button> {/* Trigger navigation on click */}
       </div>
     </div>
   );

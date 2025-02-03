@@ -10,7 +10,6 @@ using Microsoft.Extensions.Logging;
 namespace TravelPlanner.Server.Controllers
 {
     [ApiController]
-    [ApiController]
     [Route("api/[controller]")]
     [Authorize]
     public class TripsController : ControllerBase
@@ -54,6 +53,14 @@ namespace TravelPlanner.Server.Controllers
                 {
                     _logger.LogWarning("No user ID found in token");
                     return Unauthorized(new { message = "User ID not found in token" });
+                }
+
+                // Check if hotel exists
+                var hotelExists = await _context.Hotels.AnyAsync(h => h.Id == request.Hotel.Id);
+                if (!hotelExists)
+                {
+                    _logger.LogWarning("Hotel with ID {HotelId} not found", request.Hotel.Id);
+                    return BadRequest(new { message = "Selected hotel not found" });
                 }
 
                 var trip = new Trip

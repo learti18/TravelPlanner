@@ -43,17 +43,10 @@ export default function ViewDestination() {
         return;
       }
 
-      // Find the full hotel object from destination.hotels
-      const hotel = destination.hotels.find(h => h.id === selectedHotel);
-      if (!hotel) {
-        toast.error("Selected hotel not found");
-        return;
-      }
-
       const tripData = {
         destination: destination,
         activities: selectedActivities,
-        hotel: hotel, // Send the full hotel object
+        hotel: selectedHotel, // Use the selectedHotel directly since it's already the full object
         startDate: startDate,
         endDate: endDate,
         travelType: travelType
@@ -63,6 +56,7 @@ export default function ViewDestination() {
       navigate('/my-trips');
     } catch (error) {
       console.error('Error creating trip:', error);
+      toast.error(error.response?.data?.message || "Failed to create trip");
     }
   };
 
