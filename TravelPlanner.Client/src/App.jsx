@@ -10,7 +10,8 @@ import { Toaster } from 'sonner';
 import Register from "./pages/Register/Register";
 import Login from "./pages/Login/Login";
 import ProtectedRoute from "./components/protected routes/ProtectedRoute";
-import MyTrips from "./components/MyTrips/MyTrips";
+import AdminRoute from "./components/protected routes/AdminRoute";
+import MyTrips from "./pages/my-trips/MyTrips";
 
 export default function App() {
   return (
@@ -22,17 +23,21 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="register" element={<Register />} />
             <Route path="login" element={<Login />} />
-            <Route path="mytrips" element={<MyTrips />} />
 
+            {/* Admin Routes */}
+            <Route
+              path="dashboard/*"
+              element={<AdminRoute component={Dashboard} />}
+            />
 
             {/* Protected Routes */}
             <Route
-              path="dashboard/*"
-              element={<ProtectedRoute component={Dashboard} />}
-            />
-            <Route
               path="questionnaire"
               element={<ProtectedRoute component={Questionnaire} />}
+            />
+            <Route
+              path="my-trips"
+              element={<ProtectedRoute component={MyTrips} />}
             />
             <Route
               path="list-destinations"

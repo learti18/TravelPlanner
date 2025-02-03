@@ -1,7 +1,7 @@
 {
     "activities": [
       {
-        "destinationId": 14,
+        "destinationId": 2,
         "name": "Eiffel Tower Visit",
         "description": "Visit the iconic symbol of Paris and enjoy breathtaking views from its summit.",
         "location": "Champ de Mars, Paris",
@@ -9,7 +9,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 14,
+        "destinationId": 2,
         "name": "Louvre Museum Tour",
         "description": "Explore the world-famous art museum and admire masterpieces like the Mona Lisa.",
         "location": "Rue de Rivoli, Paris",
@@ -17,7 +17,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 14,
+        "destinationId": 2,
         "name": "Seine River Cruise",
         "description": "Relax on a scenic cruise along the Seine River and see Paris from the water.",
         "location": "Port de la Bourdonnais, Paris",
@@ -25,7 +25,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 14,
+        "destinationId": 2,
         "name": "Notre-Dame Cathedral Tour",
         "description": "Visit the historic cathedral and marvel at its stunning Gothic architecture.",
         "location": "6 Parvis Notre-Dame - Pl. Jean-Paul II, Paris",
@@ -33,7 +33,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 14,
+        "destinationId": 2,
         "name": "Montmartre Walking Tour",
         "description": "Discover the bohemian charm of Montmartre, including the famous Sacré-Cœur Basilica.",
         "location": "Place du Tertre, Paris",
@@ -41,7 +41,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 14,
+        "destinationId": 2,
         "name": "Palace of Versailles Tour",
         "description": "Take a day trip to explore the opulent Palace of Versailles and its beautiful gardens.",
         "location": "Place d'Armes, Versailles",
@@ -49,7 +49,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 14,
+        "destinationId": 2,
         "name": "Opera Garnier Backstage Tour",
         "description": "Go behind the scenes at the grand Opera Garnier and learn about its history.",
         "location": "8 Rue Scribe, Paris",
@@ -57,7 +57,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 14,
+        "destinationId": 2,
         "name": "Luxembourg Gardens Stroll",
         "description": "Enjoy a peaceful walk through the beautiful Luxembourg Gardens.",
         "location": "Rue de Médicis, Paris",
@@ -65,7 +65,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 14,
+        "destinationId": 2,
         "name": "Champs-Élysées Shopping",
         "description": "Shop along the famous Champs-Élysées boulevard, lined with luxury boutiques and cafes.",
         "location": "Avenue des Champs-Élysées, Paris",
@@ -73,7 +73,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 14,
+        "destinationId": 2,
         "name": "Musée d'Orsay Visit",
         "description": "Admire an extensive collection of Impressionist masterpieces at the Musée d'Orsay.",
         "location": "1 Rue de la Légion d'Honneur, Paris",
@@ -81,7 +81,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 15,
+        "destinationId": 3,
         "name": "Visit Tokyo Tower",
         "description": "Climb Tokyo Tower for stunning views of the city",
         "location": "4-2-8 Shibakoen, Minato City, Tokyo",
@@ -89,7 +89,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 15,
+        "destinationId": 3,
         "name": "Senso-ji Temple Tour",
         "description": "Explore Tokyo's oldest and most famous Buddhist temple",
         "location": "2-3-1 Asakusa, Taito City, Tokyo",
@@ -97,7 +97,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 15,
+        "destinationId": 3,
         "name": "Shibuya Crossing Experience",
         "description": "Walk across the busiest pedestrian intersection in the world",
         "location": "Shibuya City, Tokyo",
@@ -105,7 +105,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 15,
+        "destinationId": 3,
         "name": "Meiji Shrine Visit",
         "description": "Discover the serene Meiji Shrine amidst lush greenery",
         "location": "1-1 Yoyogikamizonocho, Shibuya City, Tokyo",
@@ -113,7 +113,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 15,
+        "destinationId": 3,
         "name": "Tsukiji Outer Market Food Tour",
         "description": "Taste authentic Japanese cuisine at Tsukiji Outer Market",
         "location": "4-16-2 Tsukiji, Chuo City, Tokyo",
@@ -121,7 +121,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 15,
+        "destinationId": 3,
         "name": "Akihabara Electric Town",
         "description": "Dive into Tokyo's otaku culture and electronics district",
         "location": "Sotokanda, Chiyoda City, Tokyo",
@@ -129,7 +129,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 15,
+        "destinationId": 3,
         "name": "Odaiba Seaside Park",
         "description": "Enjoy stunning waterfront views and attractions",
         "location": "1-4 Daiba, Minato City, Tokyo",
@@ -137,7 +137,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 15,
+        "destinationId": 3,
         "name": "Ginza Shopping District",
         "description": "Indulge in luxury shopping and fine dining",
         "location": "Chuo City, Tokyo",
@@ -145,7 +145,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       }, 
       {
-        "destinationId": 15,
+        "destinationId": 3,
         "name": "Sumida Aquarium Visit",
         "description": "Explore the aquatic life and marine exhibits at Sumida Aquarium",
         "location": "Tokyo Skytree Town, Sumida City, Tokyo",
@@ -153,7 +153,7 @@
         "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
       },
       {
-        "destinationId": 15,
+        "destinationId": 3,
         "name": "Shinjuku Gyoen National Garden",
         "description": "Relax and enjoy the beauty of traditional Japanese gardens",
         "location": "11 Naitomachi, Shinjuku City, Tokyo",
@@ -161,7 +161,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 16,
+        "destinationId": 4,
         "name": "Statue of Liberty Visit",
         "description": "Visit the iconic Statue of Liberty and learn its history",
         "location": "New York Harbor, New York, NY",
@@ -169,7 +169,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 16,
+        "destinationId": 4,
         "name": "Empire State Building Observation Deck",
         "description": "Enjoy breathtaking views of New York City from the top of the Empire State Building",
         "location": "350 5th Ave, New York, NY",
@@ -177,7 +177,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 16,
+        "destinationId": 4,
         "name": "Broadway Show",
         "description": "Experience a world-class Broadway performance",
         "location": "Theater District, New York, NY",
@@ -185,7 +185,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 16,
+        "destinationId": 4,
         "name": "Central Park Walking Tour",
         "description": "Take a guided walking tour through the famous Central Park",
         "location": "New York, NY",
@@ -193,7 +193,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 16,
+        "destinationId": 4,
         "name": "Museum of Modern Art (MoMA)",
         "description": "Explore one of the most influential modern art museums in the world",
         "location": "11 W 53rd St, New York, NY",
@@ -201,7 +201,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 16,
+        "destinationId": 4,
         "name": "Rockefeller Center Tour",
         "description": "Tour the famous Rockefeller Center and see where major events take place",
         "location": "45 Rockefeller Plaza, New York, NY",
@@ -209,7 +209,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 16,
+        "destinationId": 4,
         "name": "9/11 Memorial & Museum",
         "description": "Pay tribute to those affected by the September 11 attacks",
         "location": "180 Greenwich St, New York, NY",
@@ -217,7 +217,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 16,
+        "destinationId": 4,
         "name": "Times Square",
         "description": "Experience the hustle and bustle of Times Square, the 'Cross-roads of the World'",
         "location": "New York, NY",
@@ -225,7 +225,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 16,
+        "destinationId": 4,
         "name": "Brooklyn Bridge Walk",
         "description": "Take a scenic walk across the Brooklyn Bridge with stunning views of the skyline",
         "location": "New York, NY",
@@ -233,7 +233,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 16,
+        "destinationId": 4,
         "name": "New York City Boat Tour",
         "description": "Take a boat tour to see the Statue of Liberty, Ellis Island, and more",
         "location": "New York Harbor, New York, NY",
@@ -241,7 +241,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 18,
+        "destinationId": 5,
         "name": "Sydney Opera House Tour",
         "description": "Tour one of the most iconic buildings in the world",
         "location": "Bennelong Point, Sydney NSW 2000, Australia",
@@ -249,7 +249,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 18,
+        "destinationId": 5,
         "name": "Sydney Harbour Bridge Climb",
         "description": "Climb to the top of the Sydney Harbour Bridge for breathtaking views",
         "location": "Sydney Harbour Bridge, Sydney, Australia",
@@ -257,7 +257,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 18,
+        "destinationId": 5,
         "name": "Bondi Beach Visit",
         "description": "Relax at Sydney's most famous beach",
         "location": "Bondi Beach, Sydney, Australia",
@@ -265,7 +265,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 18,
+        "destinationId": 5,
         "name": "Royal Botanic Garden",
         "description": "Explore Sydney's stunning botanical gardens",
         "location": "Mrs Macquaries Rd, Sydney NSW 2000, Australia",
@@ -273,7 +273,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 18,
+        "destinationId": 5,
         "name": "Taronga Zoo",
         "description": "See Australian wildlife up close at Taronga Zoo",
         "location": "Bradleys Head Rd, Mosman NSW 2088, Sydney, Australia",
@@ -281,7 +281,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 18,
+        "destinationId": 5,
         "name": "Manly Beach",
         "description": "A popular beach for swimming and surfing in Sydney's northern suburbs",
         "location": "Manly Beach, Sydney, Australia",
@@ -289,7 +289,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 18,
+        "destinationId": 5,
         "name": "The Rocks Walking Tour",
         "description": "Take a historic walking tour around The Rocks district",
         "location": "The Rocks, Sydney, Australia",
@@ -297,7 +297,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 18,
+        "destinationId": 5,
         "name": "Art Gallery of New South Wales",
         "description": "Admire Australian and international art at this iconic gallery",
         "location": "Art Gallery Rd, The Domain, Sydney NSW 2000, Australia",
@@ -305,7 +305,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 18,
+        "destinationId": 5,
         "name": "Sydney Tower Eye",
         "description": "Take in 360-degree views of the city from the Sydney Tower Eye",
         "location": "100 Market St, Sydney NSW 2000, Australia",
@@ -313,7 +313,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 18,
+        "destinationId": 5,
         "name": "Blue Mountains Day Trip",
         "description": "Take a day trip to the beautiful Blue Mountains for hiking and sightseeing",
         "location": "Blue Mountains, NSW, Australia",
@@ -321,7 +321,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 19,
+        "destinationId": 6,
         "name": "Sagrada Família Tour",
         "description": "Visit Gaudí's masterpiece, the Sagrada Família basilica",
         "location": "Carrer de Mallorca, 401, 08013 Barcelona, Spain",
@@ -329,7 +329,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 19,
+        "destinationId": 6,
         "name": "Park Güell",
         "description": "Explore the colorful Park Güell designed by Antoni Gaudí",
         "location": "Carrer d'Olot, 08024 Barcelona, Spain",
@@ -337,7 +337,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 19,
+        "destinationId": 6,
         "name": "La Rambla Walking Tour",
         "description": "Stroll down the famous La Rambla street and explore the local markets",
         "location": "La Rambla, 08002 Barcelona, Spain",
@@ -345,7 +345,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 19,
+        "destinationId": 6,
         "name": "Barcelona Beach Day",
         "description": "Relax on the beautiful beaches of Barcelona",
         "location": "Barceloneta Beach, 08003 Barcelona, Spain",
@@ -353,7 +353,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 19,
+        "destinationId": 6,
         "name": "Picasso Museum",
         "description": "Visit the Picasso Museum and admire works by Pablo Picasso",
         "location": "Carrer Montcada, 15-23, 08003 Barcelona, Spain",
@@ -361,7 +361,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 19,
+        "destinationId": 6,
         "name": "Casa Batlló",
         "description": "Explore the modernist masterpiece designed by Antoni Gaudí",
         "location": "Passeig de Gràcia, 43, 08007 Barcelona, Spain",
@@ -369,7 +369,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 19,
+        "destinationId": 6,
         "name": "Montjuïc Cable Car",
         "description": "Take a scenic cable car ride to Montjuïc for stunning views of the city",
         "location": "Avinguda de Miramar, 08038 Barcelona, Spain",
@@ -377,7 +377,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 19,
+        "destinationId": 6,
         "name": "Magic Fountain Show",
         "description": "Watch the spectacular Magic Fountain light and music show",
         "location": "Plaça de Carles Buïgas, 08038 Barcelona, Spain",
@@ -385,7 +385,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 19,
+        "destinationId": 6,
         "name": "Camp Nou Stadium Tour",
         "description": "Visit FC Barcelona’s iconic stadium and museum",
         "location": "Carrer d'Aristides Maillol, 12, 08028 Barcelona, Spain",
@@ -393,7 +393,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 19,
+        "destinationId": 6,
         "name": "Gothic Quarter Tour",
         "description": "Explore the narrow, winding streets of Barcelona's Gothic Quarter",
         "location": "Barri Gòtic, 08002 Barcelona, Spain",
@@ -401,7 +401,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 20,
+        "destinationId": 7,
         "name": "Table Mountain Cable Car",
         "description": "Take the cable car to the top of Table Mountain for stunning views",
         "location": "Table Mountain, Cape Town, South Africa",
@@ -409,7 +409,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 20,
+        "destinationId": 7,
         "name": "Cape of Good Hope Tour",
         "description": "Explore the famous Cape of Good Hope and its stunning landscapes",
         "location": "Cape of Good Hope, Cape Town, South Africa",
@@ -417,7 +417,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 20,
+        "destinationId": 7,
         "name": "Robben Island Tour",
         "description": "Visit the historic Robben Island where Nelson Mandela was imprisoned",
         "location": "Robben Island, Cape Town, South Africa",
@@ -425,7 +425,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 20,
+        "destinationId": 7,
         "name": "Boulders Beach Penguin Colony",
         "description": "See the famous African penguins at Boulders Beach",
         "location": "Boulders Beach, Simon's Town, Cape Town, South Africa",
@@ -433,7 +433,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 20,
+        "destinationId": 7,
         "name": "Kirstenbosch Botanical Gardens",
         "description": "Explore the lush gardens and natural beauty of Kirstenbosch",
         "location": "Rhodes Dr, Newlands, Cape Town, South Africa",
@@ -441,7 +441,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 20,
+        "destinationId": 7,
         "name": "V&A Waterfront",
         "description": "Explore the vibrant V&A Waterfront with shops, restaurants, and attractions",
         "location": "V&A Waterfront, Cape Town, South Africa",
@@ -449,7 +449,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 20,
+        "destinationId": 7,
         "name": "Cape Winelands Tour",
         "description": "Sample world-class wines in the picturesque Cape Winelands region",
         "location": "Stellenbosch, Franschhoek, Paarl, South Africa",
@@ -457,7 +457,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 20,
+        "destinationId": 7,
         "name": "Shark Cage Diving",
         "description": "Experience the thrill of diving with great white sharks",
         "location": "Gansbaai, Cape Town, South Africa",
@@ -465,7 +465,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 20,
+        "destinationId": 7,
         "name": "Cape Town City Tour",
         "description": "Explore the vibrant culture and history of Cape Town",
         "location": "Cape Town, South Africa",
@@ -473,7 +473,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 20,
+        "destinationId": 7,
         "name": "Sunset at Signal Hill",
         "description": "Enjoy panoramic views of Cape Town during sunset from Signal Hill",
         "location": "Signal Hill, Cape Town, South Africa",
@@ -481,7 +481,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 21,
+        "destinationId": 8,
         "name": "Burj Khalifa At The Top",
         "description": "Take in panoramic views of Dubai from the observation deck of the Burj Khalifa",
         "location": "1 Sheikh Mohammed bin Rashid Blvd, Downtown Dubai, UAE",
@@ -489,7 +489,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 21,
+        "destinationId": 8,
         "name": "Desert Safari",
         "description": "Embark on an adventurous desert safari with dune bashing and camel riding",
         "location": "Dubai Desert Conservation Reserve, UAE",
@@ -497,7 +497,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 21,
+        "destinationId": 8,
         "name": "Dubai Aquarium & Underwater Zoo",
         "description": "Explore the fascinating underwater world at the Dubai Aquarium",
         "location": "The Dubai Mall, Downtown Dubai, UAE",
@@ -505,7 +505,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 21,
+        "destinationId": 8,
         "name": "Dubai Mall Shopping",
         "description": "Shop at one of the world’s largest malls with over 1,200 retail outlets",
         "location": "Downtown Dubai, UAE",
@@ -513,7 +513,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 21,
+        "destinationId": 8,
         "name": "Dubai Fountain Show",
         "description": "Witness the spectacular fountain show at the base of the Burj Khalifa",
         "location": "The Dubai Mall, Downtown Dubai, UAE",
@@ -521,7 +521,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 21,
+        "destinationId": 8,
         "name": "Palm Jumeirah Cruise",
         "description": "Take a cruise around the Palm Jumeirah and enjoy views of the iconic Atlantis Resort",
         "location": "Palm Jumeirah, Dubai, UAE",
@@ -529,7 +529,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 21,
+        "destinationId": 8,
         "name": "Dubai Miracle Garden",
         "description": "Explore the vibrant and colorful flowers at the world’s largest flower garden",
         "location": "Al Barsha South, Dubai, UAE",
@@ -537,7 +537,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 21,
+        "destinationId": 8,
         "name": "Atlantis Aquaventure Waterpark",
         "description": "Enjoy a fun-filled day at one of the world’s largest waterparks",
         "location": "Atlantis The Palm, Palm Jumeirah, Dubai, UAE",
@@ -545,7 +545,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 21,
+        "destinationId": 8,
         "name": "Dubai Marina Dhow Cruise",
         "description": "Take a traditional dhow cruise along the Dubai Marina with dinner and entertainment",
         "location": "Dubai Marina, UAE",
@@ -553,7 +553,7 @@
         "imageUrl": "https://via.placeholder.com/150"
       },
       {
-        "destinationId": 21,
+        "destinationId": 8,
         "name": "Ski Dubai",
         "description": "Experience indoor skiing and snowboarding at the Ski Dubai resort",
         "location": "Mall of the Emirates, Sheikh Zayed Rd, Dubai, UAE",

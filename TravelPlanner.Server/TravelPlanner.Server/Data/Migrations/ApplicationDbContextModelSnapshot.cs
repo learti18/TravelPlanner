@@ -22,6 +22,21 @@ namespace TravelPlanner.Server.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("RoleUser", b =>
+                {
+                    b.Property<int>("RolesRoleId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UsersUserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("RolesRoleId", "UsersUserId");
+
+                    b.HasIndex("UsersUserId");
+
+                    b.ToTable("UserRoles", (string)null);
+                });
+
             modelBuilder.Entity("TravelPlanner.Server.Models.Activity", b =>
                 {
                     b.Property<int>("Id")
@@ -120,6 +135,27 @@ namespace TravelPlanner.Server.Data.Migrations
                     b.ToTable("Hotels");
                 });
 
+            modelBuilder.Entity("TravelPlanner.Server.Models.Role", b =>
+                {
+                    b.Property<int>("RoleId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoleId"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("RoleId");
+
+                    b.ToTable("Roles");
+                });
+
             modelBuilder.Entity("TravelPlanner.Server.Models.Trip", b =>
                 {
                     b.Property<int>("Id")
@@ -128,26 +164,62 @@ namespace TravelPlanner.Server.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<double>("Cost")
-                        .HasColumnType("float");
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
 
-                    b.Property<string>("Destination")
+                    b.Property<int>("DestinationId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("HotelId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("TravelType")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateOnly>("EndDate")
-                        .HasColumnType("date");
-
-                    b.Property<string>("Name")
+                    b.Property<string>("UserId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateOnly>("StartDate")
-                        .HasColumnType("date");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("DestinationId");
+
+                    b.HasIndex("HotelId");
+
                     b.ToTable("Trips");
+                });
+
+            modelBuilder.Entity("TravelPlanner.Server.Models.TripActivity", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("ActivityId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("DayNumber")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TripId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ActivityId");
+
+                    b.HasIndex("TripId");
+
+                    b.ToTable("TripActivities");
                 });
 
             modelBuilder.Entity("TravelPlanner.Server.Models.User", b =>
@@ -185,6 +257,21 @@ namespace TravelPlanner.Server.Data.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("RoleUser", b =>
+                {
+                    b.HasOne("TravelPlanner.Server.Models.Role", null)
+                        .WithMany()
+                        .HasForeignKey("RolesRoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("TravelPlanner.Server.Models.User", null)
+                        .WithMany()
+                        .HasForeignKey("UsersUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("TravelPlanner.Server.Models.Activity", b =>
                 {
                     b.HasOne("TravelPlanner.Server.Models.Destination", "Destination")
@@ -207,11 +294,54 @@ namespace TravelPlanner.Server.Data.Migrations
                     b.Navigation("Destination");
                 });
 
+            modelBuilder.Entity("TravelPlanner.Server.Models.Trip", b =>
+                {
+                    b.HasOne("TravelPlanner.Server.Models.Destination", "Destination")
+                        .WithMany()
+                        .HasForeignKey("DestinationId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("TravelPlanner.Server.Models.Hotel", "Hotel")
+                        .WithMany()
+                        .HasForeignKey("HotelId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Destination");
+
+                    b.Navigation("Hotel");
+                });
+
+            modelBuilder.Entity("TravelPlanner.Server.Models.TripActivity", b =>
+                {
+                    b.HasOne("TravelPlanner.Server.Models.Activity", "Activity")
+                        .WithMany()
+                        .HasForeignKey("ActivityId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("TravelPlanner.Server.Models.Trip", "Trip")
+                        .WithMany("TripActivities")
+                        .HasForeignKey("TripId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Activity");
+
+                    b.Navigation("Trip");
+                });
+
             modelBuilder.Entity("TravelPlanner.Server.Models.Destination", b =>
                 {
                     b.Navigation("Activities");
 
                     b.Navigation("Hotels");
+                });
+
+            modelBuilder.Entity("TravelPlanner.Server.Models.Trip", b =>
+                {
+                    b.Navigation("TripActivities");
                 });
 #pragma warning restore 612, 618
         }

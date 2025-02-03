@@ -40,7 +40,22 @@ export default function useDestinations(destinationId) {
 
   const addDestination = async (formData) => {
     try {
-      const response = await apiClient.post("destinations", formData, {
+      // Create a new FormData object
+      const form = new FormData();
+      
+      // Log the incoming data
+      console.log('Incoming form data:', formData);
+      
+      // Append each field to the FormData
+      form.append("Name", formData.name);
+      form.append("Description", formData.description);
+      
+      // Handle the image file
+      if (formData.imageFile) {
+        form.append("imageFile", formData.imageFile);
+      }
+
+      const response = await apiClient.post("destinations", form, {
         headers: { "Content-Type": "multipart/form-data" },
       });
       setDestinations(prev => [...prev, response.data]);

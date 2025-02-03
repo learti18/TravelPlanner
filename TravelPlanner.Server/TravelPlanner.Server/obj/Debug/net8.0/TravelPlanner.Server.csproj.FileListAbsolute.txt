@@ -591,3 +591,5 @@ C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\
 C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\System.Web.Http.dll
 C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\Data\SeedData\users.json
+C:\web\TravelPlanner\TravelPlanner.Server\TravelPlanner.Server\bin\Debug\net8.0\Data\SeedData\destinations.json

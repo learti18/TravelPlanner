@@ -1,9 +1,10 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -63,6 +64,7 @@ namespace TravelPlanner.Server.Controllers
         // PUT: api/Destination/{destinationId}/Hotels/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> PutHotel(int id, int destinationId, [FromForm] UpdateeHotelDto hotelDto)
         {
 
@@ -110,6 +112,7 @@ namespace TravelPlanner.Server.Controllers
         // POST: api/Destination/{destinationId}/Hotels
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<ActionResult<Hotel>> PostHotel(int destinationId, [FromForm] CreateHotelDto hotelDto)
         {
             var destination = await _context.Destinations.FindAsync(destinationId);
@@ -138,6 +141,7 @@ namespace TravelPlanner.Server.Controllers
 
         // DELETE: api/Destination/{destinationId}/Hotels/5
         [HttpDelete("{id}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> DeleteHotel(int id, int destinationId)
         {
             var hotel = await _context.Hotels

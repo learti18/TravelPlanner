@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
 using System.Text;
+using System.Text.Json;
 using TravelPlanner.Server.Data;
 using TravelPlanner.Server.Dtos;
 using TravelPlanner.Server.Models;
@@ -27,33 +29,41 @@ namespace TravelPlanner.Server.Controllers
         // Registration endpoint
         [HttpPost]
         [Route("Registration")]
-        public IActionResult Registration(UserDto userDto)
+        public async Task<IActionResult> Registration(UserDto userDto)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            // Check if the email is already taken
-            var existingUser = dbContext.Users.FirstOrDefault(x => x.Email == userDto.Email);
+            var existingUser = await dbContext.Users.FirstOrDefaultAsync(x => x.Email == userDto.Email);
             if (existingUser != null)
             {
                 return BadRequest("User already exists with this email.");
             }
 
-            // Hash the password before saving it to the database
             string hashedPassword = BCrypt.Net.BCrypt.HashPassword(userDto.Password);
+
+            // Get the User role
+            var userRole = await dbContext.Roles.FirstOrDefaultAsync(r => r.Name == "User");
+            if (userRole == null)
+            {
+                return BadRequest("Default user role not found. Please contact administrator.");
+            }
 
             var newUser = new User
             {
                 FirstName = userDto.FirstName,
                 LastName = userDto.LastName,
                 Email = userDto.Email,
-                Password = hashedPassword
+                Password = hashedPassword,
+                Roles = new List<Role> { userRole },
+                isActive = 1,
+                CreatedOn = DateTime.Now
             };
 
             dbContext.Users.Add(newUser);
-            dbContext.SaveChanges();
+            await dbContext.SaveChangesAsync();
 
             return Ok("User registered successfully.");
         }
@@ -61,36 +71,36 @@ namespace TravelPlanner.Server.Controllers
         // Login endpoint
         [HttpPost]
         [Route("Login")]
-        public IActionResult Login(LoginDto loginDto)
+        public async Task<IActionResult> Login(LoginDto loginDto)
         {
-            var user = dbContext.Users.FirstOrDefault(x => x.Email == loginDto.Email);
+            var user = await dbContext.Users
+                .Include(u => u.Roles)  // Include roles
+                .FirstOrDefaultAsync(x => x.Email == loginDto.Email);
+
             if (user == null)
             {
                 return Unauthorized("Invalid credentials");
             }
 
-            // Verify the hashed password
             bool isPasswordValid = BCrypt.Net.BCrypt.Verify(loginDto.Password, user.Password);
             if (!isPasswordValid)
             {
-                // Check if bcrypt hash uses old salt version (e.g., $2a$)
-                if (user.Password.StartsWith("$2a$"))
-                {
-                    // Rehash the password with the correct version
-                    user.Password = BCrypt.Net.BCrypt.HashPassword(loginDto.Password);
-                    dbContext.SaveChanges(); // Save the new password hash
-                }
                 return Unauthorized("Invalid credentials");
             }
 
-            // If credentials are valid, create JWT token
-            var claims = new[]
+            // Create claims including user roles
+            var claims = new List<Claim>
             {
-                new Claim(JwtRegisteredClaimNames.Sub, configuration["Jwt:Subject"]),
-                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
-                new Claim("UserId", user.UserId.ToString()),
-                new Claim("Email", user.Email)
+                new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
+                new Claim(ClaimTypes.Name, user.Email),
+                new Claim(ClaimTypes.Email, user.Email)
             };
+
+            // Add role claims properly for role-based authorization
+            foreach (var role in user.Roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role.Name));
+            }
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration["Jwt:Key"]));
             var signIn = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
@@ -98,12 +108,22 @@ namespace TravelPlanner.Server.Controllers
                 configuration["Jwt:Issuer"],
                 configuration["Jwt:Audience"],
                 claims,
-                expires: DateTime.UtcNow.AddMinutes(60),
-                signingCredentials: signIn
-            );
-            string tokenValue = new JwtSecurityTokenHandler().WriteToken(token);
+                expires: DateTime.UtcNow.AddHours(24),
+                signingCredentials: signIn);
 
-            return Ok(new { Token = tokenValue, User = user });
+            return Ok(new
+            {
+                token = new JwtSecurityTokenHandler().WriteToken(token),
+                expiration = token.ValidTo,
+                user = new
+                {
+                    user.UserId,
+                    user.Email,
+                    user.FirstName,
+                    user.LastName,
+                    Roles = user.Roles.Select(r => r.Name)
+                }
+            });
         }
 
         // Endpoint to get all users - no authorization needed
@@ -139,7 +159,7 @@ namespace TravelPlanner.Server.Controllers
             }
 
             // Get the current user from the JWT claims
-            var userId = int.Parse(User.FindFirst("UserId").Value);
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier).Value);
             var user = dbContext.Users.FirstOrDefault(x => x.UserId == userId);
 
             if (user == null)

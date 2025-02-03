@@ -1,24 +1,28 @@
-import React, { useEffect, useState } from 'react';
-import PlacesToVisit from './PlacesToVisit';
-import Hotels from './Hotels';
-import { useLocation, useParams } from 'react-router-dom';
-import { DateTime } from 'luxon';
-import InfoSection from './InfoSection';
-import useDestinations from '@/hooks/useDestinations';
+import React, { useEffect, useState } from "react";
+import PlacesToVisit from "./PlacesToVisit";
+import Hotels from "./Hotels";
+import { useLocation, useParams, useNavigate } from "react-router-dom";
+import { DateTime } from "luxon";
+import InfoSection from "./InfoSection";
+import useDestinations from "@/hooks/useDestinations";
+import { useTrips } from "@/hooks/useTrips";
+import { toast } from "sonner";
 
 export default function ViewDestination() {
   const [selectedActivities, setSelectedActivities] = useState({});
   const [selectedHotel, setSelectedHotel] = useState(null);
-  const {destinationId} = useParams()
-  const location = useLocation()
-  
-  const { destination } = useDestinations(destinationId)
+  const { destinationId } = useParams();
+  const location = useLocation();
+  const navigate = useNavigate();
+  const { createTrip } = useTrips();
 
-  const {startDate,endDate,travelType} = location.state
-  const start = DateTime.fromISO(startDate)
-  const end = DateTime.fromISO(endDate)
+  const { destination } = useDestinations(destinationId);
 
-  const noOfDays = end.diff(start,'days').days
+  const { startDate, endDate, travelType } = location.state;
+  const start = DateTime.fromISO(startDate);
+  const end = DateTime.fromISO(endDate);
+
+  const noOfDays = end.diff(start, "days").days;
   const handleActivitySelection = (day, activities) => {
     setSelectedActivities((prev) => ({ ...prev, [day]: activities }));
   };
@@ -27,19 +31,49 @@ export default function ViewDestination() {
     setSelectedHotel(hotel);
   };
 
-  const submitData = () => {
-   
-    const payload = {
-      destination: destination.name,
-      activities: selectedActivities, // Use the transformed array
-      hotelId: selectedHotel,
-    };
-  
-    console.log('Submitting Data:', payload);
+  const submitData = async () => {
+    try {
+      if (!selectedHotel) {
+        toast.error("Please select a hotel");
+        return;
+      }
+
+      if (Object.keys(selectedActivities).length === 0) {
+        toast.error("Please select at least one activity");
+        return;
+      }
+
+      // Find the full hotel object from destination.hotels
+      const hotel = destination.hotels.find(h => h.id === selectedHotel);
+      if (!hotel) {
+        toast.error("Selected hotel not found");
+        return;
+      }
+
+      const tripData = {
+        destination: destination,
+        activities: selectedActivities,
+        hotel: hotel, // Send the full hotel object
+        startDate: startDate,
+        endDate: endDate,
+        travelType: travelType
+      };
+
+      await createTrip(tripData);
+      navigate('/my-trips');
+    } catch (error) {
+      console.error('Error creating trip:', error);
+    }
   };
+
   return (
-    <div className='p-10 md:px-20 lg:px-44 xl:px-56'>
-      <InfoSection destination={destination} noOfDays={noOfDays} travelType={travelType} submitData={submitData}/>
+    <div className="p-10 md:px-20 lg:px-44 xl:px-56">
+      <InfoSection
+        destination={destination}
+        noOfDays={noOfDays}
+        travelType={travelType}
+        submitData={submitData}
+      />
       <Hotels
         destination={destination}
         selectedHotel={selectedHotel}
@@ -47,9 +81,9 @@ export default function ViewDestination() {
       />
       <PlacesToVisit
         destination={destination}
-        selectedActivities={selectedActivities}
-        onActivitySelect={handleActivitySelection}
         noOfDays={noOfDays}
+        onActivitySelect={handleActivitySelection}
+        selectedActivities={selectedActivities}
       />
     </div>
   );

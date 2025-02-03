@@ -1,117 +1,215 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Security.Claims;
+using System.Collections.Generic;
 using TravelPlanner.Server.Data;
 using TravelPlanner.Server.Models;
+using Microsoft.Extensions.Logging;
 
 namespace TravelPlanner.Server.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Route("api/[controller]")]
+    [Authorize]
     public class TripsController : ControllerBase
     {
-        //private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
+        private readonly ILogger<TripsController> _logger;
 
-        //public TripsController(ApplicationDbContext context)
-        //{
-        //    _context = context;
-        //}
+        public TripsController(ApplicationDbContext context, ILogger<TripsController> logger)
+        {
+            _context = context;
+            _logger = logger;
+        }
 
-        //// GET: api/Trips
-        //[HttpGet]
-        //public async Task<ActionResult<IEnumerable<Trip>>> GetTrips()
-        //{
-        //    var trips = await _context.Trips
-        //            .Include(t => t.Activities)
-        //            .ToListAsync();
+        public class CreateTripRequest
+        {
+            public Destination Destination { get; set; }
+            public Dictionary<string, List<Activity>> Activities { get; set; }
+            public Hotel Hotel { get; set; }
+            public DateTime StartDate { get; set; }
+            public DateTime EndDate { get; set; }
+            public string TravelType { get; set; }
+        }
 
-        //    return Ok(trips);
-        //}
+        [HttpPost]
+        public async Task<IActionResult> CreateTrip([FromBody] CreateTripRequest request)
+        {
+            try
+            {
+                _logger.LogInformation("Creating trip with request: {@Request}", request);
 
-        //// GET: api/Trips/5
-        //[HttpGet("{id}")]
-        //public async Task<ActionResult<Trip>> GetTrip(int id)
-        //{
-        //    var trip = await _context.Trips
-        //            .Include(t => t.Activities)
-        //            .FirstOrDefaultAsync();
+                if (!ModelState.IsValid)
+                {
+                    _logger.LogWarning("Invalid model state: {@ModelState}", ModelState);
+                    return BadRequest(ModelState);
+                }
 
+                var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+                _logger.LogInformation("User ID from token: {UserId}", userId);
 
-        //    if (trip == null)
-        //    {
-        //        return NotFound();
-        //    }
+                if (string.IsNullOrEmpty(userId))
+                {
+                    _logger.LogWarning("No user ID found in token");
+                    return Unauthorized(new { message = "User ID not found in token" });
+                }
 
-        //    return Ok(trip);
-        //}
+                var trip = new Trip
+                {
+                    UserId = userId,
+                    DestinationId = request.Destination.Id,
+                    HotelId = request.Hotel.Id,
+                    StartDate = request.StartDate,
+                    EndDate = request.EndDate,
+                    TravelType = request.TravelType,
+                    CreatedAt = DateTime.UtcNow,
+                    TripActivities = new List<TripActivity>()
+                };
 
-        //// PUT: api/Trips/5
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPut("{id}")]
-        //public async Task<IActionResult> PutTrip(int id, Trip trip)
-        //{
-        //    if (id != trip.Id)
-        //    {
-        //        return BadRequest();
-        //    }
+                // Add activities for each day
+                foreach (var dayActivities in request.Activities)
+                {
+                    int dayNumber = int.Parse(dayActivities.Key);
+                    foreach (var activity in dayActivities.Value)
+                    {
+                        trip.TripActivities.Add(new TripActivity
+                        {
+                            ActivityId = activity.Id,
+                            DayNumber = dayNumber
+                        });
+                    }
+                }
 
-        //    _context.Entry(trip).State = EntityState.Modified;
+                _context.Trips.Add(trip);
+                await _context.SaveChangesAsync();
 
-        //    try
-        //    {
-        //        await _context.SaveChangesAsync();
-        //    }
-        //    catch (DbUpdateConcurrencyException)
-        //    {
-        //        if (!TripExists(id))
-        //        {
-        //            return NotFound();
-        //        }
-        //        else
-        //        {
-        //            throw;
-        //        }
-        //    }
+                // Load the related data for the response
+                await _context.Entry(trip)
+                    .Reference(t => t.Destination)
+                    .LoadAsync();
+                await _context.Entry(trip)
+                    .Reference(t => t.Hotel)
+                    .LoadAsync();
+                await _context.Entry(trip)
+                    .Collection(t => t.TripActivities)
+                    .Query()
+                    .Include(ta => ta.Activity)
+                    .LoadAsync();
 
-        //    return NoContent();
-        //}
+                var formattedTrip = new
+                {
+                    trip.Id,
+                    trip.Destination,
+                    trip.Hotel,
+                    trip.StartDate,
+                    trip.EndDate,
+                    trip.TravelType,
+                    Activities = trip.TripActivities
+                        .GroupBy(ta => ta.DayNumber)
+                        .ToDictionary(
+                            g => g.Key.ToString(),
+                            g => g.Select(ta => ta.Activity).ToList()
+                        )
+                };
 
-        //// POST: api/Trips
-        //// To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
-        //[HttpPost]
-        //public async Task<ActionResult<Trip>> PostTrip(Trip trip)
-        //{   
-        //    if(trip== null)return BadRequest("Trip cannot be null!");
+                _logger.LogInformation("Trip created successfully: {@Trip}", formattedTrip);
+                return CreatedAtAction(nameof(GetTrip), new { id = trip.Id }, formattedTrip);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error creating trip");
+                return StatusCode(500, new { message = "An error occurred while creating the trip", error = ex.Message });
+            }
+        }
 
-        //    _context.Trips.Add(trip);
-        //    await _context.SaveChangesAsync();
+        [HttpGet]
+        public async Task<IActionResult> GetTrips()
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+                return Unauthorized();
 
-        //    return CreatedAtAction("GetTrip", new { id = trip.Id }, trip);
-        //}
+            var trips = await _context.Trips
+                .Where(t => t.UserId == userId)
+                .Include(t => t.Destination)
+                .Include(t => t.Hotel)
+                .Include(t => t.TripActivities)
+                    .ThenInclude(ta => ta.Activity)
+                .OrderByDescending(t => t.CreatedAt)
+                .ToListAsync();
 
-        //// DELETE: api/Trips/5
-        //[HttpDelete("{id}")]
-        //public async Task<IActionResult> DeleteTrip(int id)
-        //{
-        //    var trip = await _context.Trips.FindAsync(id);
-        //    if (trip == null)
-        //    {
-        //        return NotFound();
-        //    }
+            // Transform the data to match the frontend expectations
+            var formattedTrips = trips.Select(trip => new
+            {
+                trip.Id,
+                trip.Destination,
+                trip.Hotel,
+                trip.StartDate,
+                trip.EndDate,
+                trip.TravelType,
+                Activities = trip.TripActivities
+                    .GroupBy(ta => ta.DayNumber)
+                    .ToDictionary(
+                        g => g.Key.ToString(),
+                        g => g.Select(ta => ta.Activity).ToList()
+                    )
+            });
 
-        //    _context.Trips.Remove(trip);
-        //    await _context.SaveChangesAsync();
+            return Ok(formattedTrips);
+        }
 
-        //    return NoContent();
-        //}
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetTrip(int id)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+                return Unauthorized();
 
-        //private bool TripExists(int id)
-        //{
-        //    return _context.Trips.Any(e => e.Id == id);
-        //}
+            var trip = await _context.Trips
+                .Include(t => t.Destination)
+                .Include(t => t.Hotel)
+                .Include(t => t.TripActivities)
+                    .ThenInclude(ta => ta.Activity)
+                .FirstOrDefaultAsync(t => t.Id == id && t.UserId == userId);
+
+            if (trip == null)
+                return NotFound();
+
+            var formattedTrip = new
+            {
+                trip.Id,
+                trip.Destination,
+                trip.Hotel,
+                trip.StartDate,
+                trip.EndDate,
+                trip.TravelType,
+                Activities = trip.TripActivities
+                    .GroupBy(ta => ta.DayNumber)
+                    .ToDictionary(
+                        g => g.Key.ToString(),
+                        g => g.Select(ta => ta.Activity).ToList()
+                    )
+            };
+
+            return Ok(formattedTrip);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteTrip(int id)
+        {
+            var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+            if (string.IsNullOrEmpty(userId))
+                return Unauthorized();
+
+            var trip = await _context.Trips.FirstOrDefaultAsync(t => t.Id == id && t.UserId == userId);
+            if (trip == null)
+                return NotFound();
+
+            _context.Trips.Remove(trip);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
+        }
     }
 }

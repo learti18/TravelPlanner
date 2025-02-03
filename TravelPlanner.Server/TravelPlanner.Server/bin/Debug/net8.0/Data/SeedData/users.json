@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "firstName": "Admin",
+      "lastName": "User",
+      "email": "admin@travelplanner.com",
+      "password": "Admin123!",
+      "roles": ["Admin"]
+    },
+    {
+      "firstName": "Regular",
+      "lastName": "User",
+      "email": "user@travelplanner.com",
+      "password": "User123!",
+      "roles": ["User"]
+    }
+  ]
+}

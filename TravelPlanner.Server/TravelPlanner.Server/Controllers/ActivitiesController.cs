@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -10,6 +10,7 @@ using Microsoft.EntityFrameworkCore;
 using TravelPlanner.Server.Data;
 using TravelPlanner.Server.Dtos;
 using TravelPlanner.Server.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TravelPlanner.Server.Controllers
 {
@@ -62,6 +63,7 @@ namespace TravelPlanner.Server.Controllers
 
         // POST: api/Trips/{tripId}/Activities
         [HttpPost]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<ActionResult<Activity>> PostActivity(int destinationId, [FromForm] CreateActivityDto activityDto)
         {
             var destination = await _context.Destinations.FindAsync(destinationId);
@@ -86,6 +88,7 @@ namespace TravelPlanner.Server.Controllers
 
         // PUT: api/Trips/{tripId}/Activities/{id}
         [HttpPut("{id}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<ActionResult<ActivityDto>> PutActivity(int destinationId, int id, [FromForm] UpdateActivityDto activityDto)
         {
             if (id != activityDto.Id)
@@ -131,6 +134,7 @@ namespace TravelPlanner.Server.Controllers
 
         // DELETE: api/Trips/{tripId}/Activities/{id}
         [HttpDelete("{id}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> DeleteActivity(int destinationId, int id)
         {
             var activity = await _context.Activities

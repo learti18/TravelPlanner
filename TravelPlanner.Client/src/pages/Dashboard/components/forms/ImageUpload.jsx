@@ -1,5 +1,5 @@
 import React, { useCallback } from "react";
-import { ImagePlus, X, Upload } from "lucide-react";
+import { ImagePlus, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useDropzone } from "react-dropzone";
 
@@ -8,8 +8,17 @@ export function ImageUpload({ value, onChange, onRemove }) {
     (acceptedFiles) => {
       const file = acceptedFiles[0];
       if (file) {
-        const imageUrl = URL.createObjectURL(file);
-        onChange(file);
+        // Create a new File object to ensure consistency
+        const imageFile = new File([file], file.name, {
+          type: file.type,
+          lastModified: file.lastModified,
+        });
+        
+        // Create URL for preview
+        const imageUrl = URL.createObjectURL(imageFile);
+        
+        // Pass both the file and preview URL
+        onChange(imageFile);
       }
     },
     [onChange]
@@ -21,6 +30,7 @@ export function ImageUpload({ value, onChange, onRemove }) {
       "image/*": [".jpeg", ".jpg", ".png", ".gif"],
     },
     maxFiles: 1,
+    maxSize: 5 * 1024 * 1024, // 5MB
   });
 
   return (
@@ -28,7 +38,7 @@ export function ImageUpload({ value, onChange, onRemove }) {
       {value ? (
         <div className="relative">
           <img
-            src={value}
+            src={typeof value === 'string' ? value : URL.createObjectURL(value)}
             alt="Preview"
             className="rounded-lg w-full h-[200px] object-cover"
           />

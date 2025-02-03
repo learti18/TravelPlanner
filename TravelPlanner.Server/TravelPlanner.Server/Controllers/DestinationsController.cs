@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,6 +10,7 @@ using Microsoft.Extensions.Hosting;
 using TravelPlanner.Server.Data;
 using TravelPlanner.Server.Dtos;
 using TravelPlanner.Server.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace TravelPlanner.Server.Controllers
 {
@@ -62,6 +63,7 @@ namespace TravelPlanner.Server.Controllers
         // PUT: api/Destinations/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
+        [Authorize(Policy = "AdminOnly")]
         [Consumes("multipart/form-data")]
         public async Task<IActionResult> PutDestination(int id, [FromForm] CreateDestinationDto destinationDTO)
         {
@@ -87,6 +89,7 @@ namespace TravelPlanner.Server.Controllers
 
         // POST: api/Destinations
         [HttpPost]
+        [Authorize(Policy = "AdminOnly")]
         [Consumes("multipart/form-data")]
         public async Task<ActionResult<Destination>> PostDestination([FromForm] CreateDestinationDto destinationDTO)
         {
@@ -108,6 +111,7 @@ namespace TravelPlanner.Server.Controllers
 
         // DELETE: api/Destinations/5
         [HttpDelete("{id}")]
+        [Authorize(Policy = "AdminOnly")]
         public async Task<IActionResult> DeleteDestination(int id)
         {
             var destination = await _context.Destinations.FindAsync(id);
