@@ -1,0 +1,293 @@
+{
+    "hotels": [
+      {
+        "destinationId": 2,
+        "name": "Ritz Paris",
+        "description": "Luxury 5-star hotel located at Place Vendôme, offering world-class amenities and impeccable service.",
+        "location": "Place Vendôme, Paris",
+        "price": 1000.00,
+        "rating": 5,
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/e6/49/a2/room-view.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "destinationId": 2,
+        "name": "Hôtel de Crillon",
+        "description": "Historic luxury hotel near the Champs-Élysées, blending classic French elegance with modern comforts.",
+        "location": "10 Place de la Concorde, Paris",
+        "price": 950.00,
+        "rating": 5,
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/1b/3f/73/cour-d-honneur.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "destinationId": 2,
+        "name": "Le Meurice",
+        "description": "Palatial 5-star hotel offering Michelin-starred dining and a prime location near the Louvre Museum.",
+        "location": "228 Rue de Rivoli, Paris",
+        "price": 850.00,
+        "rating": 5,
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/d8/bc/12/le-meurice-paris.jpg?w=1200&h=-1&s=1"
+      },
+      {
+        "destinationId": 2,
+        "name": "Hotel Lutetia",
+        "description": "Luxury Art Deco hotel with a rich history, located in the heart of Saint-Germain-des-Prés.",
+        "location": "45 Boulevard Raspail, Paris",
+        "price": 750.00,
+        "rating": 4,
+        "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/02/1f/66/hotel-lutetia-facade.jpg?w=1200&h=-1&s=1"
+      },{
+        "destinationId": 3,
+        "name": "The Peninsula Tokyo",
+        "description": "Luxurious hotel offering impeccable service and city views",
+        "location": "1-8-1 Yurakucho, Chiyoda City, Tokyo",
+        "price": 900.00,
+        "rating": 5,
+        "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "destinationId": 3,
+        "name": "Park Hyatt Tokyo",
+        "description": "Modern 5-star hotel with breathtaking views of Mount Fuji",
+        "location": "3-7-1-2 Nishi-Shinjuku, Shinjuku City, Tokyo",
+        "price": 850.00,
+        "rating": 5,
+        "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "destinationId": 3,
+        "name": "Hotel New Otani Tokyo",
+        "description": "Elegant hotel surrounded by lush Japanese gardens",
+        "location": "4-1 Kioicho, Chiyoda City, Tokyo",
+        "price": 750.00,
+        "rating": 4,
+        "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "destinationId": 3,
+        "name": "Shangri-La Tokyo",
+        "description": "Opulent hotel offering spa treatments and fine dining",
+        "location": "1-8-3 Marunouchi, Chiyoda City, Tokyo",
+        "price": 1100.00,
+        "rating": 5,
+        "imageUrl": "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=1600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      },
+      {
+        "destinationId": 4,
+        "name": "The Plaza Hotel",
+        "description": "Luxury hotel in New York City with a rich history",
+        "address": "Fifth Avenue at Central Park South, New York, NY",
+        "price": 900.00,
+        "rating": 5,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 4,
+        "name": "The Langham, New York",
+        "description": "Elegant hotel with world-class amenities in Midtown Manhattan",
+        "address": "400 Fifth Avenue, New York, NY",
+        "price": 650.00,
+        "rating": 4,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 4,
+        "name": "Hotel Chelsea",
+        "description": "Iconic and historic hotel in Manhattan, known for its art and culture",
+        "address": "222 W 23rd St, New York, NY",
+        "price": 250.00,
+        "rating": 3,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 4,
+        "name": "The Standard, High Line",
+        "description": "Trendy hotel with rooftop bar and scenic views of the High Line",
+        "address": "848 Washington St, New York, NY",
+        "price": 450.00,
+        "rating": 4,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 5,
+        "name": "Hotel de Russie",
+        "description": "Luxury hotel offering spacious rooms with beautiful gardens",
+        "address": "Via del Babuino, 9, 00187 Rome, Italy",
+        "price": 850.00,
+        "rating": 5,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 5,
+        "name": "Hotel Artemide",
+        "description": "Modern hotel in the heart of Rome with a rooftop terrace",
+        "address": "Via Nazionale, 22, 00184 Rome, Italy",
+        "price": 350.00,
+        "rating": 4,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 5,
+        "name": "The St. Regis Rome",
+        "description": "Elegant luxury hotel with top-tier service and classic design",
+        "address": "Piazza della Repubblica, 47, 00185 Rome, Italy",
+        "price": 1200.00,
+        "rating": 5,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 5,
+        "name": "Hotel Nazionale",
+        "description": "Charming hotel in the historical center of Rome, close to major attractions",
+        "address": "Piazza Montecitorio, 131, 00186 Rome, Italy",
+        "price": 400.00,
+        "rating": 4,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+    
+      {
+        "destinationId": 6,
+        "name": "The Langham, Sydney",
+        "description": "Elegant and luxurious hotel with a fantastic location in The Rocks",
+        "address": "89-113 Kent St, Millers Point NSW 2000, Sydney, Australia",
+        "price": 800.00,
+        "rating": 5,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 6,
+        "name": "Park Hyatt Sydney",
+        "description": "Contemporary hotel overlooking the Sydney Opera House and Harbour Bridge",
+        "address": "7 Hickson Rd, The Rocks NSW 2000, Sydney, Australia",
+        "price": 1000.00,
+        "rating": 5,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 6,
+        "name": "The Darling",
+        "description": "Luxury hotel with upscale amenities and a prime location in Pyrmont",
+        "address": "Pirrama Rd, Pyrmont NSW 2009, Sydney, Australia",
+        "price": 600.00,
+        "rating": 4,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 6,
+        "name": "QT Sydney",
+        "description": "Trendy, modern hotel with a vibrant design in the heart of Sydney",
+        "address": "49 Market St, Sydney NSW 2000, Australia",
+        "price": 450.00,
+        "rating": 4,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 6,
+        "name": "Hotel Arts Barcelona",
+        "description": "Five-star hotel offering luxury rooms with stunning sea views",
+        "address": "Carrer de la Marina, 19-21, 08005 Barcelona, Spain",
+        "price": 950.00,
+        "rating": 5,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 6,
+        "name": "W Barcelona",
+        "description": "Iconic hotel with modern design and beachfront views",
+        "address": "Plaça Rosa dels Vents, 1, 08039 Barcelona, Spain",
+        "price": 750.00,
+        "rating": 5,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 6,
+        "name": "Hotel Majestic",
+        "description": "Classic luxury hotel with elegant rooms in the heart of Barcelona",
+        "address": "Passeig de Gràcia, 68, 08007 Barcelona, Spain",
+        "price": 500.00,
+        "rating": 4,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      {
+        "destinationId": 6,
+        "name": "Gran Hotel La Florida",
+        "description": "Luxury hotel with panoramic views of Barcelona",
+        "address": "Carretera de Vallvidrera al Tibidabo, 83, 08035 Barcelona, Spain",
+        "price": 600.00,
+        "rating": 4,
+        "imageUrl": "https://via.placeholder.com/150"
+      },
+      
+        {
+          "destinationId": 7,
+          "name": "One&Only Cape Town",
+          "description": "Luxury resort with stunning views of Table Mountain",
+          "address": "Dock Rd, V&A Waterfront, Cape Town, 8001, South Africa",
+          "price": 1200.00,
+          "rating": 5,
+          "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+          "destinationId": 7,
+          "name": "The Silo Hotel",
+          "description": "Boutique hotel housed in a former grain silo with panoramic views",
+          "address": "Silo Square, V&A Waterfront, Cape Town, 8001, South Africa",
+          "price": 1000.00,
+          "rating": 5,
+          "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+          "destinationId": 7,
+          "name": "Cape Grace Hotel",
+          "description": "Luxurious hotel offering elegant rooms and superb service",
+          "address": "West Quay Rd, V&A Waterfront, Cape Town, 8002, South Africa",
+          "price": 800.00,
+          "rating": 4,
+          "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+          "destinationId": 7,
+          "name": "Belmond Mount Nelson Hotel",
+          "description": "Classic hotel with lush gardens and colonial-style architecture",
+          "address": "76 Orange St, Gardens, Cape Town, 8001, South Africa",
+          "price": 600.00,
+          "rating": 4,
+          "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+            "destinationId": 8,
+            "name": "Burj Al Arab Jumeirah",
+            "description": "Luxurious 7-star hotel with iconic sail-shaped architecture",
+            "address": "Jumeirah Beach Rd, Dubai, UAE",
+            "price": 3500.00,
+            "rating": 5,
+            "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+          "destinationId": 8,
+          "name": "Atlantis The Palm",
+          "description": "World-class resort on the Palm Jumeirah with a private beach",
+          "address": "Crescent Rd, The Palm Jumeirah, Dubai, UAE",
+          "price": 2200.00,
+          "rating": 5,
+          "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+          "destinationId": 8,
+          "name": "Armani Hotel Dubai",
+          "description": "Elegant hotel located in the Burj Khalifa with exquisite interiors",
+          "address": "Sheikh Zayed Rd, Downtown Dubai, UAE",
+          "price": 1600.00,
+          "rating": 5,
+          "imageUrl": "https://via.placeholder.com/150"
+        },
+        {
+          "destinationId": 8,
+          "name": "Jumeirah Beach Hotel",
+          "description": "Luxury beachfront hotel offering panoramic views of the Arabian Gulf",
+          "address": "Jumeirah Beach Rd, Dubai, UAE",
+          "price": 1800.00,
+          "rating": 4,
+          "imageUrl": "https://via.placeholder.com/150"
+        }    
+    ]
+  }
