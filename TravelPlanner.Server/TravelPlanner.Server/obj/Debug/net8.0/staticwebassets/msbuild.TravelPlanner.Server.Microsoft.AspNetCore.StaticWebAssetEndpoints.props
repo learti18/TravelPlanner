@@ -1140,6 +1140,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t4mij8ebdt"},{"Name":"integrity","Value":"sha256-jfMZIIEQBDMqLmfoEe7zIqqCFariF9A93JZCcyadfzg="},{"Name":"label","Value":"_content/TravelPlanner.Server/uploads/78b2b061-54cb-470a-8fb1-be5bb8a16f19.jpg"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"36278"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022jfMZIIEQBDMqLmfoEe7zIqqCFariF9A93JZCcyadfzg=\u0022"},{"Name":"Last-Modified","Value":"Sun, 02 Feb 2025 18:36:39 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelPlanner.Server/uploads/78d98c73-ace1-4803-9a06-9bbc079fe431.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\78d98c73-ace1-4803-9a06-9bbc079fe431.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"467512"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 23:03:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TravelPlanner.Server/uploads/78d98c73-ace1-4803-9a06-9bbc079fe431.pzx31l66o1.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\78d98c73-ace1-4803-9a06-9bbc079fe431.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pzx31l66o1"},{"Name":"integrity","Value":"sha256-1cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo="},{"Name":"label","Value":"_content/TravelPlanner.Server/uploads/78d98c73-ace1-4803-9a06-9bbc079fe431.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"467512"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u00221cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Feb 2025 23:03:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TravelPlanner.Server/uploads/797a0d01-53c1-454e-a3a3-72c2467bbee8.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\797a0d01-53c1-454e-a3a3-72c2467bbee8.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

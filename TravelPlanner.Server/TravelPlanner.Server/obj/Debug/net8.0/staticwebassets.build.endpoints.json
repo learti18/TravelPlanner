@@ -7793,6 +7793,88 @@
       ]
     },
     {
+      "Route": "uploads/78d98c73-ace1-4803-9a06-9bbc079fe431.jpg",
+      "AssetFile": "uploads/78d98c73-ace1-4803-9a06-9bbc079fe431.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 23:03:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/78d98c73-ace1-4803-9a06-9bbc079fe431.pzx31l66o1.jpg",
+      "AssetFile": "uploads/78d98c73-ace1-4803-9a06-9bbc079fe431.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 23:03:48 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pzx31l66o1"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/78d98c73-ace1-4803-9a06-9bbc079fe431.jpg"
+        }
+      ]
+    },
+    {
       "Route": "uploads/797a0d01-53c1-454e-a3a3-72c2467bbee8.jpg",
       "AssetFile": "uploads/797a0d01-53c1-454e-a3a3-72c2467bbee8.jpg",
       "Selectors": [],

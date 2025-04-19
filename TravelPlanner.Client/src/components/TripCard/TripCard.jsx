@@ -150,7 +150,7 @@ export default function TripCard({ trip, onDelete }) {
                 {Object.entries(trip.activities || {}).map(([day, activities]) => (
                   <div key={day} className="border rounded-lg p-3">
                     <p className="font-medium text-gray-800 mb-2">Day {day}</p>
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div className="flex flex-col  gap-3">
                       {activities.map((activity) => (
                         <button
                           key={activity.id}

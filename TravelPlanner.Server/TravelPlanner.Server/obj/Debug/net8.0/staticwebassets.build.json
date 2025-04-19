@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u7/x/dhIBgZLnGREjc0ITJ33qUjjxVxXRwmZBpmFwbM=",
+  "Hash": "g+vumiarLvbfIPIBtI32qQxNT16UPN8vt1jnCrZ9XcA=",
   "Source": "TravelPlanner.Server",
   "BasePath": "_content/TravelPlanner.Server",
   "Mode": "Default",
@@ -2010,6 +2010,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\78b2b061-54cb-470a-8fb1-be5bb8a16f19.jpg"
+    },
+    {
+      "Identity": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\78d98c73-ace1-4803-9a06-9bbc079fe431.jpg",
+      "SourceId": "TravelPlanner.Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\",
+      "BasePath": "_content/TravelPlanner.Server",
+      "RelativePath": "uploads/78d98c73-ace1-4803-9a06-9bbc079fe431#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pzx31l66o1",
+      "Integrity": "1cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\78d98c73-ace1-4803-9a06-9bbc079fe431.jpg"
     },
     {
       "Identity": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\797a0d01-53c1-454e-a3a3-72c2467bbee8.jpg",
@@ -12068,6 +12089,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-jfMZIIEQBDMqLmfoEe7zIqqCFariF9A93JZCcyadfzg="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/78d98c73-ace1-4803-9a06-9bbc079fe431.jpg",
+      "AssetFile": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\78d98c73-ace1-4803-9a06-9bbc079fe431.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 23:03:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-1cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/78d98c73-ace1-4803-9a06-9bbc079fe431.pzx31l66o1.jpg",
+      "AssetFile": "C:\\web\\TravelPlanner\\TravelPlanner.Server\\TravelPlanner.Server\\wwwroot\\uploads\\78d98c73-ace1-4803-9a06-9bbc079fe431.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "467512"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 23:03:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pzx31l66o1"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/78d98c73-ace1-4803-9a06-9bbc079fe431.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1cP3DLLUC4MvPL4gjiCL9a6yimj9f4Bv0sNDuSqHrZo="
         }
       ]
     },
